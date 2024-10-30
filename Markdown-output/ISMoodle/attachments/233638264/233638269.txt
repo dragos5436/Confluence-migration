@@ -1,0 +1,51 @@
+Digital Assessment:
+    WITH
+        getstudent
+        AS
+            (SELECT STU.STU_CODE,
+                    MRE.MRE_MSTC,
+                    MUA.MUA_EXTU,
+                    SPR.SPR_CODE,
+                    SCE.SCE_SEQ2,
+                    STU.STU_TITL,
+                    STU.STU_FUSD,
+                    STU.STU_FNM1,
+                    STU.STU_FNM2,
+                    STU.STU_FNM3,
+                    STU.STU_SURN,
+                    STU.STU_INEM     UPN,
+                    -- Replaced with below line A.Yakimov 5/11/2020 to add username@ucl.ac.uk
+                    -- UCL_EXAM_P_UTILITY.getUserEmailAddress(STU.STU_CODE) UPN,
+                    STU.STU_DOB,
+                    STU.STU_TTRN,
+                    SCE.SCE_STAC,
+                    SPR.SPR_EDATE,
+                    SPR.SPR_EXCC,
+                    REGEXP_REPLACE (SCE.SCE_BLOK, '[^0-9]+', '')
+               FROM INS_STU  STU
+                    JOIN INS_SPR SPR ON SPR.SPR_STUC = STU.STU_CODE
+                    JOIN SRS_SCE SCE
+                        ON     SCE.SCE_SCJC = SPR.SPR_CODE
+                           AND SCE.SCE_AODY IN ('Y', '?')
+                    JOIN SISMGR.UCL_EXAM_V_STUDENT_STATUS STATUS
+                        ON STATUS.STATUSCODE = SCE.SCE_STAC
+                    JOIN MEN_MRE MRE
+                        ON     MRE.MRE_CODE = STU.STU_CODE
+                           AND MRE.MRE_MRCC = 'STU'
+                    --JOIN MEN_MUA MUA ON MUA_MSTC = MRE_MSTC
+                    LEFT OUTER JOIN men_mua mua
+                        ON     mua.mua_mstc = stu.stu_ttrn
+                           AND mua.mua_udf3 = 'IS'
+                    JOIN SRS_SCJ SCJ ON SCJ.SCJ_CODE = SPR.SPR_CODE
+              WHERE     SCJ.SCJ_STAC != 'C'
+                    AND SCJ.SCJ_STAC != 'CXDNA'
+                    AND SCJ.SCJ_STAC != 'NC'
+                    AND SCJ.SCJ_STAC != 'ZCRS')
+ 
+ 
+For STATUS – here is the query.
+  SELECT STA.STA_CODE, STA.STA_NAME
+      FROM SRS_STA STA
+     WHERE     STA.STA_CODE NOT LIKE 'C%'
+           AND STA.STA_CODE != 'XN'
+           AND STA.STA_CODE != 'XD';

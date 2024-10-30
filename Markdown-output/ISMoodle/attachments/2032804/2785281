@@ -1,0 +1,59 @@
+#!/bin/csh -f
+
+# This script creates a comma-separated file suitable for uploading
+# student enrolment data into Moodle.  The script assumes:
+#
+# 1. students.csv contains three columns of data, the last name, the first
+#    name and the email address of the students, typically as converted
+#    from an Excel spreadsheet.  Names may be upper- or lower-case.
+# 
+# 2. The name of folder containing the script is the short name of the
+#    Moodle course.
+# 
+# 3. All the email addresses are of the form "...@ucl.ac.uk".
+
+# First get the course name from the current directory name.
+
+set course = $cwd:t
+
+# Now use three 'cut' commands to turn the csv file into three files,
+# email, lastname and firstname.  The perl step converts the names
+# into title case.  The tr removes DOS carriage returns.
+
+cut -f3 -d, students.csv | tr -d '\r' | sed 's/ *$//' > email
+cut -f2 -d, students.csv | sed 's/ *$//' | perl -pe 's/\w+/\L\u$&/g' > lastname
+cut -f1 -d, students.csv | sed 's/ *$//' | perl -pe 's/\w+/\L\u$&/g' > firstname
+
+# Strip off the "@ucl.ac.uk" parts of the email addresses to leave
+# either an email alias or userid.
+
+sed 's/@.*//' email > em
+
+# Use ypmatch against the aliases NIS map to convert mail aliases to
+# userids.  Ther sed step allows for the fact that the address might
+# already be <userid>@ucl.ac.uk
+
+cat /dev/null > username
+foreach z (`cat em`)
+   while ($z =~ *.*)
+      set z = `ypmatch $z aliases | sed 's/.*://;s/@.*//'`
+   end
+   echo $z >> username
+end
+
+# Paste the four files together using a comma delimiter, adding three
+# additional fields: the password (a dummy), ldap authentication, and the
+# course name.
+
+paste -d, username firstname lastname email | sed 's/$/,Rubbish_99,ldap,'"$course/" > up
+
+# Add the file header
+
+cat <<END > header
+username,firstname,lastname,email,password,auth,course1
+END
+cat header up > upload
+
+# Take a one-user extract for test purposes.
+
+head -2 upload > uptest

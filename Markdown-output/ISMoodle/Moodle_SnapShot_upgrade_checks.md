@@ -1,0 +1,1 @@
+# Moodle SnapShot upgrade checks

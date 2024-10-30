@@ -1,0 +1,19 @@
+Execute scheduled task: Sync Moodle courses to Microsoft Teams (local_o365\task\coursesync)
+... started 05:54:35. Current memory use 28.2MB.
+Start syncing courses.
+Tenant has education license: yes
+Restore groups that have been soft-deleted...
+Processing courses without groups...
+... Processing course #26164
+...... Creating education group for course #26164
+......... Could not create educationClass group for course #26164. Reason: Error in API call: Required roles claim values are not provided.
+... All courses have groups created.
+Processing courses without teams...
+... All courses have teams created.
+Updating teams cache...
+... Building existing teams cache records
+... Updating teams cache records
+... Deleting old teams cache records
+... used 81 dbqueries
+... used 1.2709438800812 seconds
+Scheduled task complete: Sync Moodle courses to Microsoft Teams (local_o365\task\coursesync)

@@ -1,0 +1,1449 @@
+Moodle 3.8.2+ (Build: 20200417), 3b9c9dcefc5132f3483f181cde58a3699336fc76
+Php: 7.2.28, mysqli: 5.7.26-enterprise-commercial-advanced-log, OS: Linux 3.10.0-1062.12.1.el7.x86_64 x86_64
+PHPUnit 7.5.17 by Sebastian Bergmann and contributors.
+
+...........................................................    59 / 16364 (  0%)
+...........................................................   118 / 16364 (  0%)
+.....................................F.....................   177 / 16364 (  1%)
+................SSSSSSSSS..................................   236 / 16364 (  1%)
+...........................................................   295 / 16364 (  1%)
+...........................................................   354 / 16364 (  2%)
+...........................................................   413 / 16364 (  2%)
+...........................................................   472 / 16364 (  2%)
+...........................................................   531 / 16364 (  3%)
+...........................................................   590 / 16364 (  3%)
+...........................................................   649 / 16364 (  3%)
+...........................................................   708 / 16364 (  4%)
+...........................................................   767 / 16364 (  4%)
+...........................................................   826 / 16364 (  5%)
+...........................................................   885 / 16364 (  5%)
+...........................................................   944 / 16364 (  5%)
+...........................................................  1003 / 16364 (  6%)
+...........................................................  1062 / 16364 (  6%)
+...........................................................  1121 / 16364 (  6%)
+...........................................................  1180 / 16364 (  7%)
+...........................................................  1239 / 16364 (  7%)
+...........................................................  1298 / 16364 (  7%)
+...........................................................  1357 / 16364 (  8%)
+...........................................................  1416 / 16364 (  8%)
+...........................................................  1475 / 16364 (  9%)
+...........................................................  1534 / 16364 (  9%)
+................................S..........................  1593 / 16364 (  9%)
+...........................................................  1652 / 16364 ( 10%)
+...........................................................  1711 / 16364 ( 10%)
+...........................................................  1770 / 16364 ( 10%)
+...........................................................  1829 / 16364 ( 11%)
+...........................................................  1888 / 16364 ( 11%)
+............S..............................................  1947 / 16364 ( 11%)
+...........................................................  2006 / 16364 ( 12%)
+...........................................................  2065 / 16364 ( 12%)
+...........................................................  2124 / 16364 ( 12%)
+...........................................................  2183 / 16364 ( 13%)
+...........................................................  2242 / 16364 ( 13%)
+...........................................................  2301 / 16364 ( 14%)
+...........................................................  2360 / 16364 ( 14%)
+...........................................................  2419 / 16364 ( 14%)
+...........................................................  2478 / 16364 ( 15%)
+...........................................................  2537 / 16364 ( 15%)
+...........................................................  2596 / 16364 ( 15%)
+...........................................................  2655 / 16364 ( 16%)
+.....................................SS....................  2714 / 16364 ( 16%)
+...SSSSSSSSS..................................S............  2773 / 16364 ( 16%)
+...........................................................  2832 / 16364 ( 17%)
+...........................................................  2891 / 16364 ( 17%)
+...........................................................  2950 / 16364 ( 18%)
+...........................................................  3009 / 16364 ( 18%)
+...........................................................  3068 / 16364 ( 18%)
+...........................................................  3127 / 16364 ( 19%)
+...........................................................  3186 / 16364 ( 19%)
+...........................................................  3245 / 16364 ( 19%)
+...........................................................  3304 / 16364 ( 20%)
+...........................................................  3363 / 16364 ( 20%)
+...........................................................  3422 / 16364 ( 20%)
+...........................................................  3481 / 16364 ( 21%)
+...........................................................  3540 / 16364 ( 21%)
+...........................................................  3599 / 16364 ( 21%)
+...........................................................  3658 / 16364 ( 22%)
+...........................................................  3717 / 16364 ( 22%)
+...........................................................  3776 / 16364 ( 23%)
+...........................................................  3835 / 16364 ( 23%)
+...........................................................  3894 / 16364 ( 23%)
+...........................................................  3953 / 16364 ( 24%)
+...........................................................  4012 / 16364 ( 24%)
+...........................................................  4071 / 16364 ( 24%)
+...........................................................  4130 / 16364 ( 25%)
+...........................................................  4189 / 16364 ( 25%)
+...........................................................  4248 / 16364 ( 25%)
+...........................................................  4307 / 16364 ( 26%)
+...........................................................  4366 / 16364 ( 26%)
+...........................................................  4425 / 16364 ( 27%)
+...........................................................  4484 / 16364 ( 27%)
+...........................................................  4543 / 16364 ( 27%)
+...........................................................  4602 / 16364 ( 28%)
+...........................................................  4661 / 16364 ( 28%)
+...........................................................  4720 / 16364 ( 28%)
+...........................................................  4779 / 16364 ( 29%)
+...........................................................  4838 / 16364 ( 29%)
+...........................................................  4897 / 16364 ( 29%)
+...........................................................  4956 / 16364 ( 30%)
+...........................................................  5015 / 16364 ( 30%)
+...........................................................  5074 / 16364 ( 31%)
+...........................................................  5133 / 16364 ( 31%)
+..........S......SS.S....SSSS.S..SS.S......................  5192 / 16364 ( 31%)
+...........................................................  5251 / 16364 ( 32%)
+...........................................................  5310 / 16364 ( 32%)
+...........................................................  5369 / 16364 ( 32%)
+...........................................................  5428 / 16364 ( 33%)
+...........................................................  5487 / 16364 ( 33%)
+...........................................................  5546 / 16364 ( 33%)
+.............................................SS............  5605 / 16364 ( 34%)
+...........................................................  5664 / 16364 ( 34%)
+...........................................................  5723 / 16364 ( 34%)
+...........................................................  5782 / 16364 ( 35%)
+...........................................................  5841 / 16364 ( 35%)
+...........................................................  5900 / 16364 ( 36%)
+...........................................................  5959 / 16364 ( 36%)
+...........................................................  6018 / 16364 ( 36%)
+...........................................................  6077 / 16364 ( 37%)
+...........................................................  6136 / 16364 ( 37%)
+...........................................................  6195 / 16364 ( 37%)
+...........................................................  6254 / 16364 ( 38%)
+...........................................................  6313 / 16364 ( 38%)
+...........................................................  6372 / 16364 ( 38%)
+...........................................................  6431 / 16364 ( 39%)
+..........................F................................  6490 / 16364 ( 39%)
+...........................................................  6549 / 16364 ( 40%)
+...........................................................  6608 / 16364 ( 40%)
+...........................................................  6667 / 16364 ( 40%)
+........F.....F.................F..............F...........  6726 / 16364 ( 41%)
+...............................F...........................  6785 / 16364 ( 41%)
+..F....FF........F.F.F.........F.......F.............F.....  6844 / 16364 ( 41%)
+...................................F.....................F.  6903 / 16364 ( 42%)
+...........................................................  6962 / 16364 ( 42%)
+...F.......................................................  7021 / 16364 ( 42%)
+..........FFFFFF..F....F...................................  7080 / 16364 ( 43%)
+...........................................................  7139 / 16364 ( 43%)
+...F..F...........F........................................  7198 / 16364 ( 43%)
+...........................................................  7257 / 16364 ( 44%)
+...........................................................  7316 / 16364 ( 44%)
+.................................F.F........F..............  7375 / 16364 ( 45%)
+............F..............................................  7434 / 16364 ( 45%)
+............F..............................................  7493 / 16364 ( 45%)
+...........................................................  7552 / 16364 ( 46%)
+...........................................................  7611 / 16364 ( 46%)
+...........................................................  7670 / 16364 ( 46%)
+...........................................................  7729 / 16364 ( 47%)
+...........................................................  7788 / 16364 ( 47%)
+...........................................................  7847 / 16364 ( 47%)
+...........................................................  7906 / 16364 ( 48%)
+................................................E..........  7965 / 16364 ( 48%)
+...........................................................  8024 / 16364 ( 49%)
+...........................................................  8083 / 16364 ( 49%)
+...........................................................  8142 / 16364 ( 49%)
+...........................................................  8201 / 16364 ( 50%)
+...........................................................  8260 / 16364 ( 50%)
+...........................................................  8319 / 16364 ( 50%)
+...........................................................  8378 / 16364 ( 51%)
+...........................................................  8437 / 16364 ( 51%)
+...........................................................  8496 / 16364 ( 51%)
+...........................................................  8555 / 16364 ( 52%)
+...........................................................  8614 / 16364 ( 52%)
+...........................................................  8673 / 16364 ( 53%)
+...........................................................  8732 / 16364 ( 53%)
+...........................................................  8791 / 16364 ( 53%)
+...........................................................  8850 / 16364 ( 54%)
+...........................................................  8909 / 16364 ( 54%)
+...........................................................  8968 / 16364 ( 54%)
+...........................................................  9027 / 16364 ( 55%)
+...........................................................  9086 / 16364 ( 55%)
+...........................................................  9145 / 16364 ( 55%)
+...........................................................  9204 / 16364 ( 56%)
+...........................................................  9263 / 16364 ( 56%)
+...........................................................  9322 / 16364 ( 56%)
+...........................................................  9381 / 16364 ( 57%)
+...........................................................  9440 / 16364 ( 57%)
+...........................................................  9499 / 16364 ( 58%)
+...........................................................  9558 / 16364 ( 58%)
+...........................................................  9617 / 16364 ( 58%)
+....................................................E...SSS  9676 / 16364 ( 59%)
+...........................................................  9735 / 16364 ( 59%)
+................................SS.........................  9794 / 16364 ( 59%)
+...........................................................  9853 / 16364 ( 60%)
+...........................................................  9912 / 16364 ( 60%)
+....................SSSSSSSS.S.............................  9971 / 16364 ( 60%)
+........................................................... 10030 / 16364 ( 61%)
+........................................................... 10089 / 16364 ( 61%)
+........................................................... 10148 / 16364 ( 62%)
+........................................................... 10207 / 16364 ( 62%)
+........................................................... 10266 / 16364 ( 62%)
+.FF.................FF...F.............FF.................. 10325 / 16364 ( 63%)
+F.....................FF.FF.FFEobject(phpunit_phpmailer_sink)#82303 (1) {
+  ["messages":protected]=>
+  array(0) {
+  }
+}
+F.........................F. 10384 / 16364 ( 63%)
+.....F.................F................F....F.FF.FF....... 10443 / 16364 ( 63%)
+........................................................SSS 10502 / 16364 ( 64%)
+..SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS................ 10561 / 16364 ( 64%)
+........................................................... 10620 / 16364 ( 64%)
+...................SSSSSSSS................................ 10679 / 16364 ( 65%)
+........................................................... 10738 / 16364 ( 65%)
+........................................................... 10797 / 16364 ( 65%)
+.............................S............................. 10856 / 16364 ( 66%)
+........................................................... 10915 / 16364 ( 66%)
+........................................................... 10974 / 16364 ( 67%)
+........................................................... 11033 / 16364 ( 67%)
+........................................................... 11092 / 16364 ( 67%)
+........................................................... 11151 / 16364 ( 68%)
+........................................................... 11210 / 16364 ( 68%)
+........................................................... 11269 / 16364 ( 68%)
+........................................................... 11328 / 16364 ( 69%)
+........................................................... 11387 / 16364 ( 69%)
+........................................................... 11446 / 16364 ( 69%)
+........................................................... 11505 / 16364 ( 70%)
+........................................................... 11564 / 16364 ( 70%)
+........................................................... 11623 / 16364 ( 71%)
+........................................................... 11682 / 16364 ( 71%)
+........................................................... 11741 / 16364 ( 71%)
+........................................................... 11800 / 16364 ( 72%)
+........................................................... 11859 / 16364 ( 72%)
+........................................................... 11918 / 16364 ( 72%)
+........................................................... 11977 / 16364 ( 73%)
+........................................................... 12036 / 16364 ( 73%)
+........................................................... 12095 / 16364 ( 73%)
+........................................................... 12154 / 16364 ( 74%)
+........................................................... 12213 / 16364 ( 74%)
+........................................................... 12272 / 16364 ( 74%)
+........................................................... 12331 / 16364 ( 75%)
+........................................................... 12390 / 16364 ( 75%)
+........................................................... 12449 / 16364 ( 76%)
+........................................................... 12508 / 16364 ( 76%)
+........................................................... 12567 / 16364 ( 76%)
+....................................S.S.................... 12626 / 16364 ( 77%)
+...................................................S....... 12685 / 16364 ( 77%)
+........................................................... 12744 / 16364 ( 77%)
+........................................................... 12803 / 16364 ( 78%)
+........................................................... 12862 / 16364 ( 78%)
+........................................................... 12921 / 16364 ( 78%)
+........................................................... 12980 / 16364 ( 79%)
+........................................................... 13039 / 16364 ( 79%)
+........................................................... 13098 / 16364 ( 80%)
+........................................................... 13157 / 16364 ( 80%)
+........................................................... 13216 / 16364 ( 80%)
+........................................................... 13275 / 16364 ( 81%)
+........................................................... 13334 / 16364 ( 81%)
+........................................................... 13393 / 16364 ( 81%)
+........................................................... 13452 / 16364 ( 82%)
+........................................................... 13511 / 16364 ( 82%)
+........................................................... 13570 / 16364 ( 82%)
+........................................................... 13629 / 16364 ( 83%)
+........................................................... 13688 / 16364 ( 83%)
+........................................................... 13747 / 16364 ( 84%)
+........................................................... 13806 / 16364 ( 84%)
+........................................................... 13865 / 16364 ( 84%)
+.........................................................FF 13924 / 16364 ( 85%)
+........................................................... 13983 / 16364 ( 85%)
+........................................................... 14042 / 16364 ( 85%)
+........................................................... 14101 / 16364 ( 86%)
+...........................................EE.....EEE.E.... 14160 / 16364 ( 86%)
+........................................................... 14219 / 16364 ( 86%)
+........................................................... 14278 / 16364 ( 87%)
+........................................................... 14337 / 16364 ( 87%)
+........................................................... 14396 / 16364 ( 87%)
+........................................................... 14455 / 16364 ( 88%)
+..........EE....E...SSSSSSSSSSSSS.......................... 14514 / 16364 ( 88%)
+........................................................... 14573 / 16364 ( 89%)
+........................................................... 14632 / 16364 ( 89%)
+........................................................... 14691 / 16364 ( 89%)
+........................................................... 14750 / 16364 ( 90%)
+........................................................... 14809 / 16364 ( 90%)
+...................................S.S.............EEEEEEE. 14868 / 16364 ( 90%)
+EEEE..EEE..EEE..E.......................................... 14927 / 16364 ( 91%)
+........................................................... 14986 / 16364 ( 91%)
+........................................................... 15045 / 16364 ( 91%)
+........................................................... 15104 / 16364 ( 92%)
+........................................................... 15163 / 16364 ( 92%)
+........................................................... 15222 / 16364 ( 93%)
+........................................................... 15281 / 16364 ( 93%)
+SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS...SS....................... 15340 / 16364 ( 93%)
+.........................SSS........S....................S. 15399 / 16364 ( 94%)
+........................................................... 15458 / 16364 ( 94%)
+........................................................... 15517 / 16364 ( 94%)
+........................................................... 15576 / 16364 ( 95%)
+........................................................... 15635 / 16364 ( 95%)
+........................................................... 15694 / 16364 ( 95%)
+........................................................... 15753 / 16364 ( 96%)
+........................................................... 15812 / 16364 ( 96%)
+.........EEE............................................... 15871 / 16364 ( 96%)
+........................................................... 15930 / 16364 ( 97%)
+........................................................... 15989 / 16364 ( 97%)
+........................................................... 16048 / 16364 ( 98%)
+........................................................... 16107 / 16364 ( 98%)
+........................................................... 16166 / 16364 ( 98%)
+........................................................... 16225 / 16364 ( 99%)
+........................................................... 16284 / 16364 ( 99%)
+........................................................... 16343 / 16364 ( 99%)
+.....................                                       16364 / 16364 (100%)
+
+Time: 1.48 hours, Memory: 745.00 MB
+
+There were 33 errors:
+
+1) core_calendar_container_testcase::test_delete_module_delete_events
+Undefined property: mod_attendance_structure::$cmid
+
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/calendar/tests/container_test.php:454
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "core_calendar_container_testcase" calendar/tests/container_test.php
+
+2) core_h5p_external_testcase::test_get_trusted_h5p_file
+Error: Call to a member function get_content() on boolean
+
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/h5p/classes/file_storage.php:540
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/h5p/classes/file_storage.php:225
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/mod/hvp/library/h5p.classes.php:2446
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/h5p/classes/player.php:681
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/h5p/classes/player.php:597
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/h5p/classes/player.php:177
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/h5p/classes/external.php:118
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/h5p/tests/external_test.php:87
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "core_h5p_external_testcase" h5p/tests/external_test.php
+
+3) block_quickmail_messenger_compose_testcase::test_messenger_sends_with_signature_appended
+Undefined offset: 0
+
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/blocks/quickmail/tests/unit/traits/sends_emails.php:59
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/blocks/quickmail/tests/unit/messenger_compose_test.php:300
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "block_quickmail_messenger_compose_testcase" blocks/quickmail/tests/unit/messenger_compose_test.php
+
+4) qtype_ddmatch_test::test_get_random_guess_score
+Undefined property: stdClass::$idnumber
+
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/questiontypebase.php:911
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/ddmatch/questiontype.php:119
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/questiontypebase.php:872
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/ddmatch/questiontype.php:159
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/ddmatch/tests/questiontype_test.php:119
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "qtype_ddmatch_test" question/type/ddmatch/tests/questiontype_test.php
+
+5) qtype_ddmatch_test::test_get_possible_responses
+Undefined property: stdClass::$idnumber
+
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/questiontypebase.php:911
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/ddmatch/questiontype.php:119
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/questiontypebase.php:872
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/ddmatch/questiontype.php:166
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/ddmatch/tests/questiontype_test.php:141
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "qtype_ddmatch_test" question/type/ddmatch/tests/questiontype_test.php
+
+6) qtype_ddmatch_walkthrough_test::test_interactive_correct_no_submit
+count(): Parameter must be an array or an object that implements Countable
+
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/phpunit/classes/base_testcase.php:58
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/engine/tests/helpers.php:494
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/engine/tests/helpers.php:1002
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/ddmatch/tests/walkthrough_test.php:200
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "qtype_ddmatch_walkthrough_test" question/type/ddmatch/tests/walkthrough_test.php
+
+7) qtype_ddmatch_walkthrough_test::test_interactive_partial_no_submit
+count(): Parameter must be an array or an object that implements Countable
+
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/phpunit/classes/base_testcase.php:58
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/engine/tests/helpers.php:494
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/engine/tests/helpers.php:1002
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/ddmatch/tests/walkthrough_test.php:252
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "qtype_ddmatch_walkthrough_test" question/type/ddmatch/tests/walkthrough_test.php
+
+8) qtype_ddmatch_walkthrough_test::test_interactive_with_invalid
+count(): Parameter must be an array or an object that implements Countable
+
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/phpunit/classes/base_testcase.php:58
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/engine/tests/helpers.php:494
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/engine/tests/helpers.php:1002
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/ddmatch/tests/walkthrough_test.php:319
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "qtype_ddmatch_walkthrough_test" question/type/ddmatch/tests/walkthrough_test.php
+
+9) qtype_ddmatch_walkthrough_test::test_ddmatch_clear_wrong
+count(): Parameter must be an array or an object that implements Countable
+
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/phpunit/classes/base_testcase.php:58
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/engine/tests/helpers.php:494
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/engine/tests/helpers.php:1002
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/ddmatch/tests/walkthrough_test.php:427
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "qtype_ddmatch_walkthrough_test" question/type/ddmatch/tests/walkthrough_test.php
+
+10) qtype_pmatch_testquestion_testcase::test_currentquestion
+ArgumentCountError: Too few arguments to function Box\Spout\Reader\ReaderAbstract::__construct(), 0 passed in /data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/classes/testquestion_import_helper.php on line 248 and exactly 3 expected
+
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/spout/src/Spout/Reader/ReaderAbstract.php:65
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/classes/testquestion_import_helper.php:248
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/classes/testquestion_import_helper.php:68
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/classes/testquestion_responses.php:737
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/tests/testquestion_testcase.php:84
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/tests/testquestion_testcase.php:111
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/tests/testquestion_testcase.php:69
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "qtype_pmatch_testquestion_testcase" question/type/pmatch/tests/testquestion_testcase.php
+
+11) qtype_pmatch_testquestion_amati_rule_suggestion::test_find_pmatch_equivalents_to_amati_commands
+ArgumentCountError: Too few arguments to function Box\Spout\Reader\ReaderAbstract::__construct(), 0 passed in /data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/classes/testquestion_import_helper.php on line 248 and exactly 3 expected
+
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/spout/src/Spout/Reader/ReaderAbstract.php:65
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/classes/testquestion_import_helper.php:248
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/classes/testquestion_import_helper.php:68
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/classes/testquestion_responses.php:737
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/tests/testquestion_testcase.php:84
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/tests/testquestion_testcase.php:111
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/tests/amati_rule_suggestion_test.php:1184
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/tests/amati_rule_suggestion_test.php:155
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/tests/amati_rule_suggestion_test.php:72
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "qtype_pmatch_testquestion_amati_rule_suggestion" question/type/pmatch/tests/amati_rule_suggestion_test.php
+
+12) qtype_pmatch_testquestion_amati_rule_suggestion::test_currentquestion
+ArgumentCountError: Too few arguments to function Box\Spout\Reader\ReaderAbstract::__construct(), 0 passed in /data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/classes/testquestion_import_helper.php on line 248 and exactly 3 expected
+
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/spout/src/Spout/Reader/ReaderAbstract.php:65
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/classes/testquestion_import_helper.php:248
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/classes/testquestion_import_helper.php:68
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/classes/testquestion_responses.php:737
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/tests/testquestion_testcase.php:84
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/tests/testquestion_testcase.php:111
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/tests/testquestion_testcase.php:69
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "qtype_pmatch_testquestion_amati_rule_suggestion" question/type/pmatch/tests/amati_rule_suggestion_test.php
+
+13) qtype_pmatch_testquestion_responses_test::test_add_responses
+ArgumentCountError: Too few arguments to function Box\Spout\Reader\ReaderAbstract::__construct(), 0 passed in /data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/classes/testquestion_import_helper.php on line 248 and exactly 3 expected
+
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/spout/src/Spout/Reader/ReaderAbstract.php:65
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/classes/testquestion_import_helper.php:248
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/classes/testquestion_import_helper.php:68
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/classes/testquestion_responses.php:737
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/tests/testquestion_testcase.php:84
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/tests/testquestion_responses_test.php:161
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "qtype_pmatch_testquestion_responses_test" question/type/pmatch/tests/testquestion_responses_test.php
+
+14) qtype_pmatch_testquestion_responses_test::test_update_response
+ArgumentCountError: Too few arguments to function Box\Spout\Reader\ReaderAbstract::__construct(), 0 passed in /data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/classes/testquestion_import_helper.php on line 248 and exactly 3 expected
+
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/spout/src/Spout/Reader/ReaderAbstract.php:65
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/classes/testquestion_import_helper.php:248
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/classes/testquestion_import_helper.php:68
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/classes/testquestion_responses.php:737
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/tests/testquestion_testcase.php:84
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/tests/testquestion_testcase.php:111
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/tests/testquestion_responses_test.php:201
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "qtype_pmatch_testquestion_responses_test" question/type/pmatch/tests/testquestion_responses_test.php
+
+15) qtype_pmatch_testquestion_responses_test::test_delete_responses_by_ids
+ArgumentCountError: Too few arguments to function Box\Spout\Reader\ReaderAbstract::__construct(), 0 passed in /data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/classes/testquestion_import_helper.php on line 248 and exactly 3 expected
+
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/spout/src/Spout/Reader/ReaderAbstract.php:65
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/classes/testquestion_import_helper.php:248
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/classes/testquestion_import_helper.php:68
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/classes/testquestion_responses.php:737
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/tests/testquestion_testcase.php:84
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/tests/testquestion_testcase.php:111
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/tests/testquestion_responses_test.php:225
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "qtype_pmatch_testquestion_responses_test" question/type/pmatch/tests/testquestion_responses_test.php
+
+16) qtype_pmatch_testquestion_responses_test::test_get_question_grade_summary_counts
+ArgumentCountError: Too few arguments to function Box\Spout\Reader\ReaderAbstract::__construct(), 0 passed in /data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/classes/testquestion_import_helper.php on line 248 and exactly 3 expected
+
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/spout/src/Spout/Reader/ReaderAbstract.php:65
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/classes/testquestion_import_helper.php:248
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/classes/testquestion_import_helper.php:68
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/classes/testquestion_responses.php:737
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/tests/testquestion_testcase.php:84
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/tests/testquestion_testcase.php:111
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/tests/testquestion_responses_test.php:244
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "qtype_pmatch_testquestion_responses_test" question/type/pmatch/tests/testquestion_responses_test.php
+
+17) qtype_pmatch_testquestion_responses_test::test_grade_response
+ArgumentCountError: Too few arguments to function Box\Spout\Reader\ReaderAbstract::__construct(), 0 passed in /data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/classes/testquestion_import_helper.php on line 248 and exactly 3 expected
+
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/spout/src/Spout/Reader/ReaderAbstract.php:65
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/classes/testquestion_import_helper.php:248
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/classes/testquestion_import_helper.php:68
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/classes/testquestion_responses.php:737
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/tests/testquestion_testcase.php:84
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/tests/testquestion_testcase.php:111
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/tests/testquestion_responses_test.php:287
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "qtype_pmatch_testquestion_responses_test" question/type/pmatch/tests/testquestion_responses_test.php
+
+18) qtype_pmatch_testquestion_responses_test::test_load_responses_from_file
+ArgumentCountError: Too few arguments to function Box\Spout\Reader\ReaderAbstract::__construct(), 0 passed in /data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/classes/testquestion_import_helper.php on line 248 and exactly 3 expected
+
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/spout/src/Spout/Reader/ReaderAbstract.php:65
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/classes/testquestion_import_helper.php:248
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/classes/testquestion_import_helper.php:68
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/classes/testquestion_responses.php:737
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/tests/testquestion_testcase.php:84
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/tests/testquestion_responses_test.php:329
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "qtype_pmatch_testquestion_responses_test" question/type/pmatch/tests/testquestion_responses_test.php
+
+19) qtype_pmatch_testquestion_responses_test::test_try_rule
+ArgumentCountError: Too few arguments to function Box\Spout\Reader\ReaderAbstract::__construct(), 0 passed in /data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/classes/testquestion_import_helper.php on line 248 and exactly 3 expected
+
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/spout/src/Spout/Reader/ReaderAbstract.php:65
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/classes/testquestion_import_helper.php:248
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/classes/testquestion_import_helper.php:68
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/classes/testquestion_responses.php:737
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/tests/testquestion_testcase.php:84
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/tests/testquestion_testcase.php:111
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/tests/testquestion_responses_test.php:373
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "qtype_pmatch_testquestion_responses_test" question/type/pmatch/tests/testquestion_responses_test.php
+
+20) qtype_pmatch_testquestion_responses_test::test_grade_rule_with_responses
+ArgumentCountError: Too few arguments to function Box\Spout\Reader\ReaderAbstract::__construct(), 0 passed in /data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/classes/testquestion_import_helper.php on line 248 and exactly 3 expected
+
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/spout/src/Spout/Reader/ReaderAbstract.php:65
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/classes/testquestion_import_helper.php:248
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/classes/testquestion_import_helper.php:68
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/classes/testquestion_responses.php:737
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/tests/testquestion_testcase.php:84
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/tests/testquestion_testcase.php:111
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/tests/testquestion_responses_test.php:441
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "qtype_pmatch_testquestion_responses_test" question/type/pmatch/tests/testquestion_responses_test.php
+
+21) qtype_pmatch_testquestion_responses_test::test_get_rule_accuracy_counts
+ArgumentCountError: Too few arguments to function Box\Spout\Reader\ReaderAbstract::__construct(), 0 passed in /data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/classes/testquestion_import_helper.php on line 248 and exactly 3 expected
+
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/spout/src/Spout/Reader/ReaderAbstract.php:65
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/classes/testquestion_import_helper.php:248
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/classes/testquestion_import_helper.php:68
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/classes/testquestion_responses.php:737
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/tests/testquestion_testcase.php:84
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/tests/testquestion_testcase.php:111
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/tests/testquestion_responses_test.php:473
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "qtype_pmatch_testquestion_responses_test" question/type/pmatch/tests/testquestion_responses_test.php
+
+22) qtype_pmatch_testquestion_responses_test::test_regrading
+ArgumentCountError: Too few arguments to function Box\Spout\Reader\ReaderAbstract::__construct(), 0 passed in /data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/classes/testquestion_import_helper.php on line 248 and exactly 3 expected
+
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/spout/src/Spout/Reader/ReaderAbstract.php:65
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/classes/testquestion_import_helper.php:248
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/classes/testquestion_import_helper.php:68
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/classes/testquestion_responses.php:737
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/tests/testquestion_testcase.php:84
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/tests/testquestion_testcase.php:111
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/tests/testquestion_responses_test.php:513
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "qtype_pmatch_testquestion_responses_test" question/type/pmatch/tests/testquestion_responses_test.php
+
+23) qtype_pmatch_testquestion_responses_test::test_save_rule_matches
+ArgumentCountError: Too few arguments to function Box\Spout\Reader\ReaderAbstract::__construct(), 0 passed in /data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/classes/testquestion_import_helper.php on line 248 and exactly 3 expected
+
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/spout/src/Spout/Reader/ReaderAbstract.php:65
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/classes/testquestion_import_helper.php:248
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/classes/testquestion_import_helper.php:68
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/classes/testquestion_responses.php:737
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/tests/testquestion_testcase.php:84
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/tests/testquestion_testcase.php:111
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/tests/testquestion_responses_test.php:579
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "qtype_pmatch_testquestion_responses_test" question/type/pmatch/tests/testquestion_responses_test.php
+
+24) qtype_pmatch_testquestion_responses_test::test_validate_csv_file_type
+ArgumentCountError: Too few arguments to function Box\Spout\Reader\ReaderAbstract::__construct(), 0 passed in /data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/classes/testquestion_import_helper.php on line 248 and exactly 3 expected
+
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/spout/src/Spout/Reader/ReaderAbstract.php:65
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/classes/testquestion_import_helper.php:248
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/classes/testquestion_import_helper.php:68
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/tests/testquestion_responses_test.php:760
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "qtype_pmatch_testquestion_responses_test" question/type/pmatch/tests/testquestion_responses_test.php
+
+25) qtype_pmatch_testquestion_responses_test::test_validate_xlsx_file_type
+ArgumentCountError: Too few arguments to function Box\Spout\Reader\XLSX\Reader::__construct(), 0 passed in /data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/classes/testquestion_import_helper.php on line 267 and exactly 4 expected
+
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/spout/src/Spout/Reader/XLSX/Reader.php:38
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/classes/testquestion_import_helper.php:267
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/classes/testquestion_import_helper.php:71
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/tests/testquestion_responses_test.php:802
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "qtype_pmatch_testquestion_responses_test" question/type/pmatch/tests/testquestion_responses_test.php
+
+26) qtype_pmatch_testquestion_responses_test::test_validate_ods_file_type
+ArgumentCountError: Too few arguments to function Box\Spout\Reader\ReaderAbstract::__construct(), 0 passed in /data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/classes/testquestion_import_helper.php on line 286 and exactly 3 expected
+
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/spout/src/Spout/Reader/ReaderAbstract.php:65
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/classes/testquestion_import_helper.php:286
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/classes/testquestion_import_helper.php:74
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/tests/testquestion_responses_test.php:844
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "qtype_pmatch_testquestion_responses_test" question/type/pmatch/tests/testquestion_responses_test.php
+
+27) qtype_pmatch_testquestion_responses_test::test_get_responses with data set #2 ('/data/apache/htdocs/moodlesit...al.csv', 4, array(array(0, 'Response 1'), array(1, 'Response 2'), array(0, 'Response 3'), array(1, 'Response 4')))
+ArgumentCountError: Too few arguments to function Box\Spout\Reader\ReaderAbstract::__construct(), 0 passed in /data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/classes/testquestion_import_helper.php on line 248 and exactly 3 expected
+
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/spout/src/Spout/Reader/ReaderAbstract.php:65
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/classes/testquestion_import_helper.php:248
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/classes/testquestion_import_helper.php:68
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/tests/testquestion_responses_test.php:890
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "qtype_pmatch_testquestion_responses_test" question/type/pmatch/tests/testquestion_responses_test.php
+
+28) qtype_pmatch_testquestion_responses_test::test_get_responses with data set #3 ('/data/apache/htdocs/moodlesit...l.xlsx', 4, array(array(0, 'Response 1'), array(1, 'Response 2'), array(0, 'Response 3'), array(1, 'Response 4')))
+ArgumentCountError: Too few arguments to function Box\Spout\Reader\XLSX\Reader::__construct(), 0 passed in /data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/classes/testquestion_import_helper.php on line 267 and exactly 4 expected
+
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/spout/src/Spout/Reader/XLSX/Reader.php:38
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/classes/testquestion_import_helper.php:267
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/classes/testquestion_import_helper.php:71
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/tests/testquestion_responses_test.php:890
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "qtype_pmatch_testquestion_responses_test" question/type/pmatch/tests/testquestion_responses_test.php
+
+29) qtype_pmatch_testquestion_responses_test::test_get_responses with data set #4 ('/data/apache/htdocs/moodlesit...al.ods', 4, array(array(0, 'Response 1'), array(1, 'Response 2'), array(0, 'Response 3'), array(1, 'Response 4')))
+ArgumentCountError: Too few arguments to function Box\Spout\Reader\ReaderAbstract::__construct(), 0 passed in /data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/classes/testquestion_import_helper.php on line 286 and exactly 3 expected
+
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/spout/src/Spout/Reader/ReaderAbstract.php:65
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/classes/testquestion_import_helper.php:286
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/classes/testquestion_import_helper.php:74
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/tests/testquestion_responses_test.php:890
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "qtype_pmatch_testquestion_responses_test" question/type/pmatch/tests/testquestion_responses_test.php
+
+30) qtype_pmatch_testquestion_responses_test::test_currentquestion
+ArgumentCountError: Too few arguments to function Box\Spout\Reader\ReaderAbstract::__construct(), 0 passed in /data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/classes/testquestion_import_helper.php on line 248 and exactly 3 expected
+
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/spout/src/Spout/Reader/ReaderAbstract.php:65
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/classes/testquestion_import_helper.php:248
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/classes/testquestion_import_helper.php:68
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/classes/testquestion_responses.php:737
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/tests/testquestion_testcase.php:84
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/tests/testquestion_testcase.php:111
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/type/pmatch/tests/testquestion_testcase.php:69
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "qtype_pmatch_testquestion_responses_test" question/type/pmatch/tests/testquestion_responses_test.php
+
+31) tool_dataprivacy_metadata_registry_testcase::test_get_registry_metadata_count
+Unexpected debugging() call detected.
+Debugging: Invalid get_string() identifier: 'privacy:metadata' or component 'atto_echo360attoplugin'. Perhaps you are missing $string['privacy:metadata'] = ''; in /data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/editor/atto/plugins/echo360attoplugin/lang/en/atto_echo360attoplugin.php?
+* line 353 of /lib/classes/string_manager_standard.php: call to debugging()
+* line 7318 of /lib/moodlelib.php: call to core_string_manager_standard->get_string()
+* line 67 of /admin/tool/dataprivacy/classes/metadata_registry.php: call to get_string()
+* line ? of unknownfile: call to tool_dataprivacy\metadata_registry->tool_dataprivacy\{closure}()
+* line 105 of /admin/tool/dataprivacy/classes/metadata_registry.php: call to array_map()
+* line 44 of /admin/tool/dataprivacy/tests/metadata_registry_test.php: call to tool_dataprivacy\metadata_registry->get_registry_metadata()
+* line 60 of /admin/tool/dataprivacy/tests/metadata_registry_test.php: call to tool_dataprivacy_metadata_registry_testcase->get_meta_data()
+* line 1154 of /vendor/phpunit/phpunit/src/Framework/TestCase.php: call to tool_dataprivacy_metadata_registry_testcase->test_get_registry_metadata_count()
+* line 842 of /vendor/phpunit/phpunit/src/Framework/TestCase.php: call to PHPUnit\Framework\TestCase->runTest()
+* line 80 of /lib/phpunit/classes/advanced_testcase.php: call to PHPUnit\Framework\TestCase->runBare()
+* line 693 of /vendor/phpunit/phpunit/src/Framework/TestResult.php: call to advanced_testcase->runBare()
+* line 796 of /vendor/phpunit/phpunit/src/Framework/TestCase.php: call to PHPUnit\Framework\TestResult->run()
+* line 746 of /vendor/phpunit/phpunit/src/Framework/TestSuite.php: call to PHPUnit\Framework\TestCase->run()
+* line 746 of /vendor/phpunit/phpunit/src/Framework/TestSuite.php: call to PHPUnit\Framework\TestSuite->run()
+* line 746 of /vendor/phpunit/phpunit/src/Framework/TestSuite.php: call to PHPUnit\Framework\TestSuite->run()
+* line 652 of /vendor/phpunit/phpunit/src/TextUI/TestRunner.php: call to PHPUnit\Framework\TestSuite->run()
+* line 206 of /vendor/phpunit/phpunit/src/TextUI/Command.php: call to PHPUnit\TextUI\TestRunner->doRun()
+* line 162 of /vendor/phpunit/phpunit/src/TextUI/Command.php: call to PHPUnit\TextUI\Command->run()
+* line 61 of /vendor/phpunit/phpunit/phpunit: call to PHPUnit\TextUI\Command::main()
+
+
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/phpunit/classes/advanced_testcase.php:88
+
+To re-run:
+ vendor/bin/phpunit "tool_dataprivacy_metadata_registry_testcase" admin/tool/dataprivacy/tests/metadata_registry_test.php
+
+32) tool_dataprivacy_metadata_registry_testcase::test_get_registry_metadata_null_provider_details
+Unexpected debugging() call detected.
+Debugging: Invalid get_string() identifier: 'privacy:metadata' or component 'atto_echo360attoplugin'. Perhaps you are missing $string['privacy:metadata'] = ''; in /data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/editor/atto/plugins/echo360attoplugin/lang/en/atto_echo360attoplugin.php?
+* line 353 of /lib/classes/string_manager_standard.php: call to debugging()
+* line 7318 of /lib/moodlelib.php: call to core_string_manager_standard->get_string()
+* line 67 of /admin/tool/dataprivacy/classes/metadata_registry.php: call to get_string()
+* line ? of unknownfile: call to tool_dataprivacy\metadata_registry->tool_dataprivacy\{closure}()
+* line 105 of /admin/tool/dataprivacy/classes/metadata_registry.php: call to array_map()
+* line 44 of /admin/tool/dataprivacy/tests/metadata_registry_test.php: call to tool_dataprivacy\metadata_registry->get_registry_metadata()
+* line 84 of /admin/tool/dataprivacy/tests/metadata_registry_test.php: call to tool_dataprivacy_metadata_registry_testcase->get_meta_data()
+* line 1154 of /vendor/phpunit/phpunit/src/Framework/TestCase.php: call to tool_dataprivacy_metadata_registry_testcase->test_get_registry_metadata_null_provider_details()
+* line 842 of /vendor/phpunit/phpunit/src/Framework/TestCase.php: call to PHPUnit\Framework\TestCase->runTest()
+* line 80 of /lib/phpunit/classes/advanced_testcase.php: call to PHPUnit\Framework\TestCase->runBare()
+* line 693 of /vendor/phpunit/phpunit/src/Framework/TestResult.php: call to advanced_testcase->runBare()
+* line 796 of /vendor/phpunit/phpunit/src/Framework/TestCase.php: call to PHPUnit\Framework\TestResult->run()
+* line 746 of /vendor/phpunit/phpunit/src/Framework/TestSuite.php: call to PHPUnit\Framework\TestCase->run()
+* line 746 of /vendor/phpunit/phpunit/src/Framework/TestSuite.php: call to PHPUnit\Framework\TestSuite->run()
+* line 746 of /vendor/phpunit/phpunit/src/Framework/TestSuite.php: call to PHPUnit\Framework\TestSuite->run()
+* line 652 of /vendor/phpunit/phpunit/src/TextUI/TestRunner.php: call to PHPUnit\Framework\TestSuite->run()
+* line 206 of /vendor/phpunit/phpunit/src/TextUI/Command.php: call to PHPUnit\TextUI\TestRunner->doRun()
+* line 162 of /vendor/phpunit/phpunit/src/TextUI/Command.php: call to PHPUnit\TextUI\Command->run()
+* line 61 of /vendor/phpunit/phpunit/phpunit: call to PHPUnit\TextUI\Command::main()
+
+
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/phpunit/classes/advanced_testcase.php:88
+
+To re-run:
+ vendor/bin/phpunit "tool_dataprivacy_metadata_registry_testcase" admin/tool/dataprivacy/tests/metadata_registry_test.php
+
+33) tool_dataprivacy_metadata_registry_testcase::test_get_registry_metadata_provider_details
+Unexpected debugging() call detected.
+Debugging: Invalid get_string() identifier: 'privacy:metadata' or component 'atto_echo360attoplugin'. Perhaps you are missing $string['privacy:metadata'] = ''; in /data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/editor/atto/plugins/echo360attoplugin/lang/en/atto_echo360attoplugin.php?
+* line 353 of /lib/classes/string_manager_standard.php: call to debugging()
+* line 7318 of /lib/moodlelib.php: call to core_string_manager_standard->get_string()
+* line 67 of /admin/tool/dataprivacy/classes/metadata_registry.php: call to get_string()
+* line ? of unknownfile: call to tool_dataprivacy\metadata_registry->tool_dataprivacy\{closure}()
+* line 105 of /admin/tool/dataprivacy/classes/metadata_registry.php: call to array_map()
+* line 44 of /admin/tool/dataprivacy/tests/metadata_registry_test.php: call to tool_dataprivacy\metadata_registry->get_registry_metadata()
+* line 96 of /admin/tool/dataprivacy/tests/metadata_registry_test.php: call to tool_dataprivacy_metadata_registry_testcase->get_meta_data()
+* line 1154 of /vendor/phpunit/phpunit/src/Framework/TestCase.php: call to tool_dataprivacy_metadata_registry_testcase->test_get_registry_metadata_provider_details()
+* line 842 of /vendor/phpunit/phpunit/src/Framework/TestCase.php: call to PHPUnit\Framework\TestCase->runTest()
+* line 80 of /lib/phpunit/classes/advanced_testcase.php: call to PHPUnit\Framework\TestCase->runBare()
+* line 693 of /vendor/phpunit/phpunit/src/Framework/TestResult.php: call to advanced_testcase->runBare()
+* line 796 of /vendor/phpunit/phpunit/src/Framework/TestCase.php: call to PHPUnit\Framework\TestResult->run()
+* line 746 of /vendor/phpunit/phpunit/src/Framework/TestSuite.php: call to PHPUnit\Framework\TestCase->run()
+* line 746 of /vendor/phpunit/phpunit/src/Framework/TestSuite.php: call to PHPUnit\Framework\TestSuite->run()
+* line 746 of /vendor/phpunit/phpunit/src/Framework/TestSuite.php: call to PHPUnit\Framework\TestSuite->run()
+* line 652 of /vendor/phpunit/phpunit/src/TextUI/TestRunner.php: call to PHPUnit\Framework\TestSuite->run()
+* line 206 of /vendor/phpunit/phpunit/src/TextUI/Command.php: call to PHPUnit\TextUI\TestRunner->doRun()
+* line 162 of /vendor/phpunit/phpunit/src/TextUI/Command.php: call to PHPUnit\TextUI\Command->run()
+* line 61 of /vendor/phpunit/phpunit/phpunit: call to PHPUnit\TextUI\Command::main()
+
+
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/phpunit/classes/advanced_testcase.php:88
+
+To re-run:
+ vendor/bin/phpunit "tool_dataprivacy_metadata_registry_testcase" admin/tool/dataprivacy/tests/metadata_registry_test.php
+
+--
+
+There were 61 failures:
+
+1) core_dml_testcase::test_unique_index_collation_trouble
+Unique index is accent insensitive, this may cause problems for non-ascii languages. This is usually caused by accent insensitive default collation.
+
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/dml/tests/dml_test.php:3885
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/phpunit/classes/database_driver_testcase.php:143
+
+To re-run:
+ vendor/bin/phpunit "core_dml_testcase" lib/dml/tests/dml_test.php
+
+2) provider_testcase::test_null_provider with data set "atto_echo360attoplugin" ('atto_echo360attoplugin', 'atto_echo360attoplugin\privac...ovider')
+Expectation failed, debugging() was triggered.
+Debugging: Invalid get_string() identifier: 'privacy:metadata' or component 'atto_echo360attoplugin'. Perhaps you are missing $string['privacy:metadata'] = ''; in /data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/editor/atto/plugins/echo360attoplugin/lang/en/atto_echo360attoplugin.php?
+* line 353 of /lib/classes/string_manager_standard.php: call to debugging()
+* line 7318 of /lib/moodlelib.php: call to core_string_manager_standard->get_string()
+* line 90 of /privacy/tests/provider_test.php: call to get_string()
+* line 1154 of /vendor/phpunit/phpunit/src/Framework/TestCase.php: call to provider_testcase->test_null_provider()
+* line 842 of /vendor/phpunit/phpunit/src/Framework/TestCase.php: call to PHPUnit\Framework\TestCase->runTest()
+* line 80 of /lib/phpunit/classes/advanced_testcase.php: call to PHPUnit\Framework\TestCase->runBare()
+* line 693 of /vendor/phpunit/phpunit/src/Framework/TestResult.php: call to advanced_testcase->runBare()
+* line 796 of /vendor/phpunit/phpunit/src/Framework/TestCase.php: call to PHPUnit\Framework\TestResult->run()
+* line 746 of /vendor/phpunit/phpunit/src/Framework/TestSuite.php: call to PHPUnit\Framework\TestCase->run()
+* line 746 of /vendor/phpunit/phpunit/src/Framework/TestSuite.php: call to PHPUnit\Framework\TestSuite->run()
+* line 746 of /vendor/phpunit/phpunit/src/Framework/TestSuite.php: call to PHPUnit\Framework\TestSuite->run()
+* line 746 of /vendor/phpunit/phpunit/src/Framework/TestSuite.php: call to PHPUnit\Framework\TestSuite->run()
+* line 652 of /vendor/phpunit/phpunit/src/TextUI/TestRunner.php: call to PHPUnit\Framework\TestSuite->run()
+* line 206 of /vendor/phpunit/phpunit/src/TextUI/Command.php: call to PHPUnit\TextUI\TestRunner->doRun()
+* line 162 of /vendor/phpunit/phpunit/src/TextUI/Command.php: call to PHPUnit\TextUI\Command->run()
+* line 61 of /vendor/phpunit/phpunit/phpunit: call to PHPUnit\TextUI\Command::main()
+
+Failed asserting that 1 matches expected 0.
+
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/phpunit/classes/advanced_testcase.php:367
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/privacy/tests/provider_test.php:91
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "provider_testcase" privacy/tests/provider_test.php
+
+3) provider_testcase::test_all_providers_compliant with data set "qtype_ddmatch" ('qtype_ddmatch', 'qtype_ddmatch\privacy\provider')
+Failed asserting that false is true.
+
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/privacy/tests/provider_test.php:178
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "provider_testcase" privacy/tests/provider_test.php
+
+4) provider_testcase::test_all_providers_compliant with data set "qtype_jme" ('qtype_jme', 'qtype_jme\privacy\provider')
+Failed asserting that false is true.
+
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/privacy/tests/provider_test.php:178
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "provider_testcase" privacy/tests/provider_test.php
+
+5) provider_testcase::test_all_providers_compliant with data set "mod_aspirelist" ('mod_aspirelist', 'mod_aspirelist\privacy\provider')
+Failed asserting that false is true.
+
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/privacy/tests/provider_test.php:178
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "provider_testcase" privacy/tests/provider_test.php
+
+6) provider_testcase::test_all_providers_compliant with data set "mod_helixmedia" ('mod_helixmedia', 'mod_helixmedia\privacy\provider')
+Failed asserting that false is true.
+
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/privacy/tests/provider_test.php:178
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "provider_testcase" privacy/tests/provider_test.php
+
+7) provider_testcase::test_all_providers_compliant with data set "enrol_dbuserrel" ('enrol_dbuserrel', 'enrol_dbuserrel\privacy\provider')
+Failed asserting that false is true.
+
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/privacy/tests/provider_test.php:178
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "provider_testcase" privacy/tests/provider_test.php
+
+8) provider_testcase::test_all_providers_compliant with data set "block_course_visibility" ('block_course_visibility', 'block_course_visibility\priva...ovider')
+Failed asserting that false is true.
+
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/privacy/tests/provider_test.php:178
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "provider_testcase" privacy/tests/provider_test.php
+
+9) provider_testcase::test_all_providers_compliant with data set "block_library_resources" ('block_library_resources', 'block_library_resources\priva...ovider')
+Failed asserting that false is true.
+
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/privacy/tests/provider_test.php:178
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "provider_testcase" privacy/tests/provider_test.php
+
+10) provider_testcase::test_all_providers_compliant with data set "block_library_search" ('block_library_search', 'block_library_search\privacy\provider')
+Failed asserting that false is true.
+
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/privacy/tests/provider_test.php:178
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "provider_testcase" privacy/tests/provider_test.php
+
+11) provider_testcase::test_all_providers_compliant with data set "block_news_slider" ('block_news_slider', 'block_news_slider\privacy\provider')
+Failed asserting that false is true.
+
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/privacy/tests/provider_test.php:178
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "provider_testcase" privacy/tests/provider_test.php
+
+12) provider_testcase::test_all_providers_compliant with data set "block_portico_enrolments" ('block_portico_enrolments', 'block_portico_enrolments\priv...ovider')
+Failed asserting that false is true.
+
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/privacy/tests/provider_test.php:178
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "provider_testcase" privacy/tests/provider_test.php
+
+13) provider_testcase::test_all_providers_compliant with data set "block_quickmail" ('block_quickmail', 'block_quickmail\privacy\provider')
+Failed asserting that false is true.
+
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/privacy/tests/provider_test.php:178
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "provider_testcase" privacy/tests/provider_test.php
+
+14) provider_testcase::test_all_providers_compliant with data set "block_sharing_cart" ('block_sharing_cart', 'block_sharing_cart\privacy\provider')
+Failed asserting that false is true.
+
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/privacy/tests/provider_test.php:178
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "provider_testcase" privacy/tests/provider_test.php
+
+15) provider_testcase::test_all_providers_compliant with data set "block_timetable" ('block_timetable', 'block_timetable\privacy\provider')
+Failed asserting that false is true.
+
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/privacy/tests/provider_test.php:178
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "provider_testcase" privacy/tests/provider_test.php
+
+16) provider_testcase::test_all_providers_compliant with data set "filter_echo360" ('filter_echo360', 'filter_echo360\privacy\provider')
+Failed asserting that false is true.
+
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/privacy/tests/provider_test.php:178
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "provider_testcase" privacy/tests/provider_test.php
+
+17) provider_testcase::test_all_providers_compliant with data set "report_filetrash" ('report_filetrash', 'report_filetrash\privacy\provider')
+Failed asserting that false is true.
+
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/privacy/tests/provider_test.php:178
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "provider_testcase" privacy/tests/provider_test.php
+
+18) provider_testcase::test_all_providers_compliant with data set "gradereport_myfeedbacklink" ('gradereport_myfeedbacklink', 'gradereport_myfeedbacklink\pr...ovider')
+Failed asserting that false is true.
+
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/privacy/tests/provider_test.php:178
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "provider_testcase" privacy/tests/provider_test.php
+
+19) provider_testcase::test_all_providers_compliant with data set "qformat_hotpot" ('qformat_hotpot', 'qformat_hotpot\privacy\provider')
+Failed asserting that false is true.
+
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/privacy/tests/provider_test.php:178
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "provider_testcase" privacy/tests/provider_test.php
+
+20) provider_testcase::test_all_providers_compliant with data set "local_hub" ('local_hub', 'local_hub\privacy\provider')
+Failed asserting that false is true.
+
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/privacy/tests/provider_test.php:178
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "provider_testcase" privacy/tests/provider_test.php
+
+21) provider_testcase::test_all_providers_compliant with data set "local_mass_enroll" ('local_mass_enroll', 'local_mass_enroll\privacy\provider')
+Failed asserting that false is true.
+
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/privacy/tests/provider_test.php:178
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "provider_testcase" privacy/tests/provider_test.php
+
+22) provider_testcase::test_all_providers_compliant with data set "local_repositoryfileupload" ('local_repositoryfileupload', 'local_repositoryfileupload\pr...ovider')
+Failed asserting that false is true.
+
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/privacy/tests/provider_test.php:178
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "provider_testcase" privacy/tests/provider_test.php
+
+23) provider_testcase::test_all_providers_compliant with data set "local_testaccount_automation" ('local_testaccount_automation', 'local_testaccount_automation\...ovider')
+Failed asserting that false is true.
+
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/privacy/tests/provider_test.php:178
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "provider_testcase" privacy/tests/provider_test.php
+
+24) provider_testcase::test_all_providers_compliant with data set "local_ucl_tools" ('local_ucl_tools', 'local_ucl_tools\privacy\provider')
+Failed asserting that false is true.
+
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/privacy/tests/provider_test.php:178
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "provider_testcase" privacy/tests/provider_test.php
+
+25) provider_testcase::test_all_providers_compliant with data set "local_userprofilefields_import" ('local_userprofilefields_import', 'local_userprofilefields_impor...ovider')
+Failed asserting that false is true.
+
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/privacy/tests/provider_test.php:178
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "provider_testcase" privacy/tests/provider_test.php
+
+26) provider_testcase::test_all_providers_compliant with data set "assignsubmission_helixassign" ('assignsubmission_helixassign', 'assignsubmission_helixassign\...ovider')
+Failed asserting that false is true.
+
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/privacy/tests/provider_test.php:178
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "provider_testcase" privacy/tests/provider_test.php
+
+27) provider_testcase::test_all_providers_compliant with data set "assignfeedback_helixfeedback" ('assignfeedback_helixfeedback', 'assignfeedback_helixfeedback\...ovider')
+Failed asserting that false is true.
+
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/privacy/tests/provider_test.php:178
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "provider_testcase" privacy/tests/provider_test.php
+
+28) provider_testcase::test_all_providers_compliant with data set "atto_fontsize" ('atto_fontsize', 'atto_fontsize\privacy\provider')
+Failed asserting that false is true.
+
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/privacy/tests/provider_test.php:178
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "provider_testcase" privacy/tests/provider_test.php
+
+29) provider_testcase::test_all_providers_compliant with data set "atto_helixatto" ('atto_helixatto', 'atto_helixatto\privacy\provider')
+Failed asserting that false is true.
+
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/privacy/tests/provider_test.php:178
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "provider_testcase" privacy/tests/provider_test.php
+
+30) provider_testcase::test_all_providers_compliant with data set "atto_pastespecial" ('atto_pastespecial', 'atto_pastespecial\privacy\provider')
+Failed asserting that false is true.
+
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/privacy/tests/provider_test.php:178
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "provider_testcase" privacy/tests/provider_test.php
+
+31) provider_testcase::test_userdata_provider_implements_userlist with data set "mod_hotquestion" ('mod_hotquestion', 'mod_hotquestion\privacy\provider')
+Failed asserting that false is true.
+
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/privacy/tests/provider_test.php:212
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "provider_testcase" privacy/tests/provider_test.php
+
+32) provider_testcase::test_userdata_provider_implements_userlist with data set "mod_hvp" ('mod_hvp', 'mod_hvp\privacy\provider')
+Failed asserting that false is true.
+
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/privacy/tests/provider_test.php:212
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "provider_testcase" privacy/tests/provider_test.php
+
+33) provider_testcase::test_userdata_provider_implements_userlist with data set "mod_turnitintooltwo" ('mod_turnitintooltwo', 'mod_turnitintooltwo\privacy\provider')
+Failed asserting that false is true.
+
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/privacy/tests/provider_test.php:212
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "provider_testcase" privacy/tests/provider_test.php
+
+34) provider_testcase::test_userdata_provider_implements_userlist with data set "report_myfeedback" ('report_myfeedback', 'report_myfeedback\privacy\provider')
+Failed asserting that false is true.
+
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/privacy/tests/provider_test.php:212
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "provider_testcase" privacy/tests/provider_test.php
+
+35) provider_testcase::test_table_coverage
+The following tables with user fields must be covered with metadata providers: 
+  - block_admin_presets (userid)
+  - block_admin_presets_app (userid)
+  - block_quickmail_signatures (user_id)
+  - block_quickmail_messages (user_id)
+  - block_quickmail_msg_recips (user_id)
+  - block_quickmail_alt_emails (setup_user_id, user_id)
+  - block_quickmail_notifs (user_id)
+  - block_quickmail_event_notifs (usermodified)
+  - block_quickmail_rem_notifs (usermodified)
+  - block_quickmail_event_recips (user_id)
+  - block_sharing_cart (userid)
+  - block_sharing_cart_plugins (userid)
+  - report_filetrash (userid)
+  - plagiarism_turnitin_users (userid)
+
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/privacy/tests/provider_test.php:327
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "provider_testcase" privacy/tests/provider_test.php
+
+36) block_quickmail_draft_repo_testcase::test_sorts_get_for_user
+Failed asserting that '264000' matches expected 144000.
+
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/blocks/quickmail/tests/unit/draft_repo_test.php:167
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "block_quickmail_draft_repo_testcase" blocks/quickmail/tests/unit/draft_repo_test.php
+
+37) block_quickmail_draft_repo_testcase::test_sorts_get_for_user_and_course
+Failed asserting that '264000' matches expected 144000.
+
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/blocks/quickmail/tests/unit/draft_repo_test.php:243
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "block_quickmail_draft_repo_testcase" blocks/quickmail/tests/unit/draft_repo_test.php
+
+38) block_quickmail_edit_reminder_notification_form_validator_testcase::test_validate_schedule_time_unit_is_valid_for_reminder_notifications
+Failed asserting that false is true.
+
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/blocks/quickmail/tests/unit/edit_reminder_notification_form_validator_test.php:47
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "block_quickmail_edit_reminder_notification_form_validator_testcase" blocks/quickmail/tests/unit/edit_reminder_notification_form_validator_test.php
+
+39) block_quickmail_edit_reminder_notification_form_validator_testcase::test_validate_schedule_time_amount_is_valid_for_reminder_notifications
+Failed asserting that false is true.
+
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/blocks/quickmail/tests/unit/edit_reminder_notification_form_validator_test.php:74
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "block_quickmail_edit_reminder_notification_form_validator_testcase" blocks/quickmail/tests/unit/edit_reminder_notification_form_validator_test.php
+
+40) block_quickmail_event_notification_assignment_submitted_model_testcase::test_model_key_is_available
+Failed asserting that an array contains 'assignment_submitted'.
+
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/blocks/quickmail/tests/unit/event_notification_assignment_submitted_model_test.php:42
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "block_quickmail_event_notification_assignment_submitted_model_testcase" blocks/quickmail/tests/unit/event_notification_assignment_submitted_model_test.php
+
+41) block_quickmail_parses_compose_message_body_testcase::test_replaces_message_recipient_compose_message_body_with_user_data
+Failed asserting that two strings are equal.
+--- Expected
++++ Actual
+@@ @@
+-'Hey there 拓海. Don't I know you? Your last name is 佐藤, right? In fact, I believe that your full name is 拓海 佐藤. Your middle name must be Полина, but we will call you Sophia. Is your email still student1@example.com?'
++'Hey there 拓海.\n
++                      Don't I know you? Your last name is 佐藤, right?\n
++                      In fact, I believe that your full name is 拓海 佐藤.\n
++                      Your middle name must be Полина, but we will call you Sophia.\n
++                      Is your email still student1@example.com?'
+
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/blocks/quickmail/tests/unit/formats_message_recipient_compose_message_body_test.php:59
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "block_quickmail_parses_compose_message_body_testcase" blocks/quickmail/tests/unit/formats_message_recipient_compose_message_body_test.php
+
+42) block_quickmail_parses_compose_message_body_testcase::test_replaces_message_recipient_compose_message_body_with_course_data
+Failed asserting that two strings are equal.
+--- Expected
++++ Actual
+@@ @@
+-'Welcome to Test course 1! Let's shorten the name to tc_1 if that's ok with you. The ID number will remain as  though. If I had to summarize this course, I'd say it would be: Test course 1\n
++'Welcome to Test course 1! Let's shorten the name to tc_1 if that's ok with you.\n
++                          The ID number will remain as  though.\n
++                          If I had to summarize this course, I'd say it would be: Test course 1\n
+ Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nulla non arcu lacinia neque faucibus fringilla. Vivamus porttitor turpis ac leo. Integer in sapien. Nullam eget nisl. Aliquam erat volutpat. Cras elementum. Mauris suscipit, ligula sit amet pharetra semper, nibh ante cursus purus, vel sagittis velit mauris vel metus. Integer malesuada. Nullam lectus justo, vulputate eget mollis sed, tempor sed magna. Mauris elementum mauris vitae tortor. Aliquam erat volutpat.\n
+ Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Pellentesque ipsum. Cras pede libero, dapibus nec, pretium sit amet, tempor quis. Aliquam ante. Proin in tellus sit amet nibh dignissim sagittis. Vivamus porttitor turpis ac leo. Duis bibendum, lectus ut viverra rhoncus, dolor nunc faucibus libero, eget facilisis enim ipsum id lacus. In sem justo, commodo ut, suscipit at, pharetra vitae, orci. Aliquam erat volutpat. Nulla est.\n
+ Vivamus luctus egestas leo. Aenean fermentum risus id tortor. Mauris dictum facilisis augue. Aliquam erat volutpat. Aliquam ornare wisi eu metus. Aliquam id dolor. Duis condimentum augue id magna semper rutrum. Donec iaculis gravida nulla. Pellentesque ipsum. Etiam dictum tincidunt diam. Quisque tincidunt scelerisque libero. Etiam egestas wisi a erat.\n
+ Integer lacinia. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris tincidunt sem sed arcu. Nullam feugiat, turpis at pulvinar vulputate, erat libero tristique tellus, nec bibendum odio risus sit amet ante. Aliquam id dolor. Maecenas sollicitudin. Et harum quidem rerum facilis est et expedita distinctio. Mauris suscipit, ligula sit amet pharetra semper, nibh ante cursus purus, vel sagittis velit mauris vel metus. Nullam dapibus fermentum ipsum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Pellentesque sapien. Duis risus. Mauris elementum mauris vitae tortor. Suspendisse nisl. Integer rutrum, orci vestibulum ullamcorper ultricies, lacus quam ultricies odio, vitae placerat pede sem sit amet enim.\n
+-In laoreet, magna id viverra tincidunt, sem odio bibendum justo, vel imperdiet sapien wisi sed libero. Proin pede metus, vulputate nec, fermentum fringilla, vehicula vitae, justo. Nullam justo enim, consectetuer nec, ullamcorper ac, vestibulum in, elit. Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Maecenas lorem. Etiam posuere lacus quis dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Curabitur ligula sapien, pulvinar a vestibulum quis, facilisis vel sapien. Nam sed tellus id magna elementum tincidunt. Suspendisse nisl. Vivamus luctus egestas leo. Nulla non arcu lacinia neque faucibus fringilla. Etiam dui sem, fermentum vitae, sagittis id, malesuada in, quam. Etiam dictum tincidunt diam. Etiam commodo dui eget wisi. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Proin pede metus, vulputate nec, fermentum fringilla, vehicula vitae, justo. Duis ante orci, molestie vitae vehicula venenatis, tincidunt ac pede. Pellentesque sapien.. You can always access the course online by going to https://www.example.com/moodle/course/view.php?id=199000. The course will begin on April 30, 2020 and end on Never. Do we have a mutual understanding?'
++In laoreet, magna id viverra tincidunt, sem odio bibendum justo, vel imperdiet sapien wisi sed libero. Proin pede metus, vulputate nec, fermentum fringilla, vehicula vitae, justo. Nullam justo enim, consectetuer nec, ullamcorper ac, vestibulum in, elit. Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Maecenas lorem. Etiam posuere lacus quis dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Curabitur ligula sapien, pulvinar a vestibulum quis, facilisis vel sapien. Nam sed tellus id magna elementum tincidunt. Suspendisse nisl. Vivamus luctus egestas leo. Nulla non arcu lacinia neque faucibus fringilla. Etiam dui sem, fermentum vitae, sagittis id, malesuada in, quam. Etiam dictum tincidunt diam. Etiam commodo dui eget wisi. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Proin pede metus, vulputate nec, fermentum fringilla, vehicula vitae, justo. Duis ante orci, molestie vitae vehicula venenatis, tincidunt ac pede. Pellentesque sapien..\n
++                          You can always access the course online by going to https://www.example.com/moodle/course/view.php?id=199000.\n
++                          The course will begin on April 30, 2020 and end on Never.\n
++                          Do we have a mutual understanding?'
+
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/blocks/quickmail/tests/unit/formats_message_recipient_compose_message_body_test.php:90
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "block_quickmail_parses_compose_message_body_testcase" blocks/quickmail/tests/unit/formats_message_recipient_compose_message_body_test.php
+
+43) block_quickmail_message_persistent_testcase::test_getters
+Failed asserting that two strings are equal.
+--- Expected
++++ Actual
+@@ @@
+-'2020-04-30 6:14 pm'
++'30 April 2020, 6:14 PM'
+
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/blocks/quickmail/tests/unit/message_persistent_test.php:91
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "block_quickmail_message_persistent_testcase" blocks/quickmail/tests/unit/message_persistent_test.php
+
+44) block_quickmail_messenger_compose_testcase::test_messenger_sends_composed_email_now
+Failed asserting that 0 matches expected 4.
+
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/blocks/quickmail/tests/unit/messenger_compose_test.php:63
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "block_quickmail_messenger_compose_testcase" blocks/quickmail/tests/unit/messenger_compose_test.php
+
+45) block_quickmail_messenger_compose_testcase::test_messenger_sends_composed_email_including_mentors_now
+Failed asserting that 0 matches expected 5.
+
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/blocks/quickmail/tests/unit/messenger_compose_test.php:96
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "block_quickmail_messenger_compose_testcase" blocks/quickmail/tests/unit/messenger_compose_test.php
+
+46) block_quickmail_messenger_compose_testcase::test_messenger_sends_composed_message_now
+Failed asserting that 0 matches expected 4.
+
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/blocks/quickmail/tests/unit/messenger_compose_test.php:146
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "block_quickmail_messenger_compose_testcase" blocks/quickmail/tests/unit/messenger_compose_test.php
+
+47) block_quickmail_messenger_compose_testcase::test_skips_invalid_user_ids_when_sending
+Failed asserting that 0 matches expected 1.
+
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/blocks/quickmail/tests/unit/messenger_compose_test.php:171
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "block_quickmail_messenger_compose_testcase" blocks/quickmail/tests/unit/messenger_compose_test.php
+
+48) block_quickmail_messenger_compose_testcase::test_messenger_sends_to_additional_emails
+Failed asserting that 3 matches expected 7.
+
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/blocks/quickmail/tests/unit/messenger_compose_test.php:227
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "block_quickmail_messenger_compose_testcase" blocks/quickmail/tests/unit/messenger_compose_test.php
+
+49) block_quickmail_messenger_compose_testcase::test_messenger_sends_a_receipt_if_asked
+Failed asserting that 1 matches expected 5.
+
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/blocks/quickmail/tests/unit/messenger_compose_test.php:258
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "block_quickmail_messenger_compose_testcase" blocks/quickmail/tests/unit/messenger_compose_test.php
+
+50) block_quickmail_messenger_drafting_testcase::test_messenger_saves_draft_email
+Failed asserting that actual size 0 matches expected size 4.
+
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/blocks/quickmail/tests/unit/messenger_drafting_test.php:66
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "block_quickmail_messenger_drafting_testcase" blocks/quickmail/tests/unit/messenger_drafting_test.php
+
+51) block_quickmail_persistent_concerns_testcase::test_get_readable_date
+Failed asserting that two strings are equal.
+--- Expected
++++ Actual
+@@ @@
+-'2020-04-30 6:14 pm'
++'30 April 2020, 6:14 PM'
+
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/blocks/quickmail/tests/unit/persistent_concerns_test.php:88
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "block_quickmail_persistent_concerns_testcase" blocks/quickmail/tests/unit/persistent_concerns_test.php
+
+52) block_quickmail_queue_scheduled_notifications_task_testcase::test_send_all_ready_messages_task_sends_messages
+Failed asserting that 0 matches expected 8.
+
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/blocks/quickmail/tests/unit/queue_scheduled_notifications_task_test.php:67
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "block_quickmail_queue_scheduled_notifications_task_testcase" blocks/quickmail/tests/unit/queue_scheduled_notifications_task_test.php
+
+53) block_quickmail_run_schedulable_notification_adhoc_task_testcase::test_runs_scheduled_via_adhoc_task
+Failed asserting that 0 matches expected 4.
+
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/blocks/quickmail/tests/unit/run_schedulable_notification_adhoc_task_test.php:84
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "block_quickmail_run_schedulable_notification_adhoc_task_testcase" blocks/quickmail/tests/unit/run_schedulable_notification_adhoc_task_test.php
+
+54) block_quickmail_schedulable_testcase::test_increments_next_run_time_for_non_expired_schedule
+Failed asserting that 1526778000 matches expected 1526776200.
+
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/blocks/quickmail/tests/unit/schedulable_test.php:124
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "block_quickmail_schedulable_testcase" blocks/quickmail/tests/unit/schedulable_test.php
+
+55) block_quickmail_schedule_persistent_testcase::test_calculates_next_time_from_timestamp_for_active_schedule
+Failed asserting that 1588846471 matches expected null.
+
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/blocks/quickmail/tests/unit/schedule_persistent_test.php:118
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "block_quickmail_schedule_persistent_testcase" blocks/quickmail/tests/unit/schedule_persistent_test.php
+
+56) block_quickmail_send_all_ready_messages_task_testcase::test_send_all_ready_messages_task_sends_messages
+Failed asserting that 0 matches expected 16.
+
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/blocks/quickmail/tests/unit/send_all_ready_messages_task_test.php:62
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "block_quickmail_send_all_ready_messages_task_testcase" blocks/quickmail/tests/unit/send_all_ready_messages_task_test.php
+
+57) block_quickmail_send_message_adhoc_task_testcase::test_send_message_adhoc_task_sends
+Failed asserting that 0 matches expected 4.
+
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/blocks/quickmail/tests/unit/send_message_adhoc_task_test.php:79
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "block_quickmail_send_message_adhoc_task_testcase" blocks/quickmail/tests/unit/send_message_adhoc_task_test.php
+
+58) block_quickmail_sent_repo_testcase::test_sorts_get_for_user
+Failed asserting that '264000' matches expected 144000.
+
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/blocks/quickmail/tests/unit/sent_repo_test.php:93
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "block_quickmail_sent_repo_testcase" blocks/quickmail/tests/unit/sent_repo_test.php
+
+59) block_quickmail_sent_repo_testcase::test_sorts_get_for_user_and_course
+Failed asserting that '264000' matches expected 144000.
+
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/blocks/quickmail/tests/unit/sent_repo_test.php:169
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "block_quickmail_sent_repo_testcase" blocks/quickmail/tests/unit/sent_repo_test.php
+
+60) qformat_wordtable_export_test::test_export_description
+Failed asserting that two strings are equal.
+--- Expected
++++ Actual
+@@ @@
+ <tr>\n
+ <td colspan="3" style="width: 12.0cm"><p class="Cell">The question text.</p></td>\n
+ <td style="width: 1.0cm"><p class="QFType">DE</p></td></tr>\n
++\n
++<tr>\n
++<td colspan="3" style="width: 12.0cm"><p class="TableRowHead" style="text-align: right">ID number:</p></td>\n
++<td style="width: 1.0cm"><p class="QFID"></p></td></tr>\n
+ <tr>\n
+ <td style="width: 1.0cm"><p class="Cell"></p></td>\n
+ <td style="width: 5.0cm"><p class="TableHead"></p></td>\n
+
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/format/wordtable/tests/wordtableformat_test.php:62
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/format/wordtable/tests/wordtableformat_test.php:116
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "qformat_wordtable_export_test" question/format/wordtable/tests/wordtableformat_test.php
+
+61) qformat_wordtable_export_test::test_export_essay29
+Failed asserting that two strings are equal.
+--- Expected
++++ Actual
+@@ @@
+ <tr>\n
+ <td colspan="3" style="width: 12.0cm"><p class="TableRowHead" style="text-align: right">Require attachments:</p></td>\n
+ <td style="width: 1.0cm"><p class="Cell">0</p></td></tr>\n
++\n
+ <tr>\n
++<td colspan="3" style="width: 12.0cm"><p class="TableRowHead" style="text-align: right">ID number:</p></td>\n
++<td style="width: 1.0cm"><p class="QFID"></p></td></tr>\n
++<tr>\n
+ <td style="width: 1.0cm"><p class="Cell"></p></td>\n
+ <td style="width: 5.0cm"><p class="TableHead">Response template</p></td>\n
+ <td style="width: 6.0cm"><p class="TableHead">Information for graders</p></td>\n
+@@ @@
+ <td style="width: 6.0cm"><p class="Cell"></p></td>\n
+ <td style="width: 1.0cm"><p class="Cell"></p></td></tr>\n
+ <tr>\n
+-<td colspan="3" style="width: 12.0cm"><p class="Cell"><i>Allows a response of a few sentences or paragraphs. This must then be graded manually.</i></p></td>\n
++<td colspan="3" style="width: 12.0cm"><p class="Cell"><i>Allows a response of a file upload and/or online text. This must then be graded manually.</i></p></td>\n
+ <td style="width: 1.0cm"><p class="Cell"></p></td></tr>\n
+ </tbody></table></div><p class="MsoNormal"></p>\n
+   </body>\n
+ </html>\n
+ '
+
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/format/wordtable/tests/wordtableformat_test.php:62
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/question/format/wordtable/tests/wordtableformat_test.php:203
+/data/apache/htdocs/moodlesite-382-release-April-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "qformat_wordtable_export_test" question/format/wordtable/tests/wordtableformat_test.php
+
+ERRORS!
+Tests: 16364, Assertions: 150718, Errors: 33, Failures: 61, Skipped: 160.

@@ -1,0 +1,43 @@
+ULCC_webservices
+===========================================================
+
+The ULCC webservices are a collection of web services intended to extend the current functionality of Moodles core webservcies.
+The webservices should be installed by placing the folder in the local folder. Depending on the moodle version that you are using
+you may have to alter your database in order to crearte services that use the functions within ulcc_webservices it is beyound the
+scope of this document to explain how this is done.
+
+The ulcc_webservices contain the following function (which can be accessed as indivdual services or collated together to form parts of one service):
+
+ulcc_course_get_sections: Returns a list of the sections within a course using a course id.
+
+ulcc_section_get_content: Returns the content within a section using the id of the section.
+
+ulcc_get_user_assignments: Returns all assignments for the user with the id given.
+
+ulcc_get_cm_assignment: Returns an assigment based on the course module id given.
+
+ulcc_get_user_grades: Returns all finalised grades for the user with the given id.
+
+ulcc_get_course_forums: Returns all forums within the given course.
+
+ulcc_get_forum_discussions: Returns all discussions within the forum with the given id.
+
+ulcc_get_discussion_posts: Returns all posts within the discussion with the given id.
+
+ulcc_add_forum_discussion: Adds a discussion post to the forum with the given id.
+
+ulcc_add_discussion_post: Adds a post to a forum discussion.
+
+ulcc_get_user_forums: returns all forums a user can post to.
+
+ulcc_get_coursemodule_choice: get the choice record linked to the given course module id.
+
+ulcc_user_choice_repsonse: submits a response to a choice.
+
+ulcc_get_choice_options: returns the various choice options.
+
+ulcc_get_users_courses: returns all course the user with the given id is enrolled into.
+
+In addtion to the above once the plugin is installed you can view a detailed breakdown of the services by visiting:
+
+site administration ---> plugins ---> web services ---> api documentation

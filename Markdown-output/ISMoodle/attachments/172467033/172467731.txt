@@ -1,0 +1,71 @@
+Execute scheduled task: Enrolment file processing (enrol_imsenterprise\task\cron_task)
+... started 19:27:01. Current memory use 16.5MB.
+----------------------------------------------------------------------
+IMS Enterprise enrol cron process launched at Wednesday, 21 July 2021, 7:27 PM
+Found file /data/moodle/mim-pp-share/UCL_SIS_export.xml
+User record already exists for user 'zcahena' (ID number 16078975).
+User record already exists for user 'stnvxuf' (ID number 19000959).
+User record already exists for user 'stnvxta' (ID number 19059339).
+User record already exists for user 'stnvy61' (ID number 19001026).
+User record already exists for user 'zcjtxc0' (ID number 20005730).
+User record already exists for user 'uclqsp3' (ID number 20126274).
+User record already exists for user 'stnvbce' (ID number 19020832).
+User record already exists for user 'stnvy82' (ID number 19084185).
+User record already exists for user 'qtnvy93' (ID number 20006289).
+User record already exists for user 'stnvse8' (ID number 20074192).
+User record already exists for user 'qtnvtt5' (ID number 20067779).
+User record already exists for user 'stnvsq0' (ID number 20022815).
+User record already exists for user 'stnvyd4' (ID number 20051479).
+User record already exists for user 'stnv303' (ID number 20155651).
+User record already exists for user 'stnvlz6' (ID number 20084721).
+User record already exists for user 'stnvrt8' (ID number 20116462).
+User record already exists for user 'stnvgd3' (ID number 20023534).
+User record already exists for user 'zccayma' (ID number 20013538).
+User record already exists for user 'stnv299' (ID number 20118688).
+User record already exists for user 'stnvho3' (ID number 20078350).
+User record already exists for user 'qtnv830' (ID number 20022240).
+User record already exists for user 'zcakjdu' (ID number 20062193).
+User record already exists for user 'zcecqma' (ID number 20165209).
+User record already exists for user 'zcecljh' (ID number 20171171).
+User record already exists for user 'uclmgg0' (ID number 20172002).
+User record already exists for user 'uclmm23' (ID number 20186092).
+User record already exists for user 'stnvzy6' (ID number 20132141).
+User record already exists for user 'stnvt03' (ID number 20062320).
+User record already exists for user 'zccarhe' (ID number 20120484).
+User record already exists for user 'qtnvohf' (ID number 20124242).
+Enrolled user #747955 (19020832) to role 01 in course 18773
+Enrolled user #747999 (20078350) to role 01 in course 18773
+Enrolled user #760592 (20186092) to role 01 in course 18773
+Enrolled user #760555 (20172002) to role 01 in course 18773
+Enrolled user #717767 (19001026) to role 01 in course 18773
+Enrolled user #761093 (20062193) to role 01 in course 18773
+Enrolled user #745635 (20013538) to role 01 in course 18773
+Enrolled user #706481 (19000959) to role 01 in course 18773
+Enrolled user #706479 (19059339) to role 01 in course 18773
+Unenrolled 20132141 from role 14 in course
+Unenrolled 20171171 from role 14 in course
+Unenrolled 16078975 from role 14 in course
+Unenrolled 20155651 from role 14 in course
+Unenrolled 20022815 from role 14 in course
+Unenrolled 20084721 from role 14 in course
+Unenrolled 20006289 from role 14 in course
+Unenrolled 20118688 from role 14 in course
+Unenrolled 20116462 from role 14 in course
+Unenrolled 20067779 from role 14 in course
+Unenrolled 20023534 from role 14 in course
+Unenrolled 20022240 from role 14 in course
+Unenrolled 20005730 from role 14 in course
+Unenrolled 20051479 from role 14 in course
+Unenrolled 20120484 from role 14 in course
+Unenrolled 20165209 from role 14 in course
+Unenrolled 20062320 from role 14 in course
+Unenrolled 20074192 from role 14 in course
+Unenrolled 20124242 from role 14 in course
+Unenrolled 20126274 from role 14 in course
+Unenrolled 19084185 from role 14 in course
+Added 9 users to course CCME0098_1
+Removed 21 users from course CCME0098_1
+Process has completed. Time taken: 6 seconds.
+... used 237 dbqueries
+... used 6.0816259384155 seconds
+Scheduled task complete: Enrolment file processing (enrol_imsenterprise\task\cron_task)

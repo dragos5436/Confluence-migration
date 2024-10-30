@@ -1,0 +1,1247 @@
+
+Warning: Use of undefined constant readonly - assumed 'readonly' (this will throw an Error in a future version of PHP) in /data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/config.php on line 29
+Moodle 3.7.5 (Build: 20200309), b6683f102d863a1bc291f28d91d1ab2b761b83c0
+Php: 7.2.28, mysqli: 5.7.26-enterprise-commercial-advanced-log, OS: Linux 3.10.0-1062.12.1.el7.x86_64 x86_64
+PHPUnit 7.5.17 by Sebastian Bergmann and contributors.
+
+...........................................................    59 / 15694 (  0%)
+...........................................................   118 / 15694 (  0%)
+.....................................F.....................   177 / 15694 (  1%)
+................SSSSSSSSS..................................   236 / 15694 (  1%)
+...........................................................   295 / 15694 (  1%)
+.....................................E.....................   354 / 15694 (  2%)
+...........................................................   413 / 15694 (  2%)
+...........................................................   472 / 15694 (  3%)
+...........................................................   531 / 15694 (  3%)
+...........................................................   590 / 15694 (  3%)
+...........................................................   649 / 15694 (  4%)
+...........................................................   708 / 15694 (  4%)
+...........................................................   767 / 15694 (  4%)
+...........................................................   826 / 15694 (  5%)
+...........................................................   885 / 15694 (  5%)
+...........................................................   944 / 15694 (  6%)
+...........................................................  1003 / 15694 (  6%)
+...........................................................  1062 / 15694 (  6%)
+...........................................................  1121 / 15694 (  7%)
+...........................................................  1180 / 15694 (  7%)
+...........................................................  1239 / 15694 (  7%)
+...........................................................  1298 / 15694 (  8%)
+...........................................................  1357 / 15694 (  8%)
+...........................................................  1416 / 15694 (  9%)
+...........................................................  1475 / 15694 (  9%)
+...........................................................  1534 / 15694 (  9%)
+...........................................................  1593 / 15694 ( 10%)
+...........................................................  1652 / 15694 ( 10%)
+...........................................................  1711 / 15694 ( 10%)
+...........................................................  1770 / 15694 ( 11%)
+...........................................................  1829 / 15694 ( 11%)
+....................................S......................  1888 / 15694 ( 12%)
+...........................................................  1947 / 15694 ( 12%)
+...........................................................  2006 / 15694 ( 12%)
+...........................................................  2065 / 15694 ( 13%)
+...........................................................  2124 / 15694 ( 13%)
+...........................................................  2183 / 15694 ( 13%)
+...........................................................  2242 / 15694 ( 14%)
+...........................................................  2301 / 15694 ( 14%)
+...........................................................  2360 / 15694 ( 15%)
+...........................................................  2419 / 15694 ( 15%)
+...........................................................  2478 / 15694 ( 15%)
+...........................................................  2537 / 15694 ( 16%)
+........................SS.......................EEEEEEEEE.  2596 / 15694 ( 16%)
+...........................................................  2655 / 15694 ( 16%)
+...........................................................  2714 / 15694 ( 17%)
+...........................................................  2773 / 15694 ( 17%)
+...........................................................  2832 / 15694 ( 18%)
+...........................................................  2891 / 15694 ( 18%)
+...........................................................  2950 / 15694 ( 18%)
+...........................................................  3009 / 15694 ( 19%)
+...........................................................  3068 / 15694 ( 19%)
+...........................................................  3127 / 15694 ( 19%)
+...........................................................  3186 / 15694 ( 20%)
+...........................................................  3245 / 15694 ( 20%)
+...........................................................  3304 / 15694 ( 21%)
+...........................................................  3363 / 15694 ( 21%)
+...........................................................  3422 / 15694 ( 21%)
+...........................................................  3481 / 15694 ( 22%)
+...........................................................  3540 / 15694 ( 22%)
+...........................................................  3599 / 15694 ( 22%)
+...........................................................  3658 / 15694 ( 23%)
+...........................................................  3717 / 15694 ( 23%)
+...........................................................  3776 / 15694 ( 24%)
+...........................................................  3835 / 15694 ( 24%)
+...........................................................  3894 / 15694 ( 24%)
+...........................................................  3953 / 15694 ( 25%)
+...........................................................  4012 / 15694 ( 25%)
+...........................................................  4071 / 15694 ( 25%)
+...........................................................  4130 / 15694 ( 26%)
+...........................................................  4189 / 15694 ( 26%)
+...........................................................  4248 / 15694 ( 27%)
+...........................................................  4307 / 15694 ( 27%)
+...........................................................  4366 / 15694 ( 27%)
+...........................................................  4425 / 15694 ( 28%)
+...........................................................  4484 / 15694 ( 28%)
+...........................................................  4543 / 15694 ( 28%)
+...........................................................  4602 / 15694 ( 29%)
+...........................................................  4661 / 15694 ( 29%)
+...........................................................  4720 / 15694 ( 30%)
+...........................................................  4779 / 15694 ( 30%)
+...........................................................  4838 / 15694 ( 30%)
+...........................................................  4897 / 15694 ( 31%)
+............................S.....SS.S....SSSS..SS.S.......  4956 / 15694 ( 31%)
+...........................................................  5015 / 15694 ( 31%)
+...........................................................  5074 / 15694 ( 32%)
+...........................................................  5133 / 15694 ( 32%)
+...........................................................  5192 / 15694 ( 33%)
+...........................................................  5251 / 15694 ( 33%)
+...........................................................  5310 / 15694 ( 33%)
+.....................SS....................................  5369 / 15694 ( 34%)
+...........................................................  5428 / 15694 ( 34%)
+...........................................................  5487 / 15694 ( 34%)
+...........................................................  5546 / 15694 ( 35%)
+......F....................................................  5605 / 15694 ( 35%)
+...........................................................  5664 / 15694 ( 36%)
+...........................................................  5723 / 15694 ( 36%)
+...........................................................  5782 / 15694 ( 36%)
+...........................................................  5841 / 15694 ( 37%)
+...........................................................  5900 / 15694 ( 37%)
+...........................................................  5959 / 15694 ( 37%)
+...........................................................  6018 / 15694 ( 38%)
+...........................................................  6077 / 15694 ( 38%)
+...........................................................  6136 / 15694 ( 39%)
+...........................................................  6195 / 15694 ( 39%)
+...........................................................  6254 / 15694 ( 39%)
+.....................................................F.....  6313 / 15694 ( 40%)
+F.................F..............F.........................  6372 / 15694 ( 40%)
+.................F..............................F....FF....  6431 / 15694 ( 40%)
+......F.F................F.................................  6490 / 15694 ( 41%)
+...................F.....................F.................  6549 / 15694 ( 41%)
+..............................................F............  6608 / 15694 ( 42%)
+...................................................F....F..  6667 / 15694 ( 42%)
+...........................................................  6726 / 15694 ( 42%)
+.................................F.F...........F...........  6785 / 15694 ( 43%)
+...............FFFFFF......................................  6844 / 15694 ( 43%)
+...........................................................  6903 / 15694 ( 43%)
+...........................................................  6962 / 15694 ( 44%)
+.............F.F........F...........................F......  7021 / 15694 ( 44%)
+....................................................F......  7080 / 15694 ( 45%)
+...........................................................  7139 / 15694 ( 45%)
+...........................................................  7198 / 15694 ( 45%)
+...........................................................  7257 / 15694 ( 46%)
+...........................................................  7316 / 15694 ( 46%)
+...........................................................  7375 / 15694 ( 46%)
+...........................................................  7434 / 15694 ( 47%)
+...........................................................  7493 / 15694 ( 47%)
+...........................................................  7552 / 15694 ( 48%)
+...........................................................  7611 / 15694 ( 48%)
+...........................................................  7670 / 15694 ( 48%)
+...........................................................  7729 / 15694 ( 49%)
+...........................................................  7788 / 15694 ( 49%)
+...........................................................  7847 / 15694 ( 50%)
+...........................................................  7906 / 15694 ( 50%)
+...........................................................  7965 / 15694 ( 50%)
+...........................................................  8024 / 15694 ( 51%)
+...........................................................  8083 / 15694 ( 51%)
+...........................................................  8142 / 15694 ( 51%)
+...........................................................  8201 / 15694 ( 52%)
+...........................................................  8260 / 15694 ( 52%)
+...........................................................  8319 / 15694 ( 53%)
+...........................................................  8378 / 15694 ( 53%)
+...........................................................  8437 / 15694 ( 53%)
+...........................................................  8496 / 15694 ( 54%)
+...........................................................  8555 / 15694 ( 54%)
+...........................................................  8614 / 15694 ( 54%)
+...........................................................  8673 / 15694 ( 55%)
+...........................................................  8732 / 15694 ( 55%)
+...........................................................  8791 / 15694 ( 56%)
+...........................................................  8850 / 15694 ( 56%)
+...........................................................  8909 / 15694 ( 56%)
+...........................................................  8968 / 15694 ( 57%)
+...........................................................  9027 / 15694 ( 57%)
+...........................................................  9086 / 15694 ( 57%)
+...........................................................  9145 / 15694 ( 58%)
+...........................................................  9204 / 15694 ( 58%)
+...........................................................  9263 / 15694 ( 59%)
+...........................................................  9322 / 15694 ( 59%)
+...........................................................  9381 / 15694 ( 59%)
+..................S.S......................................  9440 / 15694 ( 60%)
+...........................................................  9499 / 15694 ( 60%)
+...........................................................  9558 / 15694 ( 60%)
+.........................EE................................  9617 / 15694 ( 61%)
+...........................................................  9676 / 15694 ( 61%)
+.....................................................FF....  9735 / 15694 ( 62%)
+.............FF...F.............FF..................F......  9794 / 15694 ( 62%)
+...............FF.FF.FFEobject(phpunit_phpmailer_sink)#93023 (1) {
+  ["messages":protected]=>
+  array(0) {
+  }
+}
+F.........................F......F.  9853 / 15694 ( 62%)
+................F................F....F.FF.FF..............  9912 / 15694 ( 63%)
+.................................................SSS..SSSSS  9971 / 15694 ( 63%)
+SSSSSSS.................................................... 10030 / 15694 ( 63%)
+..........................................S................ 10089 / 15694 ( 64%)
+........................................................... 10148 / 15694 ( 64%)
+........................................................... 10207 / 15694 ( 65%)
+.............................................S............. 10266 / 15694 ( 65%)
+........................................................... 10325 / 15694 ( 65%)
+........................................................... 10384 / 15694 ( 66%)
+........................................................... 10443 / 15694 ( 66%)
+........................................................... 10502 / 15694 ( 66%)
+........................................................... 10561 / 15694 ( 67%)
+........................................................... 10620 / 15694 ( 67%)
+........................................................... 10679 / 15694 ( 68%)
+........................................................... 10738 / 15694 ( 68%)
+........................................................... 10797 / 15694 ( 68%)
+........................................................... 10856 / 15694 ( 69%)
+........................................................... 10915 / 15694 ( 69%)
+............................F.............................. 10974 / 15694 ( 69%)
+........................................................... 11033 / 15694 ( 70%)
+........................................................... 11092 / 15694 ( 70%)
+........................................................... 11151 / 15694 ( 71%)
+........................................................... 11210 / 15694 ( 71%)
+........................................................... 11269 / 15694 ( 71%)
+........................................................... 11328 / 15694 ( 72%)
+........................................................... 11387 / 15694 ( 72%)
+........................................................... 11446 / 15694 ( 72%)
+........................................................... 11505 / 15694 ( 73%)
+........................................................... 11564 / 15694 ( 73%)
+........................................................... 11623 / 15694 ( 74%)
+........................................................... 11682 / 15694 ( 74%)
+........................................................... 11741 / 15694 ( 74%)
+........................................................... 11800 / 15694 ( 75%)
+........................................................... 11859 / 15694 ( 75%)
+........................................................... 11918 / 15694 ( 75%)
+................................S.S........................ 11977 / 15694 ( 76%)
+...............................................S........... 12036 / 15694 ( 76%)
+........................................................... 12095 / 15694 ( 77%)
+........................................................... 12154 / 15694 ( 77%)
+........................................................... 12213 / 15694 ( 77%)
+........................................................... 12272 / 15694 ( 78%)
+........................................................... 12331 / 15694 ( 78%)
+........................................................... 12390 / 15694 ( 78%)
+........................................................... 12449 / 15694 ( 79%)
+........................................................... 12508 / 15694 ( 79%)
+........................................................... 12567 / 15694 ( 80%)
+........................................................... 12626 / 15694 ( 80%)
+........................................................... 12685 / 15694 ( 80%)
+........................................................... 12744 / 15694 ( 81%)
+........................................................... 12803 / 15694 ( 81%)
+........................................................... 12862 / 15694 ( 81%)
+........................................................... 12921 / 15694 ( 82%)
+........................................................... 12980 / 15694 ( 82%)
+........................................................... 13039 / 15694 ( 83%)
+........................................................... 13098 / 15694 ( 83%)
+........................................................... 13157 / 15694 ( 83%)
+........................................................... 13216 / 15694 ( 84%)
+....................................................FF..... 13275 / 15694 ( 84%)
+........................................................... 13334 / 15694 ( 84%)
+........................................................... 13393 / 15694 ( 85%)
+........................................................... 13452 / 15694 ( 85%)
+......................................EE.....EEE.E......... 13511 / 15694 ( 86%)
+........................................................... 13570 / 15694 ( 86%)
+........................................................... 13629 / 15694 ( 86%)
+........................................................... 13688 / 15694 ( 87%)
+........................................................... 13747 / 15694 ( 87%)
+........................................................... 13806 / 15694 ( 87%)
+..............SSSSSSSSSSSSS................................ 13865 / 15694 ( 88%)
+........................................................... 13924 / 15694 ( 88%)
+........................................................... 13983 / 15694 ( 89%)
+........................................................... 14042 / 15694 ( 89%)
+........................................................... 14101 / 15694 ( 89%)
+........................................................... 14160 / 15694 ( 90%)
+.............................S.S........................... 14219 / 15694 ( 90%)
+........................................................... 14278 / 15694 ( 90%)
+........................................................... 14337 / 15694 ( 91%)
+........................................................... 14396 / 15694 ( 91%)
+........................................................... 14455 / 15694 ( 92%)
+........................................................... 14514 / 15694 ( 92%)
+........................................................... 14573 / 15694 ( 92%)
+...................................................SSSSSSSS 14632 / 15694 ( 93%)
+SSSSSSSSSSSSSSSSSSSSSS...SS................................ 14691 / 15694 ( 93%)
+................SSS........S....................S........S. 14750 / 15694 ( 93%)
+........................................................... 14809 / 15694 ( 94%)
+........................................................... 14868 / 15694 ( 94%)
+........................................................... 14927 / 15694 ( 95%)
+........................................................... 14986 / 15694 ( 95%)
+........................................................... 15045 / 15694 ( 95%)
+........................................................... 15104 / 15694 ( 96%)
+........................................................... 15163 / 15694 ( 96%)
+........................................................... 15222 / 15694 ( 96%)
+........................................................... 15281 / 15694 ( 97%)
+........................................................... 15340 / 15694 ( 97%)
+........................................................... 15399 / 15694 ( 98%)
+........................................................... 15458 / 15694 ( 98%)
+........................................................... 15517 / 15694 ( 98%)
+........................................................... 15576 / 15694 ( 99%)
+........................................................... 15635 / 15694 ( 99%)
+........................................................... 15694 / 15694 (100%)
+
+
+Time: 1.31 hours, Memory: 723.00 MB
+
+There were 19 errors:
+
+1) core_admintree_testcase::test_adminroot_cache_reset
+Cannot modify header information - headers already sent by (output started at /data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/config.php:29)
+
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/question/type/regexp/db/mobile.php:27
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/admin/tool/mobile/classes/api.php:91
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/admin/tool/mobile/classes/api.php:374
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/admin/tool/mobile/settings.php:115
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/lib/classes/plugininfo/tool.php:81
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/admin/settings/plugins.php:622
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/lib/adminlib.php:8376
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/lib/tests/admintree_test.php:437
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "core_admintree_testcase" lib/tests/admintree_test.php
+
+2) core_session_redis_testcase::test_normal_session_start_stop_works
+PHPUnit\Framework\Exception: PHP Warning:  Use of undefined constant readonly - assumed 'readonly' (this will throw an Error in a future version of PHP) in /data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/config.php on line 29
+
+To re-run:
+ vendor/bin/phpunit "core_session_redis_testcase" lib/tests/session_redis_test.php
+
+3) core_session_redis_testcase::test_session_blocks_with_existing_session
+PHPUnit\Framework\Exception: PHP Warning:  Use of undefined constant readonly - assumed 'readonly' (this will throw an Error in a future version of PHP) in /data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/config.php on line 29
+
+To re-run:
+ vendor/bin/phpunit "core_session_redis_testcase" lib/tests/session_redis_test.php
+
+4) core_session_redis_testcase::test_session_is_destroyed_when_it_does_not_exist
+PHPUnit\Framework\Exception: PHP Warning:  Use of undefined constant readonly - assumed 'readonly' (this will throw an Error in a future version of PHP) in /data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/config.php on line 29
+
+To re-run:
+ vendor/bin/phpunit "core_session_redis_testcase" lib/tests/session_redis_test.php
+
+5) core_session_redis_testcase::test_session_is_destroyed_when_we_have_it_open
+PHPUnit\Framework\Exception: PHP Warning:  Use of undefined constant readonly - assumed 'readonly' (this will throw an Error in a future version of PHP) in /data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/config.php on line 29
+
+To re-run:
+ vendor/bin/phpunit "core_session_redis_testcase" lib/tests/session_redis_test.php
+
+6) core_session_redis_testcase::test_multiple_sessions_do_not_interfere_with_each_other
+PHPUnit\Framework\Exception: PHP Warning:  Use of undefined constant readonly - assumed 'readonly' (this will throw an Error in a future version of PHP) in /data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/config.php on line 29
+
+To re-run:
+ vendor/bin/phpunit "core_session_redis_testcase" lib/tests/session_redis_test.php
+
+7) core_session_redis_testcase::test_multiple_sessions_work_with_a_single_instance
+PHPUnit\Framework\Exception: PHP Warning:  Use of undefined constant readonly - assumed 'readonly' (this will throw an Error in a future version of PHP) in /data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/config.php on line 29
+
+To re-run:
+ vendor/bin/phpunit "core_session_redis_testcase" lib/tests/session_redis_test.php
+
+8) core_session_redis_testcase::test_session_exists_returns_valid_values
+PHPUnit\Framework\Exception: PHP Warning:  Use of undefined constant readonly - assumed 'readonly' (this will throw an Error in a future version of PHP) in /data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/config.php on line 29
+
+To re-run:
+ vendor/bin/phpunit "core_session_redis_testcase" lib/tests/session_redis_test.php
+
+9) core_session_redis_testcase::test_kill_sessions_removes_the_session_from_redis
+PHPUnit\Framework\Exception: PHP Warning:  Use of undefined constant readonly - assumed 'readonly' (this will throw an Error in a future version of PHP) in /data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/config.php on line 29
+
+To re-run:
+ vendor/bin/phpunit "core_session_redis_testcase" lib/tests/session_redis_test.php
+
+10) core_session_redis_testcase::test_exception_when_connection_attempts_exceeded
+PHPUnit\Framework\Exception: PHP Warning:  Use of undefined constant readonly - assumed 'readonly' (this will throw an Error in a future version of PHP) in /data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/config.php on line 29
+
+To re-run:
+ vendor/bin/phpunit "core_session_redis_testcase" lib/tests/session_redis_test.php
+
+11) outagelib_test::test_when_we_change_allowed_ips_in_settings_it_updates_the_templates
+Cannot modify header information - headers already sent by (output started at /data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/config.php:29)
+
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/question/type/regexp/db/mobile.php:27
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/admin/tool/mobile/classes/api.php:91
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/admin/tool/mobile/classes/api.php:374
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/admin/tool/mobile/settings.php:115
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/lib/classes/plugininfo/tool.php:81
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/admin/settings/plugins.php:622
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/lib/adminlib.php:8376
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/lib/adminlib.php:8471
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/auth/outage/tests/phpunit/local/outagelib_test.php:422
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "outagelib_test" auth/outage/tests/phpunit/local/outagelib_test.php
+
+12) outagelib_test::test_when_we_change_remove_selectors_in_settings_it_updates_the_templates
+Cannot modify header information - headers already sent by (output started at /data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/config.php:29)
+
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/question/type/regexp/db/mobile.php:27
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/admin/tool/mobile/classes/api.php:91
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/admin/tool/mobile/classes/api.php:374
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/admin/tool/mobile/settings.php:115
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/lib/classes/plugininfo/tool.php:81
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/admin/settings/plugins.php:622
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/lib/adminlib.php:8376
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/lib/adminlib.php:8471
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/auth/outage/tests/phpunit/local/outagelib_test.php:442
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "outagelib_test" auth/outage/tests/phpunit/local/outagelib_test.php
+
+13) block_quickmail_messenger_compose_testcase::test_messenger_sends_with_signature_appended
+Undefined offset: 0
+
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/blocks/quickmail/tests/unit/traits/sends_emails.php:59
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/blocks/quickmail/tests/unit/messenger_compose_test.php:300
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "block_quickmail_messenger_compose_testcase" blocks/quickmail/tests/unit/messenger_compose_test.php
+
+14) qtype_ddmatch_test::test_get_random_guess_score
+Undefined property: stdClass::$idnumber
+
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/question/type/questiontypebase.php:890
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/question/type/ddmatch/questiontype.php:119
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/question/type/questiontypebase.php:851
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/question/type/ddmatch/questiontype.php:159
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/question/type/ddmatch/tests/questiontype_test.php:119
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "qtype_ddmatch_test" question/type/ddmatch/tests/questiontype_test.php
+
+15) qtype_ddmatch_test::test_get_possible_responses
+Undefined property: stdClass::$idnumber
+
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/question/type/questiontypebase.php:890
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/question/type/ddmatch/questiontype.php:119
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/question/type/questiontypebase.php:851
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/question/type/ddmatch/questiontype.php:166
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/question/type/ddmatch/tests/questiontype_test.php:141
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "qtype_ddmatch_test" question/type/ddmatch/tests/questiontype_test.php
+
+16) qtype_ddmatch_walkthrough_test::test_interactive_correct_no_submit
+count(): Parameter must be an array or an object that implements Countable
+
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/lib/phpunit/classes/base_testcase.php:58
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/question/engine/tests/helpers.php:516
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/question/engine/tests/helpers.php:1024
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/question/type/ddmatch/tests/walkthrough_test.php:200
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "qtype_ddmatch_walkthrough_test" question/type/ddmatch/tests/walkthrough_test.php
+
+17) qtype_ddmatch_walkthrough_test::test_interactive_partial_no_submit
+count(): Parameter must be an array or an object that implements Countable
+
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/lib/phpunit/classes/base_testcase.php:58
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/question/engine/tests/helpers.php:516
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/question/engine/tests/helpers.php:1024
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/question/type/ddmatch/tests/walkthrough_test.php:252
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "qtype_ddmatch_walkthrough_test" question/type/ddmatch/tests/walkthrough_test.php
+
+18) qtype_ddmatch_walkthrough_test::test_interactive_with_invalid
+count(): Parameter must be an array or an object that implements Countable
+
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/lib/phpunit/classes/base_testcase.php:58
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/question/engine/tests/helpers.php:516
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/question/engine/tests/helpers.php:1024
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/question/type/ddmatch/tests/walkthrough_test.php:319
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "qtype_ddmatch_walkthrough_test" question/type/ddmatch/tests/walkthrough_test.php
+
+19) qtype_ddmatch_walkthrough_test::test_ddmatch_clear_wrong
+count(): Parameter must be an array or an object that implements Countable
+
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/lib/phpunit/classes/base_testcase.php:58
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/question/engine/tests/helpers.php:516
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/question/engine/tests/helpers.php:1024
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/question/type/ddmatch/tests/walkthrough_test.php:427
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "qtype_ddmatch_walkthrough_test" question/type/ddmatch/tests/walkthrough_test.php
+
+--
+
+There were 59 failures:
+
+1) core_dml_testcase::test_unique_index_collation_trouble
+Unique index is accent insensitive, this may cause problems for non-ascii languages. This is usually caused by accent insensitive default collation.
+
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/lib/dml/tests/dml_test.php:3885
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/lib/phpunit/classes/database_driver_testcase.php:143
+
+To re-run:
+ vendor/bin/phpunit "core_dml_testcase" lib/dml/tests/dml_test.php
+
+2) core_course_externallib_testcase::test_get_activities_overview
+Debugging: The function assign_print_overview() is now deprecated.
+* line 575 of /mod/assign/lib.php: call to debugging()
+* line 2959 of /course/externallib.php: call to assign_print_overview()
+* line 2228 of /course/tests/externallib_test.php: call to core_course_external::get_activities_overview()
+* line 1154 of /vendor/phpunit/phpunit/src/Framework/TestCase.php: call to core_course_externallib_testcase->test_get_activities_overview()
+* line 842 of /vendor/phpunit/phpunit/src/Framework/TestCase.php: call to PHPUnit\Framework\TestCase->runTest()
+* line 80 of /lib/phpunit/classes/advanced_testcase.php: call to PHPUnit\Framework\TestCase->runBare()
+* line 693 of /vendor/phpunit/phpunit/src/Framework/TestResult.php: call to advanced_testcase->runBare()
+* line 796 of /vendor/phpunit/phpunit/src/Framework/TestCase.php: call to PHPUnit\Framework\TestResult->run()
+* line 746 of /vendor/phpunit/phpunit/src/Framework/TestSuite.php: call to PHPUnit\Framework\TestCase->run()
+* line 746 of /vendor/phpunit/phpunit/src/Framework/TestSuite.php: call to PHPUnit\Framework\TestSuite->run()
+* line 746 of /vendor/phpunit/phpunit/src/Framework/TestSuite.php: call to PHPUnit\Framework\TestSuite->run()
+* line 652 of /vendor/phpunit/phpunit/src/TextUI/TestRunner.php: call to PHPUnit\Framework\TestSuite->run()
+* line 206 of /vendor/phpunit/phpunit/src/TextUI/Command.php: call to PHPUnit\TextUI\TestRunner->doRun()
+* line 162 of /vendor/phpunit/phpunit/src/TextUI/Command.php: call to PHPUnit\TextUI\Command->run()
+* line 61 of /vendor/phpunit/phpunit/phpunit: call to PHPUnit\TextUI\Command::main()
+Debugging: The function chat_print_overview() is now deprecated.
+* line 1149 of /mod/chat/lib.php: call to debugging()
+* line 2959 of /course/externallib.php: call to chat_print_overview()
+* line 2228 of /course/tests/externallib_test.php: call to core_course_external::get_activities_overview()
+* line 1154 of /vendor/phpunit/phpunit/src/Framework/TestCase.php: call to core_course_externallib_testcase->test_get_activities_overview()
+* line 842 of /vendor/phpunit/phpunit/src/Framework/TestCase.php: call to PHPUnit\Framework\TestCase->runTest()
+* line 80 of /lib/phpunit/classes/advanced_testcase.php: call to PHPUnit\Framework\TestCase->runBare()
+* line 693 of /vendor/phpunit/phpunit/src/Framework/TestResult.php: call to advanced_testcase->runBare()
+* line 796 of /vendor/phpunit/phpunit/src/Framework/TestCase.php: call to PHPUnit\Framework\TestResult->run()
+* line 746 of /vendor/phpunit/phpunit/src/Framework/TestSuite.php: call to PHPUnit\Framework\TestCase->run()
+* line 746 of /vendor/phpunit/phpunit/src/Framework/TestSuite.php: call to PHPUnit\Framework\TestSuite->run()
+* line 746 of /vendor/phpunit/phpunit/src/Framework/TestSuite.php: call to PHPUnit\Framework\TestSuite->run()
+* line 652 of /vendor/phpunit/phpunit/src/TextUI/TestRunner.php: call to PHPUnit\Framework\TestSuite->run()
+* line 206 of /vendor/phpunit/phpunit/src/TextUI/Command.php: call to PHPUnit\TextUI\TestRunner->doRun()
+* line 162 of /vendor/phpunit/phpunit/src/TextUI/Command.php: call to PHPUnit\TextUI\Command->run()
+* line 61 of /vendor/phpunit/phpunit/phpunit: call to PHPUnit\TextUI\Command::main()
+Debugging: The function choice_print_overview() is now deprecated.
+* line 940 of /mod/choice/lib.php: call to debugging()
+* line 2959 of /course/externallib.php: call to choice_print_overview()
+* line 2228 of /course/tests/externallib_test.php: call to core_course_external::get_activities_overview()
+* line 1154 of /vendor/phpunit/phpunit/src/Framework/TestCase.php: call to core_course_externallib_testcase->test_get_activities_overview()
+* line 842 of /vendor/phpunit/phpunit/src/Framework/TestCase.php: call to PHPUnit\Framework\TestCase->runTest()
+* line 80 of /lib/phpunit/classes/advanced_testcase.php: call to PHPUnit\Framework\TestCase->runBare()
+* line 693 of /vendor/phpunit/phpunit/src/Framework/TestResult.php: call to advanced_testcase->runBare()
+* line 796 of /vendor/phpunit/phpunit/src/Framework/TestCase.php: call to PHPUnit\Framework\TestResult->run()
+* line 746 of /vendor/phpunit/phpunit/src/Framework/TestSuite.php: call to PHPUnit\Framework\TestCase->run()
+* line 746 of /vendor/phpunit/phpunit/src/Framework/TestSuite.php: call to PHPUnit\Framework\TestSuite->run()
+* line 746 of /vendor/phpunit/phpunit/src/Framework/TestSuite.php: call to PHPUnit\Framework\TestSuite->run()
+* line 652 of /vendor/phpunit/phpunit/src/TextUI/TestRunner.php: call to PHPUnit\Framework\TestSuite->run()
+* line 206 of /vendor/phpunit/phpunit/src/TextUI/Command.php: call to PHPUnit\TextUI\TestRunner->doRun()
+* line 162 of /vendor/phpunit/phpunit/src/TextUI/Command.php: call to PHPUnit\TextUI\Command->run()
+* line 61 of /vendor/phpunit/phpunit/phpunit: call to PHPUnit\TextUI\Command::main()
+Debugging: The function forum_print_overview() is now deprecated.
+* line 621 of /mod/forum/lib.php: call to debugging()
+* line 2959 of /course/externallib.php: call to forum_print_overview()
+* line 2228 of /course/tests/externallib_test.php: call to core_course_external::get_activities_overview()
+* line 1154 of /vendor/phpunit/phpunit/src/Framework/TestCase.php: call to core_course_externallib_testcase->test_get_activities_overview()
+* line 842 of /vendor/phpunit/phpunit/src/Framework/TestCase.php: call to PHPUnit\Framework\TestCase->runTest()
+* line 80 of /lib/phpunit/classes/advanced_testcase.php: call to PHPUnit\Framework\TestCase->runBare()
+* line 693 of /vendor/phpunit/phpunit/src/Framework/TestResult.php: call to advanced_testcase->runBare()
+* line 796 of /vendor/phpunit/phpunit/src/Framework/TestCase.php: call to PHPUnit\Framework\TestResult->run()
+* line 746 of /vendor/phpunit/phpunit/src/Framework/TestSuite.php: call to PHPUnit\Framework\TestCase->run()
+* line 746 of /vendor/phpunit/phpunit/src/Framework/TestSuite.php: call to PHPUnit\Framework\TestSuite->run()
+* line 746 of /vendor/phpunit/phpunit/src/Framework/TestSuite.php: call to PHPUnit\Framework\TestSuite->run()
+* line 652 of /vendor/phpunit/phpunit/src/TextUI/TestRunner.php: call to PHPUnit\Framework\TestSuite->run()
+* line 206 of /vendor/phpunit/phpunit/src/TextUI/Command.php: call to PHPUnit\TextUI\TestRunner->doRun()
+* line 162 of /vendor/phpunit/phpunit/src/TextUI/Command.php: call to PHPUnit\TextUI\Command->run()
+* line 61 of /vendor/phpunit/phpunit/phpunit: call to PHPUnit\TextUI\Command::main()
+Debugging: The function forum_filter_user_groups_discussions() is now deprecated.
+* line 553 of /mod/forum/lib.php: call to debugging()
+* line 668 of /mod/forum/lib.php: call to forum_filter_user_groups_discussions()
+* line 2959 of /course/externallib.php: call to forum_print_overview()
+* line 2228 of /course/tests/externallib_test.php: call to core_course_external::get_activities_overview()
+* line 1154 of /vendor/phpunit/phpunit/src/Framework/TestCase.php: call to core_course_externallib_testcase->test_get_activities_overview()
+* line 842 of /vendor/phpunit/phpunit/src/Framework/TestCase.php: call to PHPUnit\Framework\TestCase->runTest()
+* line 80 of /lib/phpunit/classes/advanced_testcase.php: call to PHPUnit\Framework\TestCase->runBare()
+* line 693 of /vendor/phpunit/phpunit/src/Framework/TestResult.php: call to advanced_testcase->runBare()
+* line 796 of /vendor/phpunit/phpunit/src/Framework/TestCase.php: call to PHPUnit\Framework\TestResult->run()
+* line 746 of /vendor/phpunit/phpunit/src/Framework/TestSuite.php: call to PHPUnit\Framework\TestCase->run()
+* line 746 of /vendor/phpunit/phpunit/src/Framework/TestSuite.php: call to PHPUnit\Framework\TestSuite->run()
+* line 746 of /vendor/phpunit/phpunit/src/Framework/TestSuite.php: call to PHPUnit\Framework\TestSuite->run()
+* line 652 of /vendor/phpunit/phpunit/src/TextUI/TestRunner.php: call to PHPUnit\Framework\TestSuite->run()
+* line 206 of /vendor/phpunit/phpunit/src/TextUI/Command.php: call to PHPUnit\TextUI\TestRunner->doRun()
+* line 162 of /vendor/phpunit/phpunit/src/TextUI/Command.php: call to PHPUnit\TextUI\Command->run()
+* line 61 of /vendor/phpunit/phpunit/phpunit: call to PHPUnit\TextUI\Command::main()
+Debugging: The function hsuforum_print_overview() is now deprecated.
+* line 1468 of /mod/hsuforum/lib.php: call to debugging()
+* line 2959 of /course/externallib.php: call to hsuforum_print_overview()
+* line 2228 of /course/tests/externallib_test.php: call to core_course_external::get_activities_overview()
+* line 1154 of /vendor/phpunit/phpunit/src/Framework/TestCase.php: call to core_course_externallib_testcase->test_get_activities_overview()
+* line 842 of /vendor/phpunit/phpunit/src/Framework/TestCase.php: call to PHPUnit\Framework\TestCase->runTest()
+* line 80 of /lib/phpunit/classes/advanced_testcase.php: call to PHPUnit\Framework\TestCase->runBare()
+* line 693 of /vendor/phpunit/phpunit/src/Framework/TestResult.php: call to advanced_testcase->runBare()
+* line 796 of /vendor/phpunit/phpunit/src/Framework/TestCase.php: call to PHPUnit\Framework\TestResult->run()
+* line 746 of /vendor/phpunit/phpunit/src/Framework/TestSuite.php: call to PHPUnit\Framework\TestCase->run()
+* line 746 of /vendor/phpunit/phpunit/src/Framework/TestSuite.php: call to PHPUnit\Framework\TestSuite->run()
+* line 746 of /vendor/phpunit/phpunit/src/Framework/TestSuite.php: call to PHPUnit\Framework\TestSuite->run()
+* line 652 of /vendor/phpunit/phpunit/src/TextUI/TestRunner.php: call to PHPUnit\Framework\TestSuite->run()
+* line 206 of /vendor/phpunit/phpunit/src/TextUI/Command.php: call to PHPUnit\TextUI\TestRunner->doRun()
+* line 162 of /vendor/phpunit/phpunit/src/TextUI/Command.php: call to PHPUnit\TextUI\Command->run()
+* line 61 of /vendor/phpunit/phpunit/phpunit: call to PHPUnit\TextUI\Command::main()
+Debugging: The function lesson_print_overview() is now deprecated.
+* line 575 of /mod/lesson/lib.php: call to debugging()
+* line 2959 of /course/externallib.php: call to lesson_print_overview()
+* line 2228 of /course/tests/externallib_test.php: call to core_course_external::get_activities_overview()
+* line 1154 of /vendor/phpunit/phpunit/src/Framework/TestCase.php: call to core_course_externallib_testcase->test_get_activities_overview()
+* line 842 of /vendor/phpunit/phpunit/src/Framework/TestCase.php: call to PHPUnit\Framework\TestCase->runTest()
+* line 80 of /lib/phpunit/classes/advanced_testcase.php: call to PHPUnit\Framework\TestCase->runBare()
+* line 693 of /vendor/phpunit/phpunit/src/Framework/TestResult.php: call to advanced_testcase->runBare()
+* line 796 of /vendor/phpunit/phpunit/src/Framework/TestCase.php: call to PHPUnit\Framework\TestResult->run()
+* line 746 of /vendor/phpunit/phpunit/src/Framework/TestSuite.php: call to PHPUnit\Framework\TestCase->run()
+* line 746 of /vendor/phpunit/phpunit/src/Framework/TestSuite.php: call to PHPUnit\Framework\TestSuite->run()
+* line 746 of /vendor/phpunit/phpunit/src/Framework/TestSuite.php: call to PHPUnit\Framework\TestSuite->run()
+* line 652 of /vendor/phpunit/phpunit/src/TextUI/TestRunner.php: call to PHPUnit\Framework\TestSuite->run()
+* line 206 of /vendor/phpunit/phpunit/src/TextUI/Command.php: call to PHPUnit\TextUI\TestRunner->doRun()
+* line 162 of /vendor/phpunit/phpunit/src/TextUI/Command.php: call to PHPUnit\TextUI\Command->run()
+* line 61 of /vendor/phpunit/phpunit/phpunit: call to PHPUnit\TextUI\Command::main()
+Debugging: The function quiz_print_overview() is now deprecated.
+* line 1597 of /mod/quiz/lib.php: call to debugging()
+* line 2959 of /course/externallib.php: call to quiz_print_overview()
+* line 2228 of /course/tests/externallib_test.php: call to core_course_external::get_activities_overview()
+* line 1154 of /vendor/phpunit/phpunit/src/Framework/TestCase.php: call to core_course_externallib_testcase->test_get_activities_overview()
+* line 842 of /vendor/phpunit/phpunit/src/Framework/TestCase.php: call to PHPUnit\Framework\TestCase->runTest()
+* line 80 of /lib/phpunit/classes/advanced_testcase.php: call to PHPUnit\Framework\TestCase->runBare()
+* line 693 of /vendor/phpunit/phpunit/src/Framework/TestResult.php: call to advanced_testcase->runBare()
+* line 796 of /vendor/phpunit/phpunit/src/Framework/TestCase.php: call to PHPUnit\Framework\TestResult->run()
+* line 746 of /vendor/phpunit/phpunit/src/Framework/TestSuite.php: call to PHPUnit\Framework\TestCase->run()
+* line 746 of /vendor/phpunit/phpunit/src/Framework/TestSuite.php: call to PHPUnit\Framework\TestSuite->run()
+* line 746 of /vendor/phpunit/phpunit/src/Framework/TestSuite.php: call to PHPUnit\Framework\TestSuite->run()
+* line 652 of /vendor/phpunit/phpunit/src/TextUI/TestRunner.php: call to PHPUnit\Framework\TestSuite->run()
+* line 206 of /vendor/phpunit/phpunit/src/TextUI/Command.php: call to PHPUnit\TextUI\TestRunner->doRun()
+* line 162 of /vendor/phpunit/phpunit/src/TextUI/Command.php: call to PHPUnit\TextUI\Command->run()
+* line 61 of /vendor/phpunit/phpunit/phpunit: call to PHPUnit\TextUI\Command::main()
+Debugging: The function scorm_print_overview() is now deprecated.
+* line 1115 of /mod/scorm/lib.php: call to debugging()
+* line 2959 of /course/externallib.php: call to scorm_print_overview()
+* line 2228 of /course/tests/externallib_test.php: call to core_course_external::get_activities_overview()
+* line 1154 of /vendor/phpunit/phpunit/src/Framework/TestCase.php: call to core_course_externallib_testcase->test_get_activities_overview()
+* line 842 of /vendor/phpunit/phpunit/src/Framework/TestCase.php: call to PHPUnit\Framework\TestCase->runTest()
+* line 80 of /lib/phpunit/classes/advanced_testcase.php: call to PHPUnit\Framework\TestCase->runBare()
+* line 693 of /vendor/phpunit/phpunit/src/Framework/TestResult.php: call to advanced_testcase->runBare()
+* line 796 of /vendor/phpunit/phpunit/src/Framework/TestCase.php: call to PHPUnit\Framework\TestResult->run()
+* line 746 of /vendor/phpunit/phpunit/src/Framework/TestSuite.php: call to PHPUnit\Framework\TestCase->run()
+* line 746 of /vendor/phpunit/phpunit/src/Framework/TestSuite.php: call to PHPUnit\Framework\TestSuite->run()
+* line 746 of /vendor/phpunit/phpunit/src/Framework/TestSuite.php: call to PHPUnit\Framework\TestSuite->run()
+* line 652 of /vendor/phpunit/phpunit/src/TextUI/TestRunner.php: call to PHPUnit\Framework\TestSuite->run()
+* line 206 of /vendor/phpunit/phpunit/src/TextUI/Command.php: call to PHPUnit\TextUI\TestRunner->doRun()
+* line 162 of /vendor/phpunit/phpunit/src/TextUI/Command.php: call to PHPUnit\TextUI\Command->run()
+* line 61 of /vendor/phpunit/phpunit/phpunit: call to PHPUnit\TextUI\Command::main()
+
+Failed asserting that 9 matches expected 8.
+
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/lib/phpunit/classes/advanced_testcase.php:333
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/course/tests/externallib_test.php:2229
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "core_course_externallib_testcase" course/tests/externallib_test.php
+
+3) provider_testcase::test_all_providers_compliant with data set "qtype_ddmatch" ('qtype_ddmatch', 'qtype_ddmatch\privacy\provider')
+Failed asserting that false is true.
+
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/privacy/tests/provider_test.php:178
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "provider_testcase" privacy/tests/provider_test.php
+
+4) provider_testcase::test_all_providers_compliant with data set "qtype_jme" ('qtype_jme', 'qtype_jme\privacy\provider')
+Failed asserting that false is true.
+
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/privacy/tests/provider_test.php:178
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "provider_testcase" privacy/tests/provider_test.php
+
+5) provider_testcase::test_all_providers_compliant with data set "mod_aspirelist" ('mod_aspirelist', 'mod_aspirelist\privacy\provider')
+Failed asserting that false is true.
+
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/privacy/tests/provider_test.php:178
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "provider_testcase" privacy/tests/provider_test.php
+
+6) provider_testcase::test_all_providers_compliant with data set "mod_helixmedia" ('mod_helixmedia', 'mod_helixmedia\privacy\provider')
+Failed asserting that false is true.
+
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/privacy/tests/provider_test.php:178
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "provider_testcase" privacy/tests/provider_test.php
+
+7) provider_testcase::test_all_providers_compliant with data set "enrol_dbuserrel" ('enrol_dbuserrel', 'enrol_dbuserrel\privacy\provider')
+Failed asserting that false is true.
+
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/privacy/tests/provider_test.php:178
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "provider_testcase" privacy/tests/provider_test.php
+
+8) provider_testcase::test_all_providers_compliant with data set "block_course_visibility" ('block_course_visibility', 'block_course_visibility\priva...ovider')
+Failed asserting that false is true.
+
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/privacy/tests/provider_test.php:178
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "provider_testcase" privacy/tests/provider_test.php
+
+9) provider_testcase::test_all_providers_compliant with data set "block_library_resources" ('block_library_resources', 'block_library_resources\priva...ovider')
+Failed asserting that false is true.
+
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/privacy/tests/provider_test.php:178
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "provider_testcase" privacy/tests/provider_test.php
+
+10) provider_testcase::test_all_providers_compliant with data set "block_library_search" ('block_library_search', 'block_library_search\privacy\provider')
+Failed asserting that false is true.
+
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/privacy/tests/provider_test.php:178
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "provider_testcase" privacy/tests/provider_test.php
+
+11) provider_testcase::test_all_providers_compliant with data set "block_portico_enrolments" ('block_portico_enrolments', 'block_portico_enrolments\priv...ovider')
+Failed asserting that false is true.
+
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/privacy/tests/provider_test.php:178
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "provider_testcase" privacy/tests/provider_test.php
+
+12) provider_testcase::test_all_providers_compliant with data set "block_quickmail" ('block_quickmail', 'block_quickmail\privacy\provider')
+Failed asserting that false is true.
+
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/privacy/tests/provider_test.php:178
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "provider_testcase" privacy/tests/provider_test.php
+
+13) provider_testcase::test_all_providers_compliant with data set "block_timetable" ('block_timetable', 'block_timetable\privacy\provider')
+Failed asserting that false is true.
+
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/privacy/tests/provider_test.php:178
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "provider_testcase" privacy/tests/provider_test.php
+
+14) provider_testcase::test_all_providers_compliant with data set "report_filetrash" ('report_filetrash', 'report_filetrash\privacy\provider')
+Failed asserting that false is true.
+
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/privacy/tests/provider_test.php:178
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "provider_testcase" privacy/tests/provider_test.php
+
+15) provider_testcase::test_all_providers_compliant with data set "gradereport_myfeedbacklink" ('gradereport_myfeedbacklink', 'gradereport_myfeedbacklink\pr...ovider')
+Failed asserting that false is true.
+
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/privacy/tests/provider_test.php:178
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "provider_testcase" privacy/tests/provider_test.php
+
+16) provider_testcase::test_all_providers_compliant with data set "qformat_hotpot" ('qformat_hotpot', 'qformat_hotpot\privacy\provider')
+Failed asserting that false is true.
+
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/privacy/tests/provider_test.php:178
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "provider_testcase" privacy/tests/provider_test.php
+
+17) provider_testcase::test_all_providers_compliant with data set "assignsubmission_helixassign" ('assignsubmission_helixassign', 'assignsubmission_helixassign\...ovider')
+Failed asserting that false is true.
+
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/privacy/tests/provider_test.php:178
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "provider_testcase" privacy/tests/provider_test.php
+
+18) provider_testcase::test_all_providers_compliant with data set "assignfeedback_helixfeedback" ('assignfeedback_helixfeedback', 'assignfeedback_helixfeedback\...ovider')
+Failed asserting that false is true.
+
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/privacy/tests/provider_test.php:178
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "provider_testcase" privacy/tests/provider_test.php
+
+19) provider_testcase::test_all_providers_compliant with data set "atto_fontsize" ('atto_fontsize', 'atto_fontsize\privacy\provider')
+Failed asserting that false is true.
+
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/privacy/tests/provider_test.php:178
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "provider_testcase" privacy/tests/provider_test.php
+
+20) provider_testcase::test_all_providers_compliant with data set "atto_helixatto" ('atto_helixatto', 'atto_helixatto\privacy\provider')
+Failed asserting that false is true.
+
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/privacy/tests/provider_test.php:178
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "provider_testcase" privacy/tests/provider_test.php
+
+21) provider_testcase::test_all_providers_compliant with data set "atto_pastespecial" ('atto_pastespecial', 'atto_pastespecial\privacy\provider')
+Failed asserting that false is true.
+
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/privacy/tests/provider_test.php:178
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "provider_testcase" privacy/tests/provider_test.php
+
+22) provider_testcase::test_all_providers_compliant with data set "local_hub" ('local_hub', 'local_hub\privacy\provider')
+Failed asserting that false is true.
+
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/privacy/tests/provider_test.php:178
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "provider_testcase" privacy/tests/provider_test.php
+
+23) provider_testcase::test_all_providers_compliant with data set "local_mass_enroll" ('local_mass_enroll', 'local_mass_enroll\privacy\provider')
+Failed asserting that false is true.
+
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/privacy/tests/provider_test.php:178
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "provider_testcase" privacy/tests/provider_test.php
+
+24) provider_testcase::test_all_providers_compliant with data set "local_repositoryfileupload" ('local_repositoryfileupload', 'local_repositoryfileupload\pr...ovider')
+Failed asserting that false is true.
+
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/privacy/tests/provider_test.php:178
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "provider_testcase" privacy/tests/provider_test.php
+
+25) provider_testcase::test_all_providers_compliant with data set "local_testaccount_automation" ('local_testaccount_automation', 'local_testaccount_automation\...ovider')
+Failed asserting that false is true.
+
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/privacy/tests/provider_test.php:178
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "provider_testcase" privacy/tests/provider_test.php
+
+26) provider_testcase::test_all_providers_compliant with data set "local_ucl_tools" ('local_ucl_tools', 'local_ucl_tools\privacy\provider')
+Failed asserting that false is true.
+
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/privacy/tests/provider_test.php:178
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "provider_testcase" privacy/tests/provider_test.php
+
+27) provider_testcase::test_all_providers_compliant with data set "local_userprofilefields_import" ('local_userprofilefields_import', 'local_userprofilefields_impor...ovider')
+Failed asserting that false is true.
+
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/privacy/tests/provider_test.php:178
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "provider_testcase" privacy/tests/provider_test.php
+
+28) provider_testcase::test_userdata_provider_implements_userlist with data set "mod_hotquestion" ('mod_hotquestion', 'mod_hotquestion\privacy\provider')
+Failed asserting that false is true.
+
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/privacy/tests/provider_test.php:212
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "provider_testcase" privacy/tests/provider_test.php
+
+29) provider_testcase::test_userdata_provider_implements_userlist with data set "mod_hvp" ('mod_hvp', 'mod_hvp\privacy\provider')
+Failed asserting that false is true.
+
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/privacy/tests/provider_test.php:212
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "provider_testcase" privacy/tests/provider_test.php
+
+30) provider_testcase::test_userdata_provider_implements_userlist with data set "mod_turnitintooltwo" ('mod_turnitintooltwo', 'mod_turnitintooltwo\privacy\provider')
+Failed asserting that false is true.
+
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/privacy/tests/provider_test.php:212
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "provider_testcase" privacy/tests/provider_test.php
+
+31) provider_testcase::test_userdata_provider_implements_userlist with data set "report_myfeedback" ('report_myfeedback', 'report_myfeedback\privacy\provider')
+Failed asserting that false is true.
+
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/privacy/tests/provider_test.php:212
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "provider_testcase" privacy/tests/provider_test.php
+
+32) provider_testcase::test_table_coverage
+The following tables with user fields must be covered with metadata providers: 
+  - block_admin_presets (userid)
+  - block_admin_presets_app (userid)
+  - block_quickmail_signatures (user_id)
+  - block_quickmail_messages (user_id)
+  - block_quickmail_msg_recips (user_id)
+  - block_quickmail_alt_emails (setup_user_id, user_id)
+  - block_quickmail_notifs (user_id)
+  - block_quickmail_event_notifs (usermodified)
+  - block_quickmail_rem_notifs (usermodified)
+  - block_quickmail_event_recips (user_id)
+  - report_filetrash (userid)
+  - plagiarism_turnitin_users (userid)
+
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/privacy/tests/provider_test.php:327
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "provider_testcase" privacy/tests/provider_test.php
+
+33) block_quickmail_draft_repo_testcase::test_sorts_get_for_user
+Failed asserting that '226000' matches expected 144000.
+
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/blocks/quickmail/tests/unit/draft_repo_test.php:167
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "block_quickmail_draft_repo_testcase" blocks/quickmail/tests/unit/draft_repo_test.php
+
+34) block_quickmail_draft_repo_testcase::test_sorts_get_for_user_and_course
+Failed asserting that '226000' matches expected 144000.
+
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/blocks/quickmail/tests/unit/draft_repo_test.php:243
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "block_quickmail_draft_repo_testcase" blocks/quickmail/tests/unit/draft_repo_test.php
+
+35) block_quickmail_edit_reminder_notification_form_validator_testcase::test_validate_schedule_time_unit_is_valid_for_reminder_notifications
+Failed asserting that false is true.
+
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/blocks/quickmail/tests/unit/edit_reminder_notification_form_validator_test.php:47
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "block_quickmail_edit_reminder_notification_form_validator_testcase" blocks/quickmail/tests/unit/edit_reminder_notification_form_validator_test.php
+
+36) block_quickmail_edit_reminder_notification_form_validator_testcase::test_validate_schedule_time_amount_is_valid_for_reminder_notifications
+Failed asserting that false is true.
+
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/blocks/quickmail/tests/unit/edit_reminder_notification_form_validator_test.php:74
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "block_quickmail_edit_reminder_notification_form_validator_testcase" blocks/quickmail/tests/unit/edit_reminder_notification_form_validator_test.php
+
+37) block_quickmail_event_notification_assignment_submitted_model_testcase::test_model_key_is_available
+Failed asserting that an array contains 'assignment_submitted'.
+
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/blocks/quickmail/tests/unit/event_notification_assignment_submitted_model_test.php:42
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "block_quickmail_event_notification_assignment_submitted_model_testcase" blocks/quickmail/tests/unit/event_notification_assignment_submitted_model_test.php
+
+38) block_quickmail_parses_compose_message_body_testcase::test_replaces_message_recipient_compose_message_body_with_user_data
+Failed asserting that two strings are equal.
+--- Expected
++++ Actual
+@@ @@
+-'Hey there Leah. Don't I know you? Your last name is Weber, right? In fact, I believe that your full name is Leah Weber. Your middle name must be Даниил, but we will call you Leah. Is your email still student1@example.com?'
++'Hey there Leah.\n
++                      Don't I know you? Your last name is Weber, right?\n
++                      In fact, I believe that your full name is Leah Weber.\n
++                      Your middle name must be Даниил, but we will call you Leah.\n
++                      Is your email still student1@example.com?'
+
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/blocks/quickmail/tests/unit/formats_message_recipient_compose_message_body_test.php:59
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "block_quickmail_parses_compose_message_body_testcase" blocks/quickmail/tests/unit/formats_message_recipient_compose_message_body_test.php
+
+39) block_quickmail_parses_compose_message_body_testcase::test_replaces_message_recipient_compose_message_body_with_course_data
+Failed asserting that two strings are equal.
+--- Expected
++++ Actual
+@@ @@
+-'Welcome to Test course 1! Let's shorten the name to tc_1 if that's ok with you. The ID number will remain as  though. If I had to summarize this course, I'd say it would be: Test course 1\n
++'Welcome to Test course 1! Let's shorten the name to tc_1 if that's ok with you.\n
++                          The ID number will remain as  though.\n
++                          If I had to summarize this course, I'd say it would be: Test course 1\n
+ Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nulla non arcu lacinia neque faucibus fringilla. Vivamus porttitor turpis ac leo. Integer in sapien. Nullam eget nisl. Aliquam erat volutpat. Cras elementum. Mauris suscipit, ligula sit amet pharetra semper, nibh ante cursus purus, vel sagittis velit mauris vel metus. Integer malesuada. Nullam lectus justo, vulputate eget mollis sed, tempor sed magna. Mauris elementum mauris vitae tortor. Aliquam erat volutpat.\n
+ Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Pellentesque ipsum. Cras pede libero, dapibus nec, pretium sit amet, tempor quis. Aliquam ante. Proin in tellus sit amet nibh dignissim sagittis. Vivamus porttitor turpis ac leo. Duis bibendum, lectus ut viverra rhoncus, dolor nunc faucibus libero, eget facilisis enim ipsum id lacus. In sem justo, commodo ut, suscipit at, pharetra vitae, orci. Aliquam erat volutpat. Nulla est.\n
+ Vivamus luctus egestas leo. Aenean fermentum risus id tortor. Mauris dictum facilisis augue. Aliquam erat volutpat. Aliquam ornare wisi eu metus. Aliquam id dolor. Duis condimentum augue id magna semper rutrum. Donec iaculis gravida nulla. Pellentesque ipsum. Etiam dictum tincidunt diam. Quisque tincidunt scelerisque libero. Etiam egestas wisi a erat.\n
+ Integer lacinia. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris tincidunt sem sed arcu. Nullam feugiat, turpis at pulvinar vulputate, erat libero tristique tellus, nec bibendum odio risus sit amet ante. Aliquam id dolor. Maecenas sollicitudin. Et harum quidem rerum facilis est et expedita distinctio. Mauris suscipit, ligula sit amet pharetra semper, nibh ante cursus purus, vel sagittis velit mauris vel metus. Nullam dapibus fermentum ipsum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Pellentesque sapien. Duis risus. Mauris elementum mauris vitae tortor. Suspendisse nisl. Integer rutrum, orci vestibulum ullamcorper ultricies, lacus quam ultricies odio, vitae placerat pede sem sit amet enim.\n
+-In laoreet, magna id viverra tincidunt, sem odio bibendum justo, vel imperdiet sapien wisi sed libero. Proin pede metus, vulputate nec, fermentum fringilla, vehicula vitae, justo. Nullam justo enim, consectetuer nec, ullamcorper ac, vestibulum in, elit. Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Maecenas lorem. Etiam posuere lacus quis dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Curabitur ligula sapien, pulvinar a vestibulum quis, facilisis vel sapien. Nam sed tellus id magna elementum tincidunt. Suspendisse nisl. Vivamus luctus egestas leo. Nulla non arcu lacinia neque faucibus fringilla. Etiam dui sem, fermentum vitae, sagittis id, malesuada in, quam. Etiam dictum tincidunt diam. Etiam commodo dui eget wisi. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Proin pede metus, vulputate nec, fermentum fringilla, vehicula vitae, justo. Duis ante orci, molestie vitae vehicula venenatis, tincidunt ac pede. Pellentesque sapien.. You can always access the course online by going to https://www.example.com/moodle/course/view.php?id=160000. The course will begin on April 30, 2020 and end on Never. Do we have a mutual understanding?'
++In laoreet, magna id viverra tincidunt, sem odio bibendum justo, vel imperdiet sapien wisi sed libero. Proin pede metus, vulputate nec, fermentum fringilla, vehicula vitae, justo. Nullam justo enim, consectetuer nec, ullamcorper ac, vestibulum in, elit. Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Maecenas lorem. Etiam posuere lacus quis dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Curabitur ligula sapien, pulvinar a vestibulum quis, facilisis vel sapien. Nam sed tellus id magna elementum tincidunt. Suspendisse nisl. Vivamus luctus egestas leo. Nulla non arcu lacinia neque faucibus fringilla. Etiam dui sem, fermentum vitae, sagittis id, malesuada in, quam. Etiam dictum tincidunt diam. Etiam commodo dui eget wisi. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Proin pede metus, vulputate nec, fermentum fringilla, vehicula vitae, justo. Duis ante orci, molestie vitae vehicula venenatis, tincidunt ac pede. Pellentesque sapien..\n
++                          You can always access the course online by going to https://www.example.com/moodle/course/view.php?id=160000.\n
++                          The course will begin on April 30, 2020 and end on Never.\n
++                          Do we have a mutual understanding?'
+
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/blocks/quickmail/tests/unit/formats_message_recipient_compose_message_body_test.php:90
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "block_quickmail_parses_compose_message_body_testcase" blocks/quickmail/tests/unit/formats_message_recipient_compose_message_body_test.php
+
+40) block_quickmail_message_persistent_testcase::test_getters
+Failed asserting that two strings are equal.
+--- Expected
++++ Actual
+@@ @@
+-'2020-04-30 10:49 pm'
++'30 April 2020, 10:49 PM'
+
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/blocks/quickmail/tests/unit/message_persistent_test.php:91
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "block_quickmail_message_persistent_testcase" blocks/quickmail/tests/unit/message_persistent_test.php
+
+41) block_quickmail_messenger_compose_testcase::test_messenger_sends_composed_email_now
+Failed asserting that 0 matches expected 4.
+
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/blocks/quickmail/tests/unit/messenger_compose_test.php:63
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "block_quickmail_messenger_compose_testcase" blocks/quickmail/tests/unit/messenger_compose_test.php
+
+42) block_quickmail_messenger_compose_testcase::test_messenger_sends_composed_email_including_mentors_now
+Failed asserting that 0 matches expected 5.
+
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/blocks/quickmail/tests/unit/messenger_compose_test.php:96
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "block_quickmail_messenger_compose_testcase" blocks/quickmail/tests/unit/messenger_compose_test.php
+
+43) block_quickmail_messenger_compose_testcase::test_messenger_sends_composed_message_now
+Failed asserting that 0 matches expected 4.
+
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/blocks/quickmail/tests/unit/messenger_compose_test.php:146
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "block_quickmail_messenger_compose_testcase" blocks/quickmail/tests/unit/messenger_compose_test.php
+
+44) block_quickmail_messenger_compose_testcase::test_skips_invalid_user_ids_when_sending
+Failed asserting that 0 matches expected 1.
+
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/blocks/quickmail/tests/unit/messenger_compose_test.php:171
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "block_quickmail_messenger_compose_testcase" blocks/quickmail/tests/unit/messenger_compose_test.php
+
+45) block_quickmail_messenger_compose_testcase::test_messenger_sends_to_additional_emails
+Failed asserting that 3 matches expected 7.
+
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/blocks/quickmail/tests/unit/messenger_compose_test.php:227
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "block_quickmail_messenger_compose_testcase" blocks/quickmail/tests/unit/messenger_compose_test.php
+
+46) block_quickmail_messenger_compose_testcase::test_messenger_sends_a_receipt_if_asked
+Failed asserting that 1 matches expected 5.
+
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/blocks/quickmail/tests/unit/messenger_compose_test.php:258
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "block_quickmail_messenger_compose_testcase" blocks/quickmail/tests/unit/messenger_compose_test.php
+
+47) block_quickmail_messenger_drafting_testcase::test_messenger_saves_draft_email
+Failed asserting that actual size 0 matches expected size 4.
+
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/blocks/quickmail/tests/unit/messenger_drafting_test.php:66
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "block_quickmail_messenger_drafting_testcase" blocks/quickmail/tests/unit/messenger_drafting_test.php
+
+48) block_quickmail_persistent_concerns_testcase::test_get_readable_date
+Failed asserting that two strings are equal.
+--- Expected
++++ Actual
+@@ @@
+-'2020-04-30 10:49 pm'
++'30 April 2020, 10:49 PM'
+
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/blocks/quickmail/tests/unit/persistent_concerns_test.php:88
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "block_quickmail_persistent_concerns_testcase" blocks/quickmail/tests/unit/persistent_concerns_test.php
+
+49) block_quickmail_queue_scheduled_notifications_task_testcase::test_send_all_ready_messages_task_sends_messages
+Failed asserting that 0 matches expected 8.
+
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/blocks/quickmail/tests/unit/queue_scheduled_notifications_task_test.php:67
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "block_quickmail_queue_scheduled_notifications_task_testcase" blocks/quickmail/tests/unit/queue_scheduled_notifications_task_test.php
+
+50) block_quickmail_run_schedulable_notification_adhoc_task_testcase::test_runs_scheduled_via_adhoc_task
+Failed asserting that 0 matches expected 4.
+
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/blocks/quickmail/tests/unit/run_schedulable_notification_adhoc_task_test.php:84
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "block_quickmail_run_schedulable_notification_adhoc_task_testcase" blocks/quickmail/tests/unit/run_schedulable_notification_adhoc_task_test.php
+
+51) block_quickmail_schedulable_testcase::test_increments_next_run_time_for_non_expired_schedule
+Failed asserting that 1526778000 matches expected 1526776200.
+
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/blocks/quickmail/tests/unit/schedulable_test.php:124
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "block_quickmail_schedulable_testcase" blocks/quickmail/tests/unit/schedulable_test.php
+
+52) block_quickmail_schedule_persistent_testcase::test_calculates_next_time_from_timestamp_for_active_schedule
+Failed asserting that 1588863005 matches expected null.
+
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/blocks/quickmail/tests/unit/schedule_persistent_test.php:118
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "block_quickmail_schedule_persistent_testcase" blocks/quickmail/tests/unit/schedule_persistent_test.php
+
+53) block_quickmail_send_all_ready_messages_task_testcase::test_send_all_ready_messages_task_sends_messages
+Failed asserting that 0 matches expected 16.
+
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/blocks/quickmail/tests/unit/send_all_ready_messages_task_test.php:62
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "block_quickmail_send_all_ready_messages_task_testcase" blocks/quickmail/tests/unit/send_all_ready_messages_task_test.php
+
+54) block_quickmail_send_message_adhoc_task_testcase::test_send_message_adhoc_task_sends
+Failed asserting that 0 matches expected 4.
+
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/blocks/quickmail/tests/unit/send_message_adhoc_task_test.php:79
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "block_quickmail_send_message_adhoc_task_testcase" blocks/quickmail/tests/unit/send_message_adhoc_task_test.php
+
+55) block_quickmail_sent_repo_testcase::test_sorts_get_for_user
+Failed asserting that '226000' matches expected 144000.
+
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/blocks/quickmail/tests/unit/sent_repo_test.php:93
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "block_quickmail_sent_repo_testcase" blocks/quickmail/tests/unit/sent_repo_test.php
+
+56) block_quickmail_sent_repo_testcase::test_sorts_get_for_user_and_course
+Failed asserting that '226000' matches expected 144000.
+
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/blocks/quickmail/tests/unit/sent_repo_test.php:169
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "block_quickmail_sent_repo_testcase" blocks/quickmail/tests/unit/sent_repo_test.php
+
+57) mod_attendance_external_testcase::test_get_session_with_group
+Failed asserting that two strings are equal.
+--- Expected
++++ Actual
+@@ @@
+-'372000'
++'0'
+
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/mod/attendance/tests/externallib_test.php:201
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "mod_attendance_external_testcase" mod/attendance/tests/externallib_test.php
+
+58) qformat_wordtable_export_test::test_export_description
+Failed asserting that two strings are equal.
+--- Expected
++++ Actual
+@@ @@
+ <tr>\n
+ <td colspan="3" style="width: 12.0cm"><p class="Cell">The question text.</p></td>\n
+ <td style="width: 1.0cm"><p class="QFType">DE</p></td></tr>\n
++\n
++<tr>\n
++<td colspan="3" style="width: 12.0cm"><p class="TableRowHead" style="text-align: right">ID number:</p></td>\n
++<td style="width: 1.0cm"><p class="QFID"></p></td></tr>\n
+ <tr>\n
+ <td style="width: 1.0cm"><p class="Cell"></p></td>\n
+ <td style="width: 5.0cm"><p class="TableHead"></p></td>\n
+
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/question/format/wordtable/tests/wordtableformat_test.php:62
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/question/format/wordtable/tests/wordtableformat_test.php:116
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "qformat_wordtable_export_test" question/format/wordtable/tests/wordtableformat_test.php
+
+59) qformat_wordtable_export_test::test_export_essay29
+Failed asserting that two strings are equal.
+--- Expected
++++ Actual
+@@ @@
+ <tr>\n
+ <td colspan="3" style="width: 12.0cm"><p class="TableRowHead" style="text-align: right">Require attachments:</p></td>\n
+ <td style="width: 1.0cm"><p class="Cell">0</p></td></tr>\n
++\n
+ <tr>\n
++<td colspan="3" style="width: 12.0cm"><p class="TableRowHead" style="text-align: right">ID number:</p></td>\n
++<td style="width: 1.0cm"><p class="QFID"></p></td></tr>\n
++<tr>\n
+ <td style="width: 1.0cm"><p class="Cell"></p></td>\n
+ <td style="width: 5.0cm"><p class="TableHead">Response template</p></td>\n
+ <td style="width: 6.0cm"><p class="TableHead">Information for graders</p></td>\n
+@@ @@
+ <td style="width: 6.0cm"><p class="Cell"></p></td>\n
+ <td style="width: 1.0cm"><p class="Cell"></p></td></tr>\n
+ <tr>\n
+-<td colspan="3" style="width: 12.0cm"><p class="Cell"><i>Allows a response of a few sentences or paragraphs. This must then be graded manually.</i></p></td>\n
++<td colspan="3" style="width: 12.0cm"><p class="Cell"><i>Allows a response of a file upload and/or online text. This must then be graded manually.</i></p></td>\n
+ <td style="width: 1.0cm"><p class="Cell"></p></td></tr>\n
+ </tbody></table></div><p class="MsoNormal"></p>\n
+   </body>\n
+ </html>\n
+ '
+
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/question/format/wordtable/tests/wordtableformat_test.php:62
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/question/format/wordtable/tests/wordtableformat_test.php:203
+/data/apache/htdocs/moodle/moodlesite-375-release-March-2020_dk/lib/phpunit/classes/advanced_testcase.php:80
+
+To re-run:
+ vendor/bin/phpunit "qformat_wordtable_export_test" question/format/wordtable/tests/wordtableformat_test.php
+
+ERRORS!
+Tests: 15694, Assertions: 148396, Errors: 19, Failures: 59, Skipped: 100.

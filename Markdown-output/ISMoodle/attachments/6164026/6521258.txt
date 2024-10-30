@@ -1,0 +1,14 @@
+Moodle Course Categories excluded from this query:
+
++-----+----------------------------------------+-----------------------------------------------------------------------------------------------+
+| id  | name                                   | description                                                                                   |
++-----+----------------------------------------+-----------------------------------------------------------------------------------------------+
+|  13 | Moodle Support and Training            |                                                                                               | 
+|  36 | Test Courses                           |                                                                                               | 
+| 112 | VLE Assistants                         | NULL                                                                                          | 
+| 114 | VLE Assistants (finished)              | NULL                                                                                          | 
+| 118 | Restored courses                       | NULL                                                                                          | 
+| 253 | To Delete                              | Place temporary courses used for testing in here, so they can be easily deleted at any time.  | 
+| 259 | Getting Started with Quizzes in Moodle |                                                                                               | 
+| 261 | Training Course Working Folder         |                                                                                               | 
++-----+----------------------------------------+-----------------------------------------------------------------------------------------------+

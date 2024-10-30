@@ -1,0 +1,20 @@
+# Deployment
+
+-   [Archive and year-end process - actions required](Archive_and_year-end_process_-_actions_required)
+-   [Continuous Integration quick off](Continuous_Integration_quick_off)
+-   [Create Moodle snapshot/archive 2015/16](Create_Moodle_snapshot_archive_2015_16)
+-   [Creating a dev instance of moodle](Creating_a_dev_instance_of_moodle)
+-   [creating moodle-dev from live](creating_moodle-dev_from_live)
+-   [Deployments](Deployments)
+-   [Initial creation of Moodle repository](Initial_creation_of_Moodle_repository)
+-   [Moodle archive/snapshot preparation - create readonly roles](Moodle_archive_snapshot_preparation_-_create_readonly_roles)
+-   [Moodle archive preparation guidelines - OLD](Moodle_archive_preparation_guidelines_-_OLD)
+-   [Moodle-Behat-Jenkins integration](Moodle-Behat-Jenkins_integration)
+-   [Moodle Continuous Integration](Moodle_Continuous_Integration)
+-   [Moodle - CR00002179 - Analytics change](Moodle_-_CR00002179_-_Analytics_change)
+-   [Moodle dev/uat/PP post process](Moodle_dev_uat_PP_post_process)
+-   [Moodle dev/uat post process](Moodle_dev_uat_post_process)
+-   [Moodle Development Workflow](Moodle_Development_Workflow)
+-   [Moodle Environments Usage Track](Moodle_Environments_Usage_Track)
+-   [Moodle new build - Git deployment](Moodle_new_build_-_Git_deployment)
+

@@ -1,0 +1,357 @@
+DATA IMPORT PROCESS [TO BE]
+
+
+
+IMPORT FROM SITS
+
+  Import all Faculties
+    - get all the faculties with active students associated
+
+      SELECT DISTINCT fac_code faculty_code, fac_name faculty_name
+      FROM ucl_sits_mv_moodle_students
+      WHERE fac_code is not null
+      AND fac_name is not null
+
+
+  Import all Departments
+    - get all the departments with active students associated, includes reference to faculty
+    - nulls okay for faculty (NFA has no faculty)
+
+      SELECT DISTINCT dpt_code department_code, dpt_name department_name, fac_code faculty_code
+      FROM ucl_sits_mv_moodle_students
+      WHERE dpt_code is not null
+      AND dpt_name is not null
+
+
+  Import all Programmes
+    - get all the programmes which have a student enrolled, includes reference to owning department
+    - nulls not okay for dept (dev data seems to have some - these to be filtered out?)
+
+      SELECT DISTINCT prg_code programme_code, prg_name programme_name, dpt_code department_code
+      FROM ucl_sits_mv_moodle_students
+      WHERE prg_code is not null
+      AND prg_name is not null
+      AND dpt_code is null
+    
+
+  Import all Routes
+    - gets all routes with students, includes reference to programme
+    - nulls not okay for programme or department
+
+      SELECT DISTINCT rou_code route_code, rou_name route_name, prg_code programme_code, dpt_code department_code
+      FROM ucl_sits_mv_moodle_students
+      WHERE rou_code is not null
+      AND rou_name is not null
+      AND prg_code is not null
+      AND dpt_code is not null
+
+
+  Import all Modules
+    - get all modules selected by a student, includes a reference to owning department
+
+      SELECT DISTINCT mod_code module_code, mav_name module_name, dpt_code
+      FROM ucl_sits_mv_moodle_mod_reg
+      WHERE mod_code is not null
+      AND mav_name is not null
+      AND dpt_code is not null
+
+
+  Import all Assignments
+    - get all the student route, programme, dept details (inc year and ugpg level)
+    - needs to include faculty (despite mapping above) as this is needed for mappings and needs to be preserved even if lost in the source
+
+      SELECT stu_code student_code, rou_code route_code, prg_code programme_code,
+             dpt_code department_code, fac_code faculty_code, pu post_undergrad, sce_blok course_year
+      FROM ucl_sits_mv_moodle_students
+
+
+  Import all Memberships
+    - get all student module selections (inc selection status and record type)
+    - needs dpt_code (despite mapping) to keep a record of the department for moodle mapping, in case module moves department in sits
+
+      SELECT spr_stuc student_code, mod_code module_code, dpt_code department_code, status, smo_sms
+      FROM ucl_sits_mv_moodle_mod_reg
+
+
+  Import all Students
+    - get all the students basic personal details,
+    - the name needs to be cast as AL32UTF8 at the PHP end as this is the encoding used by the connection
+
+      SELECT stu_code student_code, mua_extu username, mst_code upi,
+             utl_raw.cast_to_raw(convert(stu_fnm1, 'AL32UTF8')) firstname,
+             utl_raw.cast_to_raw(convert(stu_surn, 'AL32UTF8')) surname,
+             utl_raw.cast_to_raw(convert(stu_name, 'AL32UTF8')) student_name,
+             stu_inem email, dpt_code department_code, sce_stac enrolment_status, scj_stac course_join_status
+      FROM ucl_sits_mv_moodle_students
+
+
+SYNCHRONISE DATA
+  - for first run, obviously, this would just be a case of inserting into the real tables
+  - regardless, the process should work at any stage
+
+  Synchronise imports with existing held data
+    - runs via sync_imports
+      - sync_imports is a procedure which basically calls each of the procedures outlined below
+
+    Synchronise Faculties
+      - match on faculty_code
+        - insert new faculties
+        - update existing faculties where name is different
+        - delete faculties where id no longer exists in SITS
+        
+      - uses sf2_v_facultymerge view
+      - run via sync_faculties procedure
+
+
+    Synchronise Departments
+      - match on department_code
+        - insert new departments
+        - update existing departments where 
+          - name is different
+          - faculty is different (this may be impossible)
+        - delete department where id no longer exists in SITS
+      
+      - uses sf2_v_departmentmerge view
+      - run via sync_departments procedure
+
+
+    Synchronise Programmes
+      - match on programme_code, department_code
+        - insert new programmes
+        - update existing programmes where 
+          - name is different
+          - faculty is different (this may be impossible)
+        - delete where record no longer exists in SITS
+      
+      - uses sf2_v_programmemerge view
+      - run via sync_programmes procedure
+
+
+    Synchronise Routes
+      - match on route_code, programme_code, department_code (unfortunately)
+        - insert new routes
+        - update existing routes where
+          - name is different
+        - delete where record no longer exists in SITS
+      
+      - uses sf2_v_routemerge view
+      - run via sync_routes procedure
+
+
+    Synchronise Modules
+      - match on module_code! just module code!
+        - insert new modules
+        - update existing modules where
+          - name is different
+          - department is different
+        - delete where record no longer exists in SITS
+      
+      - uses sf2_v_modulemerge view
+      - run via sync_modules procedure
+
+
+    Synchronise Students
+      - match on student_code
+        - insert new students
+        - update existing students where
+          - any other detail is different
+          - (username, upi, firstname, surname, 'student_name', email, department, status, scj status)
+        - leave student in where status means they are no longer to be enrolled
+        - leave student in where they no longer appear in SITS view, flag as deleted (deleted = Y)
+      
+      - uses sf2_v_modulemerge view
+      - run via sync_modules procedure
+
+
+    Synchronise Membership
+      - match on student_code, module_code
+        - insert new associations
+        - update existing memberships where
+          - status is different
+          - smo/sms column is different
+        - if the association is deleted in SITS view, flag as deleted (deleted = Y)
+      
+      - uses sf2_v_modulemerge view
+      - run via sync_modules procedure
+
+
+    Synchronise Assignments
+      - match on student_code
+        - insert new brand new student course information
+        - if there is a change to a membership
+          - insert the new membership
+          - flag the old membership as inactive (active = N)
+        - if the student is no longer in the SITS view, do not do anything (the deletion should be flagged via the students table)
+      
+      - uses sf2_v_modulemerge view
+      - run via sync_modules procedure
+
+
+    ! there will also need to be a clean-up job for Students, Memberships and  Assignments
+      this will look at the core Moodle views and delete records where there are no longer SITS Filter associations in the database
+
+
+
+GET IMPORT MAPPING DATA
+  Import data will be exposed via views as below (this isn't a process step per se, just pre-requisit)
+  - all views joined to mapping_statuses where mapping_active = 'Y' to ensure only active mappings included, whether enrol or unenrol
+
+  Get students/student mappings to be ADDED
+
+    - by home faculty and year/level
+      - student faculty directly in assignments
+      - student year from assignments, student level (ug/pg) also from assignments
+
+      - where the student is in a department owned by the mapped faculty
+        AND where the student is either an ug and the mapping is for a specific year or ug
+            OR the student is a pg and the mapping is for pg
+            OR there is no year mapping
+
+
+    - by programme and year
+      - student programme in assignments
+
+      - where the student is in the programme specified in the mapping
+        AND the student is in the year specified in the mapping
+            OR there is no year specified in the mapping
+
+
+    - by route and year
+      - student route in assignments
+      - as per programme and year
+
+
+    - by module/registration status
+      - student-module association in memberships
+      - module registration status level via registration_statuses joined from memberships
+
+      - where the student is in the module specified by the mapping
+        AND the student module association has a registration status of the same or higher level as specified in mapping
+
+
+    - by module/registration status by department
+      - as per module/registration status but with modules selected as all those in the department specified in mapping
+      - module's department directly in modules
+
+
+  Get students/student mappings to be REMOVED
+
+    - by home faculty and year/level
+      - data gathered as per additions
+
+      - where students are no longer in a given faculty/year/level, based on their assignment
+        - where student faculty/year/level exists in assignment but active flag = N OR there assignment with active = Y is for a diffent faculty
+      - where students in a given faculty no longer have a valid enrolment type
+        - student enrolment status taken from students
+        - enrolment validity from enrolment_statuses
+      - where students in a given faculty are no longer in the underlying SITS view
+        - where students table deleted column is 'Y'
+      - where the faculty is no longer an active mapping
+        - the mapped_faculties mapping_status = 'RMV'
+
+
+    - by programme and year
+      - student programme in assignments
+
+      - based on above
+        - where students are no longer in a given programme/year combination, based on their assignment
+          - no need for the ugpg level check done in faculty/department
+        - where students in a given programme no longer have a valid enrolment or are no longer in the underlying SITS view
+        - where the programme/year is no longer an active mapping
+
+
+    - by route and year
+      - student route in assignments
+      - exactly as per programme
+
+
+    - by module/registration status
+      - student-module association in memberships
+      - student-module association registration status in memberships
+      - registration status heirachy (i.e. CON > APP > NEW > REJ) in registration_statuses
+
+      - where student-module association has been rejected
+        - the reg_status = REJ in the memberships table
+      - where student-module association has been removed
+        - deleted = Y in the memberships
+      - where the module is no longer an active mapping
+        - the mapping_modules mapping_status = 'RMV'
+
+    - by module/registration status by department
+      - as above except modules selected en mass by department
+      - module's department retrieved via modules
+
+      ! this process somewhat assumes the natural progression through registration statii
+        where that isn't the case, some kind of catch up may be useful
+
+
+CREATE IMS XML
+  Get students with mappings
+    - this will be a view of just the student information from students in the enrolment views above
+
+    - for each student, get their details from the students table
+      - student code, username, firstname, surname, email
+      - add this to the XML under <person>
+        - sourcedid:
+          - source: sits_filter2
+          - id: student code
+        - userid: ucl userid
+        - name:
+          - fn: first name
+          - n:
+            - family: surname
+            - given: first name
+        - email: email
+        - extension
+          - webextension: (blank)
+
+    ! tbc - do students who are only being removed from groups need to be in this list?
+
+
+  Get moodle courses with mappings
+    - get the moodle_id for all courses referenced in the enrolment views above
+    - get the moodle course info from moodle - mdl_course - based on the moodle_id
+    - join mdl_course to mdl_course_categories (on mdl_course.category = mdl_course_categories.id)
+
+    - add each moodle course to the XML under <group>
+      - sourcedid:
+        - source: sits_filter2
+        - id: moodle course idnumber
+      - description:
+        - short: shortname
+      - org:
+        - orgunit: categoryname
+
+
+  Get the student-moodle course associations
+    - use a master view of the views above, including both enrolments and unenrolments
+      - enrolment and unenrolment actions flagged separately, ADD and RMV
+    - get each moodle course and start a new membership
+      - within each membership list all the students as members, be they additions or removals
+    - so, create the <membership>
+      - sourcedid
+        - source: sits_filter2
+        - sourceid: moodle course idnumber
+      - member
+        [foreach student create a <member>]
+          - sourcedid
+            - source: sits_filter2
+            - id: student code
+          - idtype [attr[idtype=1]]: (blank)
+          - role [attr[roletype=1]]
+            - userid: ucl userid
+            - status:
+              [if     ADD] 1
+              [elseif RMV] 0
+
+
+  Complete creation of IMS XML
+  - check output folder - if more than 9 files, delete oldest
+  - write XML to new file in output folder, name to include timestamped
+  - copy file to main IMS import folder (which is actually mount)
+    - use name taken from system_settings
+    - IMS directory taken from system_settings
+
+  Send e-mail?
+  Update audit table?
+  

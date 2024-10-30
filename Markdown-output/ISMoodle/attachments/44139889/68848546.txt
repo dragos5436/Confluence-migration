@@ -1,0 +1,27 @@
+THRESHOLD
+
+-threshold percent
+  - threshold percentage % kept in database
+  - if less than x% of students or module registrations would remain after an import from SITS, synchronisation is terminated
+  - percentage is calculated on existing students/registrations being removed, not total number
+    - that is, if there were 100 students and now there are 100 different students, that would be a breach
+
+ie.
+- threshold is 75%
+  - after initial import phase of SITS Filter
+  - compare total # !deleted rows in db.students with # of matching rows (via left join) in db.students_import
+    - if count(student.student_code) * 0.75 > count(student_imports.student_code), abord import
+  - similarly with db.memberships and db.memberships_import, joining on (student_code, module_code)
+    - for membership, we're not comparing reg status, just the existence of the registration
+
+
+
+- to allow filter to run when threshold is breached either
+  - change threshold
+  - use threshold override
+
+
+- threshold override
+  - if threshold_override is 'false', rules are as above, sync terminated if threshold breached
+  - if threshold_override is 'true', threshold can be breached exactly once
+    - after a run with threshold_override set to 'true', it is automatically reset to 'false' if the threshold is breached

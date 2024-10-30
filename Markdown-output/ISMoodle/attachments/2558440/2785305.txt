@@ -1,0 +1,17 @@
+<h2>CBM export for Certainty-Based Marking</h2>
+<p>This exports quiz questions to the format required for use with Certainty-Based Marking by
+<a href="http://www.ucl.ac.uk/lapt" target="_blank">LAPT</a> at UCL. It enables you immediately
+to test-run these questions, and you can save the text file with the translated questions for
+future use with LAPT.</p>
+<p class="moreinfo"><a href="http://www.ucl.ac.uk/lapt/moodle/cbm/cbm_plugin.html"></p>
+More information about CBM export and import on the LAPT site</a> (external site in new window)</p>
+
+<h2>CBM import for Certainty-Based Marking</h2>
+<p>This imports quiz questions from LAPT format (in a .js file) to Moodle format. Note that while
+LAPT questions are often grouped within a section, with a common heading or introduction, Moodle
+questions are always independent. It may therefore be necessary to edit the introduction into the
+separate Moodle Qs. Certainty-Based Marking and LAPT format are described at
+<a href="http://www.ucl.ac.uk/lapt" target="_blank">www.ucl.ac.uk/lapt</a>.</p>
+<p class="moreinfo"><a href="http://www.ucl.ac.uk/lapt/moodle/cbm/cbm_plugin.html"></p>
+More information about CBM export and import on the LAPT site</a> (external site in new window)</p>
+

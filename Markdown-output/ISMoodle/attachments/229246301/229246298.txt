@@ -1,0 +1,362 @@
+--- Failed hooks:
+
+    AfterStep # behat_hooks::after_step_javascript()
+      Coding error detected, it must be fixed by a programmer: Step 'I navigate to "Question bank" node in "Course administration"'' is undefined. (coding_exception)
+
+    AfterStep # behat_hooks::after_step_javascript()
+      Coding error detected, it must be fixed by a programmer: Step 'I navigate to "Edit settings" node in "Course administration"'' is undefined. (coding_exception)
+
+    AfterStep # behat_hooks::after_step_javascript()
+      Coding error detected, it must be fixed by a programmer: Step 'I navigate to "Edit settings" node in "Course administration"'' is undefined. (coding_exception)
+
+    AfterStep # behat_hooks::after_step_javascript()
+      Coding error detected, it must be fixed by a programmer: Step 'I navigate to "Library Search" node in "Site administration > Plugins > Blocks"'' is undefined. (coding_exception)
+
+    BeforeScenario # behat_hooks::before_scenario_hook()
+      Unexpected modal dialog (text: Error updating user preference 'drawer-open-nav' using ajax. Clicking this link will repeat the Ajax call that failed so you can see the error: ): Error updating user preference 'drawer-open-nav' using ajax. Clicking this link will repeat the Ajax call that failed so you can see the error:
+      Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+      System info: host: '0e9e67f32bc8', ip: '172.29.0.2', os.name: 'Linux', os.arch: 'amd64', os.version: '5.3.0-59-generic', java.version: '1.8.0_91'
+      Driver info: org.openqa.selenium.firefox.FirefoxDriver
+      Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=47.0.1, platform=LINUX, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+      Session ID: 87db88ea-f15d-44b0-807c-bf3869dbf764 (WebDriver\Exception\UnexpectedAlertOpen)
+
+
+--- Failed steps:
+
+001 Scenario: Add a hotquestion activity and complete the activity as a student # /var/www/html/mod/hotquestion/tests/behat/Add Hot Question Activity.feature:7
+      And I follow "Test hotquestion name"                                      # /var/www/html/mod/hotquestion/tests/behat/Add Hot Question Activity.feature:27
+        Link matching locator "Test hotquestion name" not found. (Behat\Mink\Exception\ElementNotFoundException)
+
+
+
+023 Scenario: Backup and restore a course containing an algebra question # /var/www/html/question/type/algebra/tests/behat/backup_and_restore.feature:26
+      Then the following fields match these values:                      # /var/www/html/question/type/algebra/tests/behat/backup_and_restore.feature:33
+        Field matching locator "Question name" not found. (Behat\Mink\Exception\ElementNotFoundException)
+
+024 Scenario: Access the STACK response analysis report    # /var/www/html/mod/quiz/report/stack/tests/behat/basic_test.feature:59
+      Given I set up STACK using the PHPUnit configuration # /var/www/html/mod/quiz/report/stack/tests/behat/basic_test.feature:8
+        Warning: file_get_contents(/var/www/html/question/type/stack/stack/maxima/stackmaxima.mac): failed to open stream: No such file or directory in /var/www/html/question/type/.stack/tests/fixtures/test_maxima_configuration.php line 58
+
+025 Scenario: Add the block Library Resources to a course # /var/www/html/blocks/library_resources/tests/behat/block_library_resources.feature:20
+      When I add the "Library Resources" block            # /var/www/html/blocks/library_resources/tests/behat/block_library_resources.feature:23
+        Other backtraces found:
+        line 58 of /blocks/library_resources/block_library_resources.php: call to behat_error_handler()
+        line 766 of /blocks/moodleblock.class.php: call to block_library_resources-&gt;get_content()
+        line 235 of /blocks/moodleblock.class.php: call to block_list-&gt;formatted_contents()
+        line 1181 of /lib/blocklib.php: call to block_base-&gt;get_content_for_output()
+        line 1233 of /lib/blocklib.php: call to block_manager-&gt;create_block_contents()
+        line 374 of /lib/blocklib.php: call to block_manager-&gt;ensure_content_created()
+        line 3966 of /lib/outputrenderers.php: call to block_manager-&gt;region_has_content()
+        line 40 of /theme/boost/layout/columns2.php: call to core_renderer-&gt;blocks()
+        line 1374 of /lib/outputrenderers.php: call to include()
+        line 1304 of /lib/outputrenderers.php: call to core_renderer-&gt;render_page_layout()
+        line 244 of /course/view.php: call to core_renderer-&gt;header() (Exception)
+
+026 Scenario: Admin page can be accessed through bookmarks block               # /var/www/html/blocks/admin_bookmarks/tests/behat/bookmark_admin_pages.feature:22
+      And I click on "Scheduled tasks" "link" in the "Admin bookmarks" "block" # /var/www/html/blocks/admin_bookmarks/tests/behat/bookmark_admin_pages.feature:25
+        Block matching locator "'Admin bookmarks'" not found. (Behat\Mink\Exception\ElementNotFoundException)
+
+027 Scenario: Admin page can be removed from bookmarks                         # /var/www/html/blocks/admin_bookmarks/tests/behat/bookmark_admin_pages.feature:29
+      And I click on "Scheduled tasks" "link" in the "Admin bookmarks" "block" # /var/www/html/blocks/admin_bookmarks/tests/behat/bookmark_admin_pages.feature:32
+        Block matching locator "'Admin bookmarks'" not found. (Behat\Mink\Exception\ElementNotFoundException)
+
+042 Scenario: Create, edit and preview a combined question. # /var/www/html/question/type/algebra/tests/behat/combinable.feature:18
+      And I set the field "Combined" to "1"                 # /var/www/html/question/type/algebra/tests/behat/combinable.feature:23
+        Field matching locator "Combined" not found. (Behat\Mink\Exception\ElementNotFoundException)
+
+063 Scenario: Edit an Algebra question                # /var/www/html/question/type/algebra/tests/behat/edit.feature:28
+      And I set the following fields to these values: # /var/www/html/question/type/algebra/tests/behat/edit.feature:30
+        Field matching locator "Question name" not found. (Behat\Mink\Exception\ElementNotFoundException)
+
+064 Scenario: Edit a All-or-Nothing Multiple Choice question # /var/www/html/question/type/multichoiceset/tests/behat/edit.feature:27
+      And I set the following fields to these values:        # /var/www/html/question/type/multichoiceset/tests/behat/edit.feature:29
+        Field matching locator "Question name" not found. (Behat\Mink\Exception\ElementNotFoundException)
+
+071 Scenario: Export a All-or-Nothing Multiple Choice question                    # /var/www/html/question/type/multichoiceset/tests/behat/export.feature:26
+      Then following "click here" should download between "1800" and "1900" bytes # /var/www/html/question/type/multichoiceset/tests/behat/export.feature:30
+        Downloaded data was 1925 bytes, expecting between 1800 and 1900 (Behat\Mink\Exception\ExpectationException)
+
+072 Scenario: A teacher can use the radio buttons to set attendance values for unselected users # /var/www/html/mod/attendance/tests/behat/extra_features.feature:213
+      And "L" "text" should exist in the "Student 2" "table_row"                                # /var/www/html/mod/attendance/tests/behat/extra_features.feature:229
+        Text matching locator "L in the Student 2 table_row" not found. (Behat\Mink\Exception\ElementNotFoundException)
+
+095 Scenario: Preset settings are applied # /var/www/html/blocks/admin_presets/tests/behat/import_settings.feature:18
+      And I follow "Turn editing on"      # /var/www/html/blocks/admin_presets/tests/behat/import_settings.feature:10
+        The "(//html/.//a
+        [./@href][((./@id = 'Turn editing on' or contains(normalize-space(string(.)), 'Turn editing on') or contains(./@title, 'Turn editing on') or contains(./@rel, 'Turn editing on')) or .//*[(contains(concat(' ', @class, ' '), ' icon ') or name() = 'img') and (contains(./@alt, 'Turn editing on') or contains(./@title, 'Turn editing on'))])] | //html/.//*
+        [translate(./@role, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz') = 'link'][((./@id = 'Turn editing on' or contains(./@value, 'Turn editing on')) or contains(./@title, 'Turn editing on') or contains(normalize-space(string(.)), 'Turn editing on'))])[1]" xpath node is not visible and it should be visible (Behat\Mink\Exception\ExpectationException)
+
+096 Scenario: Settings don't change if you import what you just exported # /var/www/html/blocks/admin_presets/tests/behat/import_settings.feature:52
+      And I follow "Turn editing on"                                     # /var/www/html/blocks/admin_presets/tests/behat/import_settings.feature:10
+        The "(//html/.//a
+        [./@href][((./@id = 'Turn editing on' or contains(normalize-space(string(.)), 'Turn editing on') or contains(./@title, 'Turn editing on') or contains(./@rel, 'Turn editing on')) or .//*[(contains(concat(' ', @class, ' '), ' icon ') or name() = 'img') and (contains(./@alt, 'Turn editing on') or contains(./@title, 'Turn editing on'))])] | //html/.//*
+        [translate(./@role, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz') = 'link'][((./@id = 'Turn editing on' or contains(./@value, 'Turn editing on')) or contains(./@title, 'Turn editing on') or contains(normalize-space(string(.)), 'Turn editing on'))])[1]" xpath node is not visible and it should be visible (Behat\Mink\Exception\ExpectationException)
+
+097 Scenario: Test the plugin connectivity   # /var/www/html/plagiarism/turnitin/tests/behat/installed.feature:26
+      And I press "Test Turnitin Connection" # /var/www/html/plagiarism/turnitin/tests/behat/installed.feature:28
+        The "(//html/.//input
+        [translate(./@type, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz') = 'submit' or translate(./@type, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz') = 'image' or translate(./@type, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz') = 'button' or translate(./@type, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz') = 'reset'][((./@id = 'Test Turnitin Connection' or ./@name = 'Test Turnitin Connection') or contains(./@value, 'Test Turnitin Connection') or contains(./@title, 'Test Turnitin Connection') or contains(./@aria-label, 'Test Turnitin Connection'))] | //html/.//input
+        [translate(./@type, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz') = 'image'][contains(./@alt, 'Test Turnitin Connection')] | //html/.//button
+        [((./@id = 'Test Turnitin Connection' or ./@name = 'Test Turnitin Connection') or contains(./@value, 'Test Turnitin Connection') or contains(./@title, 'Test Turnitin Connection') or contains(./@aria-label, 'Test Turnitin Connection') or contains(normalize-space(string(.)), 'Test Turnitin Connection'))] | //html/.//*
+        [translate(./@role, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz') = 'button'][((./@id = 'Test Turnitin Connection' or ./@name = 'Test Turnitin Connection') or contains(./@value, 'Test Turnitin Connection') or contains(./@title, 'Test Turnitin Connection') or contains(./@aria-label, 'Test Turnitin Connection') or contains(normalize-space(string(.)), 'Test Turnitin Connection'))])[1]" xpath node is not visible and it should be visible (Behat\Mink\Exception\ExpectationException)
+
+101 Scenario: Lesson main page rich content is annotated.                                                          # /var/www/html/filter/ally/tests/behat/lesson_annotation.feature:30
+      And the lesson page content entitled "Test lesson content 2" is annotated and contains text "Test content 2" # /var/www/html/filter/ally/tests/behat/lesson_annotation.feature:54
+        Xpath matching locator "            //*[@data-ally-richcontent="lesson:lesson_pages:contents:371001"]" not found. (Behat\Mink\Exception\ElementNotFoundException)
+
+
+106 Scenario: Change colour of some text # /var/www/html/lib/editor/atto/plugins/morefontcolors/tests/behat/morefontcolors.feature:12
+      And I follow "Edit profile"        # /var/www/html/lib/editor/atto/plugins/morefontcolors/tests/behat/morefontcolors.feature:16
+        The "(//html/.//a
+        [./@href][((./@id = 'Edit profile' or contains(normalize-space(string(.)), 'Edit profile') or contains(./@title, 'Edit profile') or contains(./@rel, 'Edit profile')) or .//*[(contains(concat(' ', @class, ' '), ' icon ') or name() = 'img') and (contains(./@alt, 'Edit profile') or contains(./@title, 'Edit profile'))])] | //html/.//*
+        [translate(./@role, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz') = 'link'][((./@id = 'Edit profile' or contains(./@value, 'Edit profile')) or contains(./@title, 'Edit profile') or contains(normalize-space(string(.)), 'Edit profile'))])[1]" xpath node is not visible and it should be visible (Behat\Mink\Exception\ExpectationException)
+
+109 Scenario: Module tutors need to be able to view grades of students taking courses they are recorded as a tutor for # /var/www/html/report/myfeedback/tests/behat/non_student_access.feature:62
+      Given the following "users" exist:                                                                               # /var/www/html/report/myfeedback/tests/behat/non_student_access.feature:9
+        The username must be in lower case (moodle_exception)
+
+110 Scenario: Personal tutors need to be able to view grades of their tutees. For instance, when a Personal Tutor is
+preparing for a meeting with a student during which the tutor wishes to discuss the student's performance
+(perhaps focusing on areas where they are doing well and where there is room for improvement.) # /var/www/html/report/myfeedback/tests/behat/non_student_access.feature:74
+      Given the following "users" exist:                                                                                                                                                                                                                                                                                      # /var/www/html/report/myfeedback/tests/behat/non_student_access.feature:9
+        The username must be in lower case (moodle_exception)
+
+111 Scenario: A Departmental Admin wishes to log-in and check student performance across a cohort so that they can identify
+any potential students struggling (and subsequently raise these instances of concerning performance with module Tutors.) # /var/www/html/report/myfeedback/tests/behat/non_student_access.feature:89
+      Given the following "users" exist:                                                                                                                                                                                                             # /var/www/html/report/myfeedback/tests/behat/non_student_access.feature:9
+        The username must be in lower case (moodle_exception)
+
+113 Scenario: Paste from Microsoft Word on Windows # /var/www/html/lib/editor/atto/plugins/pastespecial/tests/behat/pastespecial.feature:18
+      Then I should see "Firma ABC"                # /var/www/html/lib/editor/atto/plugins/pastespecial/tests/behat/pastespecial.feature:23
+        "Firma ABC" text was not found in the page (Behat\Mink\Exception\ExpectationException)
+
+114 Scenario: Paste from Google Doc on Windows             # /var/www/html/lib/editor/atto/plugins/pastespecial/tests/behat/pastespecial.feature:26
+      Then I should see "Or only when redcolor I do this?" # /var/www/html/lib/editor/atto/plugins/pastespecial/tests/behat/pastespecial.feature:31
+        "Or only when redcolor I do this?" text was not found in the page (Behat\Mink\Exception\ExpectationException)
+
+115 Scenario: Paste from LibreOffice        # /var/www/html/lib/editor/atto/plugins/pastespecial/tests/behat/pastespecial.feature:34
+      Then I should see "There is texthere" # /var/www/html/lib/editor/atto/plugins/pastespecial/tests/behat/pastespecial.feature:39
+        "There is texthere" text was not found in the page (Behat\Mink\Exception\ExpectationException)
+
+116 Scenario: Paste from Microsoft Word on Mac # /var/www/html/lib/editor/atto/plugins/pastespecial/tests/behat/pastespecial.feature:42
+      Then I should see "Firma ABC"            # /var/www/html/lib/editor/atto/plugins/pastespecial/tests/behat/pastespecial.feature:47
+        "Firma ABC" text was not found in the page (Behat\Mink\Exception\ExpectationException)
+
+117 Scenario: Paste from Google Doc on Mac                 # /var/www/html/lib/editor/atto/plugins/pastespecial/tests/behat/pastespecial.feature:50
+      Then I should see "Or only when redcolor I do this?" # /var/www/html/lib/editor/atto/plugins/pastespecial/tests/behat/pastespecial.feature:55
+        "Or only when redcolor I do this?" text was not found in the page (Behat\Mink\Exception\ExpectationException)
+
+118 Scenario: Paste as unformatted text on Windows         # /var/www/html/lib/editor/atto/plugins/pastespecial/tests/behat/pastespecial.feature:58
+      Then I should see "Or only when redcolor I do this?" # /var/www/html/lib/editor/atto/plugins/pastespecial/tests/behat/pastespecial.feature:63
+        "Or only when redcolor I do this?" text was not found in the page (Behat\Mink\Exception\ExpectationException)
+
+119 Scenario: Paste as unformatted text on Mac             # /var/www/html/lib/editor/atto/plugins/pastespecial/tests/behat/pastespecial.feature:66
+      Then I should see "Or only when redcolor I do this?" # /var/www/html/lib/editor/atto/plugins/pastespecial/tests/behat/pastespecial.feature:71
+        "Or only when redcolor I do this?" text was not found in the page (Behat\Mink\Exception\ExpectationException)
+
+120 Scenario: Paste table and content into formatting # /var/www/html/lib/editor/atto/plugins/pastespecial/tests/behat/pastespecial.feature:74
+      Then I should see "Look at me"                  # /var/www/html/lib/editor/atto/plugins/pastespecial/tests/behat/pastespecial.feature:79
+        "Look at me" text was not found in the page (Behat\Mink\Exception\ExpectationException)
+
+121 Scenario: Paste without formatting text                                                                       # /var/www/html/lib/editor/atto/plugins/pastespecial/tests/behat/pastespecial.feature:84
+      When I set the innerhtml of "atto_pastespecial_iframe" to "<p id='skynet'>There is no need for concern</p>" # /var/www/html/lib/editor/atto/plugins/pastespecial/tests/behat/pastespecial.feature:85
+        missing ; before statement
+        Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+        System info: host: '0e9e67f32bc8', ip: '172.29.0.2', os.name: 'Linux', os.arch: 'amd64', os.version: '5.3.0-59-generic', java.version: '1.8.0_91'
+        Driver info: driver.version: unknown (WebDriver\Exception\UnknownError)
+
+132 Scenario: Preview an Algebra question with correct answer           # /var/www/html/question/type/algebra/tests/behat/preview.feature:28
+      When I click on "Preview" "link" in the "algebra-001" "table_row" # /var/www/html/question/type/algebra/tests/behat/preview.feature:29
+        The "((//html/.//tr[contains(normalize-space(.), 'algebra-001') and not(.//tr[contains(normalize-space(.), 'algebra-001')])])[1]/.//a
+        [./@href][((./@id = 'Preview' or contains(normalize-space(string(.)), 'Preview') or contains(./@title, 'Preview') or contains(./@rel, 'Preview')) or .//*[(contains(concat(' ', @class, ' '), ' icon ') or name() = 'img') and (contains(./@alt, 'Preview') or contains(./@title, 'Preview'))])] | (//html/.//tr[contains(normalize-space(.), 'algebra-001') and not(.//tr[contains(normalize-space(.), 'algebra-001')])])[1]/.//*
+        [translate(./@role, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz') = 'link'][((./@id = 'Preview' or contains(./@value, 'Preview')) or contains(./@title, 'Preview') or contains(normalize-space(string(.)), 'Preview'))])[1]" xpath node is not visible and it should be visible (Behat\Mink\Exception\ExpectationException)
+
+133 Scenario: Preview an Algebra question with incorrect answer         # /var/www/html/question/type/algebra/tests/behat/preview.feature:44
+      When I click on "Preview" "link" in the "algebra-001" "table_row" # /var/www/html/question/type/algebra/tests/behat/preview.feature:45
+        The "((//html/.//tr[contains(normalize-space(.), 'algebra-001') and not(.//tr[contains(normalize-space(.), 'algebra-001')])])[1]/.//a
+        [./@href][((./@id = 'Preview' or contains(normalize-space(string(.)), 'Preview') or contains(./@title, 'Preview') or contains(./@rel, 'Preview')) or .//*[(contains(concat(' ', @class, ' '), ' icon ') or name() = 'img') and (contains(./@alt, 'Preview') or contains(./@title, 'Preview'))])] | (//html/.//tr[contains(normalize-space(.), 'algebra-001') and not(.//tr[contains(normalize-space(.), 'algebra-001')])])[1]/.//*
+        [translate(./@role, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz') = 'link'][((./@id = 'Preview' or contains(./@value, 'Preview')) or contains(./@title, 'Preview') or contains(normalize-space(string(.)), 'Preview'))])[1]" xpath node is not visible and it should be visible (Behat\Mink\Exception\ExpectationException)
+
+134 Scenario: Preview a Multiple choice question and submit a wrong response.  # /var/www/html/question/type/multichoiceset/tests/behat/preview.feature:28
+      When I click on "Preview" "link" in the "All-or-nothing-001" "table_row" # /var/www/html/question/type/multichoiceset/tests/behat/preview.feature:29
+        The "((//html/.//tr[contains(normalize-space(.), 'All-or-nothing-001') and not(.//tr[contains(normalize-space(.), 'All-or-nothing-001')])])[1]/.//a
+        [./@href][((./@id = 'Preview' or contains(normalize-space(string(.)), 'Preview') or contains(./@title, 'Preview') or contains(./@rel, 'Preview')) or .//*[(contains(concat(' ', @class, ' '), ' icon ') or name() = 'img') and (contains(./@alt, 'Preview') or contains(./@title, 'Preview'))])] | (//html/.//tr[contains(normalize-space(.), 'All-or-nothing-001') and not(.//tr[contains(normalize-space(.), 'All-or-nothing-001')])])[1]/.//*
+        [translate(./@role, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz') = 'link'][((./@id = 'Preview' or contains(./@value, 'Preview')) or contains(./@title, 'Preview') or contains(normalize-space(string(.)), 'Preview'))])[1]" xpath node is not visible and it should be visible (Behat\Mink\Exception\ExpectationException)
+
+135 Scenario: Preview a Multiple choice question and submit a correct response. # /var/www/html/question/type/multichoiceset/tests/behat/preview.feature:42
+      When I click on "Preview" "link" in the "All-or-nothing-001" "table_row"  # /var/www/html/question/type/multichoiceset/tests/behat/preview.feature:43
+        The "((//html/.//tr[contains(normalize-space(.), 'All-or-nothing-001') and not(.//tr[contains(normalize-space(.), 'All-or-nothing-001')])])[1]/.//a
+        [./@href][((./@id = 'Preview' or contains(normalize-space(string(.)), 'Preview') or contains(./@title, 'Preview') or contains(./@rel, 'Preview')) or .//*[(contains(concat(' ', @class, ' '), ' icon ') or name() = 'img') and (contains(./@alt, 'Preview') or contains(./@title, 'Preview'))])] | (//html/.//tr[contains(normalize-space(.), 'All-or-nothing-001') and not(.//tr[contains(normalize-space(.), 'All-or-nothing-001')])])[1]/.//*
+        [translate(./@role, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz') = 'link'][((./@id = 'Preview' or contains(./@value, 'Preview')) or contains(./@title, 'Preview') or contains(normalize-space(string(.)), 'Preview'))])[1]" xpath node is not visible and it should be visible (Behat\Mink\Exception\ExpectationException)
+
+137 Scenario: Student completes public questionnaire instances in two different courses and sees each response in the proper course # /var/www/html/mod/questionnaire/tests/behat/public_questionnaire.feature:69
+      And I follow "Add an activity or resource"                                                                                    # /var/www/html/mod/questionnaire/tests/behat/public_questionnaire.feature:44
+        Link matching locator "Add an activity or resource" not found. (Behat\Mink\Exception\ElementNotFoundException)
+
+138 Scenario: Teacher should not see responses for a questionnaire using a public instance # /var/www/html/mod/questionnaire/tests/behat/public_questionnaire_teacher.feature:91
+      And I follow "Add an activity or resource"                                           # /var/www/html/mod/questionnaire/tests/behat/public_questionnaire_teacher.feature:45
+        Link matching locator "Add an activity or resource" not found. (Behat\Mink\Exception\ElementNotFoundException)
+
+139 Scenario: A user follows vote to increase heat                # /var/www/html/mod/hotquestion/tests/behat/questions_vote.feature:28
+      And I click on "Vote" "link" in the "Anonymous" "table_row" # /var/www/html/mod/hotquestion/tests/behat/questions_vote.feature:44
+        Link matching locator "Vote" in the "Anonymous" "table_row"" not found. (Behat\Mink\Exception\ElementNotFoundException)
+
+149 Scenario: User can select and restore all missing models                              # /var/www/html/admin/tool/analytics/tests/behat/restoredefault.feature:73
+      And I click on "Delete" "link" in the "Courses at risk of not starting" "table_row" # /var/www/html/admin/tool/analytics/tests/behat/restoredefault.feature:78
+        The "((//html/.//tr[contains(normalize-space(.), 'Courses at risk of not starting') and not(.//tr[contains(normalize-space(.), 'Courses at risk of not starting')])])[1]/.//a
+        [./@href][((./@id = 'Delete' or contains(normalize-space(string(.)), 'Delete') or contains(./@title, 'Delete') or contains(./@rel, 'Delete')) or .//*[(contains(concat(' ', @class, ' '), ' icon ') or name() = 'img') and (contains(./@alt, 'Delete') or contains(./@title, 'Delete'))])] | (//html/.//tr[contains(normalize-space(.), 'Courses at risk of not starting') and not(.//tr[contains(normalize-space(.), 'Courses at risk of not starting')])])[1]/.//*
+        [translate(./@role, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz') = 'link'][((./@id = 'Delete' or contains(./@value, 'Delete')) or contains(./@title, 'Delete') or contains(normalize-space(string(.)), 'Delete'))])[1]" xpath node is not visible and it should be visible (Behat\Mink\Exception\ExpectationException)
+
+153 Scenario: Load changes and revert them # /var/www/html/blocks/admin_presets/tests/behat/revert_changes.feature:8
+      And I follow "Turn editing on"       # /var/www/html/blocks/admin_presets/tests/behat/revert_changes.feature:11
+        The "(//html/.//a
+        [./@href][((./@id = 'Turn editing on' or contains(normalize-space(string(.)), 'Turn editing on') or contains(./@title, 'Turn editing on') or contains(./@rel, 'Turn editing on')) or .//*[(contains(concat(' ', @class, ' '), ' icon ') or name() = 'img') and (contains(./@alt, 'Turn editing on') or contains(./@title, 'Turn editing on'))])] | //html/.//*
+        [translate(./@role, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz') = 'link'][((./@id = 'Turn editing on' or contains(./@value, 'Turn editing on')) or contains(./@title, 'Turn editing on') or contains(normalize-space(string(.)), 'Turn editing on'))])[1]" xpath node is not visible and it should be visible (Behat\Mink\Exception\ExpectationException)
+
+156 Scenario: Search results are returned if the search query matches any activity names # /var/www/html/course/tests/behat/search_recommended_activities.feature:5
+      Then I should see "Search results: 1"                                              # /var/www/html/course/tests/behat/search_recommended_activities.feature:11
+        "Search results: 1" text was not found in the page (Behat\Mink\Exception\ExpectationException)
+
+201 Scenario: An admin follows export to csv toolbutton to export all site questions # /var/www/html/mod/hotquestion/tests/behat/toolbar_export_to_csv_admin.feature:32
+      And following "Export to .csv" should download between "1300" and "1400" bytes # /var/www/html/mod/hotquestion/tests/behat/toolbar_export_to_csv_admin.feature:160
+        Downloaded data was 1490 bytes, expecting between 1300 and 1400 (Behat\Mink\Exception\ExpectationException)
+
+202 Scenario: A teacher follows export to csv toolbutton to export questions       # /var/www/html/mod/hotquestion/tests/behat/toolbar_export_to_csv_teacher.feature:32
+      And following "Export to .csv" should download between "700" and "800" bytes # /var/www/html/mod/hotquestion/tests/behat/toolbar_export_to_csv_teacher.feature:160
+        Downloaded data was 805 bytes, expecting between 700 and 800 (Behat\Mink\Exception\ExpectationException)
+
+203 Scenario: Several tutors add slots, they can be seen only by relevant users # /var/www/html/mod/scheduler/tests/behat/tutorappointments.feature:108
+      Then "Cancel booking" "button" should exist                               # /var/www/html/mod/scheduler/tests/behat/tutorappointments.feature:148
+        Button matching locator "Cancel booking" not found. (Behat\Mink\Exception\ElementNotFoundException)
+
+207 Scenario: Users should not see the notification after they click on the give feedback link # /var/www/html/lib/tests/behat/userfeedback.feature:39
+      And I reload the page                                                                    # /var/www/html/lib/tests/behat/userfeedback.feature:48
+        Moodle exception: Can't find data record in database table course. More information about this error
+
+        Can't find data record in database table course.
+        More information about this error
+
+
+
+        ×
+
+        Debug info:
+         SELECT * FROM {course} WHERE id = ?
+        [array (
+          0 => 100000,
+        )]
+        Error code: invalidrecord
+          (Exception)
+
+3142 scenarios (2905 passed, 226 failed, 11 skipped)
+73550 steps (69147 passed, 212 failed, 23 undefined, 4168 skipped)
+1964m44.53s (285.78Mb)
+
+ >> default suite has undefined steps. Please choose the context to generate snippets:
+
+  [0 ] None
+  [1 ] behat_action_menu
+  [2 ] behat_admin
+  [3 ] behat_app
+  [4 ] behat_assignfeedback_editpdf
+  [5 ] behat_atto_pastespecial
+  [6 ] behat_auth
+  [7 ] behat_auth_email
+  [8 ] behat_auth_outage
+  [9 ] behat_backup
+  [10] behat_block_comments
+  [11] behat_block_site_main_menu
+  [12] behat_block_social_activities
+  [13] behat_blocks
+  [14] behat_calendar
+  [15] behat_cohort
+  [16] behat_completion
+  [17] behat_core_form
+  [18] behat_course
+  [19] behat_data_generators
+  [20] behat_deprecated
+  [21] behat_editor_atto
+  [22] behat_enrol
+  [23] behat_filepicker
+  [24] behat_filter_ally
+  [25] behat_filter_jmol
+  [26] behat_filters
+  [27] behat_forms
+  [28] behat_general
+  [29] behat_grade
+  [30] behat_gradereport_grader
+  [31] behat_grading
+  [32] behat_gradingform_guide
+  [33] behat_gradingform_rubric
+  [34] behat_groups
+  [35] behat_hooks
+  [36] behat_local_cohortrole_data_generators
+  [37] behat_login
+  [38] behat_message
+  [39] behat_message_popup
+  [40] behat_mod_choice
+  [41] behat_mod_collaborate
+  [42] behat_mod_customcert
+  [43] behat_mod_data
+  [44] behat_mod_feedback
+  [45] behat_mod_forum
+  [46] behat_mod_glossary
+  [47] behat_mod_hsuforum
+  [48] behat_mod_lightboxgallery
+  [49] behat_mod_questionnaire
+  [50] behat_mod_quiz
+  [51] behat_mod_scheduler
+  [52] behat_mod_scorm
+  [53] behat_mod_workshop
+  [54] behat_myfeedback
+  [55] behat_navigation
+  [56] behat_permissions
+  [57] behat_plagiarism_turnitin
+  [58] behat_qtype_ddimageortext
+  [59] behat_qtype_ddmarker
+  [60] behat_qtype_ddwtos
+  [61] behat_qtype_gapfill
+  [62] behat_qtype_gapselect
+  [63] behat_qtype_pmatch
+  [64] behat_qtype_stack
+  [65] behat_question
+  [66] behat_report_allylti
+  [67] behat_report_customsql
+  [68] behat_report_outline
+  [69] behat_repository_upload
+  [70] behat_search
+  [71] behat_tool_dataprivacy
+  [72] behat_tool_langimport
+  [73] behat_tool_lp
+  [74] behat_tool_lp_data_generators
+  [75] behat_tool_policy
+  [76] behat_tool_task
+  [77] behat_tool_usertours
+  [78] behat_transformations
+  [79] behat_user
+  [80] behat_workshopallocation_manual
+ >
+
+--- behat_action_menu has missing steps. Define them with these snippets:
+
+    /**
+     * @When I navigate to :arg1 node in :arg2
+     */
+    public function iNavigateToNodeIn($arg1, $arg2)
+    {
+        throw new PendingException();
+    }
+
+    /**
+     * @Given I skip because :arg1
+     */
+    public function iSkipBecause($arg1)
+    {
+        throw new PendingException();
+    }
+
+Exception ignored in shutdown function tool_log\log\manager::dispose: Warning: mysqli::query(): MySQL server has gone away in /var/www/html/lib/dml/mysqli_native_moodle_database.php line 1521
+To re-run failed processes, you can use following command:
+php admin/tool/behat/cli/run.php --rerun
+
+cceamol@CS00015142:~/moodle-docker

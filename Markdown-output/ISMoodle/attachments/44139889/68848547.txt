@@ -1,0 +1,70 @@
+USER PROFILE FIELDS IMPORT
+
+- local plugin - /local/userprofilefields_import
+- cron set to run with arbitrary minimum gap of 300sec
+- setting page in standard local plugin management format
+
+- cron function in lib.php
+  - vageuly based on user/exterallib.php - update_users()
+  - more to the point, geared towards the use of user/profile/lib.php profile_save_data()
+
+
+
+LOCAL_USERPROFILEFIELDS_IMPORT_CRON FUNCTION
+  - includes the same globals and files as update_users()
+
+  - gets the CSV path and file name from the config setting
+    - set up in local plugin management through the front end
+    - allows for [moodle-path] as a placeholder for $CFG->dirroot when entering the path in the settings
+
+  - if the CSV cannot be found or a path/file name hasn't been entered, stops processing
+
+  - checks if a sha1 hash of previously run CSV exists (hash is stored as plain text in a file in local/userprofilefields_import/sha1
+    - obviously, for first run, it won't, so this next set of checks is then skipped
+
+    - if the sha1_file() of the current CSV matches that stored in the file, processing is stopped
+
+    - if the CSV has changed, a query is run against the plugin table to get the date of the last IMS import run
+      - this date - the prev_time field - is of the actual completion of a IMS run, not just the last cron call to it
+      - this is compared against the filemtime of the last sha1 hash file change
+
+      - if the last time the IMS ran was before the last successful CSV import, processing stops
+
+    - if there is no last sha1, the last sha1 is different to the current and the last sha1 was before the last IMS, we continue
+
+
+  - now we fopen the CSV
+    - fgetcsv() the first row, which we can then use as a guide to the columns (the CSV will have a column header row)
+
+
+  - [at this point, $DB->start_delegated_transaction()]
+
+  - so, a do loop then
+  - we do the import in batches of [$batchsize = 1000]
+    - the batch size only really determines how many moodle ids at a time we poll the {user} table for, as the CSV only has username
+
+  - the outer loop will continue to until the file pointer reaches eof
+    - first, a while loop fgetcsv()'s row after row of the file until fgetcsv is false or the batchsize has been reached
+
+      - for each row, loop through the headers and create an assoc array of the student's info against those headers
+        - we only want profile_field_ columns
+        - the username (which we sql safe by removing any non-alphanumerics - future non-alphanumeric UCL usernames beware)
+        - we also get the rownumber as well as firstname and lastname for reporting purposes
+
+      - once we've got the student's data for that row, we add it to a batch array, using the username as the key
+    
+    - once we've got all the students for that batch we query the {user} table for all their moodle ids
+      - then, with a resultset of username and moodle id we go back through the batch, matching student data to moodle id via the username key
+
+    - then, once we have all the ids, loop one final time through the userbatch
+      - send the user data (minus rownumber, firstname and lastname) to the native function profile_save_data();
+
+    - a bit more reporting data gathered, then restart loop or oef
+
+  - [at this point, $transaction->allow_commit()]
+
+
+  - now we've successfully imported the user profile field data, save the SHA1 hash to the file so we never import the same data again
+
+
+  - put your feet up, you deserve it

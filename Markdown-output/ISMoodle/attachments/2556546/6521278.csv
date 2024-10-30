@@ -1,0 +1,47 @@
+id,courseid,moduleid,lockid,requirement,contact name,contact email,notes,lock is / can be removed
+2,2218,47318,47310,A,,,course deleted,Y
+14,2124,46396,49754,A,,,"lock removed, test course",Y
+32,1033,52392,52388,A,,,"lock removed, test course",Y
+34,333,56000,55998,A,,,"lock removed, test course",Y
+35,2969,72975,72371,A,,,"can't find lock, test course",Y
+67,2190,72645,80333,A,Christopher S Blackman & Colin Crick,"c.blackman@ucl.ac.uk, c.crick@ucl.ac.uk","Used in course, contact tutors",N
+65,2190,72643,80333,A,Christopher S Blackman & Colin Crick,"c.blackman@ucl.ac.uk, c.crick@ucl.ac.uk","Used in course, contact tutors",N
+63,2190,72641,80333,A,Christopher S Blackman & Colin Crick,"c.blackman@ucl.ac.uk, c.crick@ucl.ac.uk","Used in course, contact tutors",N
+61,2190,72637,80333,A,Christopher S Blackman & Colin Crick,"c.blackman@ucl.ac.uk, c.crick@ucl.ac.uk","Used in course, contact tutors",N
+95,2190,72581,80333,A,Christopher S Blackman & Colin Crick,"c.blackman@ucl.ac.uk, c.crick@ucl.ac.uk","Used in course, contact tutors",N
+49,2190,72803,72793,A,Christopher S Blackman & Colin Crick,"c.blackman@ucl.ac.uk, c.crick@ucl.ac.uk","Used in course, contact tutors",N
+51,2190,73053,72793,A,Christopher S Blackman & Colin Crick,"c.blackman@ucl.ac.uk, c.crick@ucl.ac.uk","Used in course, contact tutors",N
+53,2190,73071,72793,A,Christopher S Blackman & Colin Crick,"c.blackman@ucl.ac.uk, c.crick@ucl.ac.uk","Used in course, contact tutors",N
+55,2190,73075,72793,A,Christopher S Blackman & Colin Crick,"c.blackman@ucl.ac.uk, c.crick@ucl.ac.uk","Used in course, contact tutors",N
+121,2190,82527,80333,A,Christopher S Blackman & Colin Crick,"c.blackman@ucl.ac.uk, c.crick@ucl.ac.uk","Used in course, contact tutors",N
+119,2190,82259,80331,A,Christopher S Blackman & Colin Crick,"c.blackman@ucl.ac.uk, c.crick@ucl.ac.uk","Used in course, contact tutors",N
+117,2190,82197,80329,A,Christopher S Blackman & Colin Crick,"c.blackman@ucl.ac.uk, c.crick@ucl.ac.uk","Used in course, contact tutors",N
+115,2190,82165,80329,A,Christopher S Blackman & Colin Crick,"c.blackman@ucl.ac.uk, c.crick@ucl.ac.uk","Used in course, contact tutors",N
+113,2190,82151,80329,A,Christopher S Blackman & Colin Crick,"c.blackman@ucl.ac.uk, c.crick@ucl.ac.uk","Used in course, contact tutors",N
+111,2190,82147,80329,A,Christopher S Blackman & Colin Crick,"c.blackman@ucl.ac.uk, c.crick@ucl.ac.uk","Used in course, contact tutors",N
+109,2190,82143,80329,A,Christopher S Blackman & Colin Crick,"c.blackman@ucl.ac.uk, c.crick@ucl.ac.uk","Used in course, contact tutors",N
+107,2190,82141,80327,A,Christopher S Blackman & Colin Crick,"c.blackman@ucl.ac.uk, c.crick@ucl.ac.uk","Used in course, contact tutors",N
+105,2190,82089,80327,A,Christopher S Blackman & Colin Crick,"c.blackman@ucl.ac.uk, c.crick@ucl.ac.uk","Used in course, contact tutors",N
+103,2190,82087,80327,A,Christopher S Blackman & Colin Crick,"c.blackman@ucl.ac.uk, c.crick@ucl.ac.uk","Used in course, contact tutors",N
+101,2190,81965,80381,A,Christopher S Blackman & Colin Crick,"c.blackman@ucl.ac.uk, c.crick@ucl.ac.uk","Used in course, contact tutors",N
+99,2190,81963,80381,A,Christopher S Blackman & Colin Crick,"c.blackman@ucl.ac.uk, c.crick@ucl.ac.uk","Used in course, contact tutors",N
+97,2190,80385,80381,A,Christopher S Blackman & Colin Crick,"c.blackman@ucl.ac.uk, c.crick@ucl.ac.uk","Used in course, contact tutors",N
+123,2190,82545,80333,A,Christopher S Blackman & Colin Crick,"c.blackman@ucl.ac.uk, c.crick@ucl.ac.uk","Used in course, contact tutors",N
+125,2190,82551,72793,A,Christopher S Blackman & Colin Crick,"c.blackman@ucl.ac.uk, c.crick@ucl.ac.uk","Used in course, contact tutors",N
+189,3561,94759,87995,A,,,"can't find lock, test course",Y
+157,1239,89241,89251,A,Aviva Petrie,,"locks can be removed, user aware of AL development",Y
+159,1239,89241,89253,A,,,"locks can be removed, user aware of AL development",Y
+161,1239,89241,89255,A,,,"locks can be removed, user aware of AL development",Y
+163,1239,89241,89257,A,,,"locks can be removed, user aware of AL development",Y
+165,1239,89241,89235,A,,,"locks can be removed, user aware of AL development",Y
+167,1239,89241,89237,A,,,"locks can be removed, user aware of AL development",Y
+169,1239,89241,89239,A,,,"locks can be removed, user aware of AL development",Y
+171,1239,89239,89251,A,,,"locks can be removed, user aware of AL development",Y
+173,1239,89239,89253,A,,,"locks can be removed, user aware of AL development",Y
+175,1239,89239,89255,A,,,"locks can be removed, user aware of AL development",Y
+177,1239,89239,89235,A,,,"locks can be removed, user aware of AL development",Y
+179,1239,89239,89237,A,,,"locks can be removed, user aware of AL development",Y
+181,1239,89237,89251,A,,,"locks can be removed, user aware of AL development",Y
+183,1239,89237,89253,A,,,"locks can be removed, user aware of AL development",Y
+185,1239,89237,89235,A,,,"locks can be removed, user aware of AL development",Y
+193,3809,103543,100579,A,,,course deleted,Y

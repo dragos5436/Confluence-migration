@@ -1,0 +1,99 @@
+Tue 20/07/2021 01:20
+PROD (mdl-admin01.ad.ucl.ac.uk): The SITS Filter XML export has completed.
+
+Start: 01:15:05.000000
+Memory: 3.4892MiB
+
+Faculty Start: 01:15:05.000000
+        Count: 15
+        Taken: 5.1664500236511
+        Total: 5.1664888858795
+        Memry: 1.12895MiB
+
+Dprtmnt Start: 01:15:10.000000
+        Count: 104
+        Taken: 2.9444479942322
+        Total: 8.1109569072723
+        Memry: 1.16608MiB
+
+Progrme Start: 01:15:13.000000
+        Count: 2368
+        Taken: 7.7258329391479
+        Total: 15.836807966232
+        Memry: 1.49068MiB
+
+Route   Start: 01:15:21.000000
+        Count: 4334
+        Taken: 4.0623190402985
+        Total: 19.89914393425
+        Memry: 2.20577MiB
+
+Module Instance Start: 01:15:25.000000
+        Count: 10517
+        Taken: 7.9364819526672
+        Total: 27.835640907288
+        Memry: 4.31857MiB
+
+Module Occurence Start: 01:15:33.000000
+        Count: 54359
+        Taken: 11.515271902084
+        Total: 39.350932836533
+        Memry: 4.51556MiB
+
+Mmbrshp Start: 01:15:45.000000
+        Count: 291009
+        Taken: 47.248646020889
+        Total: 86.599607944489
+        Memry: 3.68379MiB
+
+Assngmt Start: 01:16:32.000000
+        Count: 49523
+        Taken: 9.2715029716492
+        Total: 95.871145009995
+        Memry: 3.71349MiB
+
+Student Start: 01:16:41.000000
+        Count: 49523
+        Taken: 12.436589956284
+        Total: 108.30777692795
+        Memry: 5.31107MiB
+
+SyncAll Start: 01:16:57.000000
+        Taken: 111.0630300045
+        Total: 223.2276558876
+        Memry: 5.28648MiB
+
+
+XMLExpt Start: 01:18:48.000000
+
+XMStdnt Start: 01:18:49.000000
+        Count: 2670
+          Query: 72.515566825867
+          Memry: 7.99957MiB
+        Write: 0.011190176010132
+        Total: 295.96659803391
+        Memry: 7.99973MiB
+
+XMCrse  Start: 01:20:01.000000
+        Count: 38
+          Query: 12.174890041351
+          Memry: 8.03891MiB
+        Write: 0.00019407272338867
+        Total: 308.14170503616
+        Memry: 8.04445MiB
+
+XMMembr Start: 01:20:13.000000
+        Count: 4000
+          Query: 24.3241147995
+          Memry: 11.72254MiB
+        Write: 0.0075461864471436
+        Total: 332.47337603569
+        Memry: 11.72271MiB
+
+UserCSV Start: 01:20:39.000000
+        Count: 50517
+          Query: 9.6530799865723
+          Memry: 80.80206MiB
+        Write: 0.18909192085266
+        Total: 343.2335858345
+        Memry: 80.80289MiB

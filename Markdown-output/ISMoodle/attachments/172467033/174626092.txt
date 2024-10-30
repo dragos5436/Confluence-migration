@@ -1,0 +1,171 @@
+2021-08-06 09:51:36     00:00:00          7.51 MB          1.18 MB        INFO    Started CMIS groups import processing
+2021-08-06 09:51:36     00:00:00          7.51 MB          1.18 MB        INFO    Starting importing CMIS data
+2021-08-06 09:51:36     00:00:00          7.56 MB          1.22 MB        INFO    Started importing MOODLE_V_CMIS_MODULE_GROUP data
+2021-08-06 09:51:39     00:00:03         90.89 MB         84.55 MB        INFO    Emptying data stored in cmis_module_group_dump
+2021-08-06 09:51:41     00:00:05         90.94 MB         84.60 MB        INFO    Finished importing MOODLE_V_CMIS_MODULE_GROUP data. No. of records imported: 38412. Time taken: 5.13
+2021-08-06 09:51:41     00:00:05         10.57 MB          4.23 MB        INFO    Started importing MOODLE_V_CMIS_GROUP_MEMBER data
+2021-08-06 09:51:50     00:00:14        361.70 MB       355.36 MB       INFO    Emptying data stored in cmis_group_member_dump
+2021-08-06 09:51:59     00:00:23        361.70 MB       355.37 MB       INFO    Finished importing MOODLE_V_CMIS_GROUP_MEMBER data. No. of records imported: 204910. Time taken: 17.90
+2021-08-06 09:51:59     00:00:23         12.07 MB          5.73 MB        INFO    Finished importing CMIS data
+2021-08-06 09:51:59     00:00:23         12.07 MB          5.73 MB        INFO    Starting importing Moodle data
+2021-08-06 09:51:59     00:00:23         12.07 MB          5.73 MB        INFO    Started importing Moodle Users [moodle_users]
+2021-08-06 09:52:00     00:00:24        142.04 MB       135.70 MB       INFO    Emptying data stored in moodle_users_dump
+2021-08-06 09:52:07     00:00:31        142.04 MB       135.70 MB       INFO    Finished importing Moodle Users [moodle_users]  No. of records found: 120311. Time taken: 8.27
+2021-08-06 09:52:07     00:00:31        142.04 MB       135.70 MB       INFO    Started importing Moodle Groups [moodle_groups]
+2021-08-06 09:52:07     00:00:31         16.02 MB          9.69 MB        INFO    Emptying data stored in moodle_groups_dump
+2021-08-06 09:52:08     00:00:32         16.02 MB          9.69 MB        INFO    Finished importing Moodle Groups [moodle_groups]  No. of records found: 3902. Time taken: 0.50
+2021-08-06 09:52:08     00:00:32         16.02 MB          9.69 MB        INFO    Started importing Moodle Group Members [moodle_group_members]
+2021-08-06 09:52:09     00:00:32        314.78 MB       308.44 MB       INFO    Emptying data stored in moodle_groups_members_dump
+2021-08-06 09:52:43     00:01:06        314.77 MB       308.44 MB       INFO    Finished importing Moodle Group Members [moodle_group_members]  No. of records found: 554349. Time taken: 34.93
+2021-08-06 09:52:43     00:01:06        314.77 MB       308.44 MB       INFO    Started importing Moodle Groupings [moodle_groupings]
+2021-08-06 09:52:43     00:01:07         16.44 MB         10.10 MB        INFO    Emptying data stored in moodle_groupings_dump
+2021-08-06 09:52:43     00:01:07         16.44 MB         10.10 MB        INFO    Finished importing Moodle Groupings [moodle_groupings]  No. of records found: 4327. Time taken: 0.60
+2021-08-06 09:52:43     00:01:07         16.44 MB         10.10 MB        INFO    Finished importing Moodle data
+2021-08-06 09:52:43     00:01:07         12.10 MB          5.76 MB        INFO    Started processing courses to add to Moodle
+2021-08-06 09:52:43     00:01:07         12.21 MB          5.87 MB        INFO    Found 7 mapped courses to add
+2021-08-06 09:52:43     00:01:07         12.21 MB          5.87 MB        INFO    Started processing additions for course mapping (VLE ID) 18773 => (SITS MOD OCC) 97C6BAAC31BD7886E053211E1C0A1034
+2021-08-06 09:52:43     00:01:07         12.35 MB          6.01 MB        INFO    Syncing/Processing mapped course with VLE Id 18773
+2021-08-06 09:52:43     00:01:07         12.35 MB          6.01 MB        INFO    There are 4 CMIS groups flagged as 'ToAdd' for VLE course Id 18773
+2021-08-06 09:52:43     00:01:07         12.35 MB          6.02 MB        INFO    There were no CMIS group members that need to be added to Moodle for group BDOId/vleId: 9697451E744E7098E0531F1E1C0AF001/18773
+2021-08-06 09:53:15     00:01:39         14.47 MB          8.13 MB        INFO    No CMIS group members will be added to Moodle group with Id 215065 (course 18773)
+2021-08-06 09:53:15     00:01:39         14.47 MB          8.13 MB        INFO    Found 6 CMIS group members that need to be added to Moodle for group BDOId/vleId: 9697451E79FC7098E0531F1E1C0AF001/18773
+2021-08-06 09:53:15     00:01:39         14.47 MB          8.13 MB        INFO    Moodle enrolled users for VLE course cache hit
+2021-08-06 09:53:15     00:01:39         14.48 MB          8.14 MB        WARNING Skipping request to add group membership for userid/studentcode/groupBdoId 760592/020186092/9697451E79FC7098E0531F1E1C0AF001 because user is already in the group.
+2021-08-06 09:53:15     00:01:39         14.48 MB          8.14 MB        WARNING Skipping request to add group membership for userid/studentcode/groupBdoId 745635/020013538/9697451E79FC7098E0531F1E1C0AF001 because user is already in the group.
+2021-08-06 09:53:15     00:01:39         14.48 MB          8.14 MB        WARNING Skipping request to add group membership for userid/studentcode/groupBdoId 767144/019133253/9697451E79FC7098E0531F1E1C0AF001 because user is already in the group.
+2021-08-06 09:53:15     00:01:39         14.48 MB          8.15 MB        WARNING Skipping request to add group membership for userid/studentcode/groupBdoId 761696/020171171/9697451E79FC7098E0531F1E1C0AF001 because user is already in the group.
+2021-08-06 09:53:15     00:01:39         14.48 MB          8.15 MB        WARNING Skipping request to add group membership for userid/studentcode/groupBdoId 706479/019059339/9697451E79FC7098E0531F1E1C0AF001 because user is already in the group.
+2021-08-06 09:53:15     00:01:39         14.48 MB          8.15 MB        WARNING Skipping request to add group membership for userid/studentcode/groupBdoId 761093/020062193/9697451E79FC7098E0531F1E1C0AF001 because user is already in the group.
+2021-08-06 09:53:15     00:01:39         14.48 MB          8.15 MB        INFO    No CMIS group members will be added to Moodle group with Id 215066 (course 18773)
+2021-08-06 09:53:15     00:01:39         14.48 MB          8.14 MB        INFO    Found 5 CMIS group members that need to be added to Moodle for group BDOId/vleId: 9697451E5F4E7098E0531F1E1C0AF001/18773
+2021-08-06 09:53:15     00:01:39         14.48 MB          8.14 MB        INFO    Moodle enrolled users for VLE course cache hit
+2021-08-06 09:53:15     00:01:39         14.49 MB          8.15 MB        WARNING Skipping request to add group membership for userid/studentcode/groupBdoId 747999/020078350/9697451E5F4E7098E0531F1E1C0AF001 because user is already in the group.
+2021-08-06 09:53:15     00:01:39         14.49 MB          8.15 MB        WARNING Skipping request to add group membership for userid/studentcode/groupBdoId 747955/019020832/9697451E5F4E7098E0531F1E1C0AF001 because user is already in the group.
+2021-08-06 09:53:15     00:01:39         14.49 MB          8.15 MB        WARNING Skipping request to add group membership for userid/studentcode/groupBdoId 717767/019001026/9697451E5F4E7098E0531F1E1C0AF001 because user is already in the group.
+2021-08-06 09:53:15     00:01:39         14.49 MB          8.15 MB        WARNING Skipping request to add group membership for userid/studentcode/groupBdoId 760555/020172002/9697451E5F4E7098E0531F1E1C0AF001 because user is already in the group.
+2021-08-06 09:53:15     00:01:39         14.49 MB          8.15 MB        WARNING Skipping request to add group membership for userid/studentcode/groupBdoId 706481/019000959/9697451E5F4E7098E0531F1E1C0AF001 because user is already in the group.
+2021-08-06 09:53:15     00:01:39         14.49 MB          8.15 MB        INFO    No CMIS group members will be added to Moodle group with Id 215067 (course 18773)
+2021-08-06 09:53:15     00:01:39         14.48 MB          8.14 MB        INFO    There were no CMIS group members that need to be added to Moodle for group BDOId/vleId: 9697451E63C77098E0531F1E1C0AF001/18773
+2021-08-06 09:53:15     00:01:39         14.48 MB          8.14 MB        INFO    Moodle enrolled users for VLE course cache hit
+2021-08-06 09:53:15     00:01:39         14.49 MB          8.15 MB        INFO    No CMIS group members will be added to Moodle group with Id 215068 (course 18773)
+2021-08-06 09:53:15     00:01:39         14.48 MB          8.15 MB        INFO    Finished processing additions for course mapping (VLE ID) 18773 => (SITS MOD OCC) 97C6BAAC31BD7886E053211E1C0A1034. Time taken: 32.13
+2021-08-06 09:53:15     00:01:39         14.48 MB          8.15 MB        INFO    Started processing additions for course mapping (VLE ID) 24684 => (SITS MOD OCC) 97C6BAAC17DC7886E053211E1C0A1034
+2021-08-06 09:53:15     00:01:39         14.53 MB          8.19 MB        INFO    Syncing/Processing mapped course with VLE Id 24684
+2021-08-06 09:53:15     00:01:39         14.53 MB          8.19 MB        INFO    There are 6 CMIS groups flagged as 'ToAdd' for VLE course Id 24684
+2021-08-06 09:53:16     00:01:39         14.53 MB          8.20 MB        INFO    Found 4 CMIS group members that need to be added to Moodle for group BDOId/vleId: 9697451E625B7098E0531F1E1C0AF001/24684
+2021-08-06 09:53:53     00:02:16         16.11 MB          9.78 MB        INFO    Calling Moodle service to add 4 users to group with Moodle Id 215069
+2021-08-06 09:53:54     00:02:18         16.11 MB          9.77 MB        INFO    Found 9 CMIS group members that need to be added to Moodle for group BDOId/vleId: 9697451E65A97098E0531F1E1C0AF001/24684
+2021-08-06 09:53:54     00:02:18         16.11 MB          9.77 MB        INFO    Moodle enrolled users for VLE course cache hit
+2021-08-06 09:53:54     00:02:18         16.12 MB          9.78 MB        INFO    Calling Moodle service to add 9 users to group with Moodle Id 215070
+2021-08-06 09:53:57     00:02:21         16.11 MB          9.77 MB        INFO    Found 6 CMIS group members that need to be added to Moodle for group BDOId/vleId: 9697451E7C3A7098E0531F1E1C0AF001/24684
+2021-08-06 09:53:57     00:02:21         16.11 MB          9.77 MB        INFO    Moodle enrolled users for VLE course cache hit
+2021-08-06 09:53:57     00:02:21         16.12 MB          9.78 MB        INFO    Calling Moodle service to add 6 users to group with Moodle Id 215071
+2021-08-06 09:53:59     00:02:23         16.11 MB          9.77 MB        INFO    Found 5 CMIS group members that need to be added to Moodle for group BDOId/vleId: 9697451E5F227098E0531F1E1C0AF001/24684
+2021-08-06 09:53:59     00:02:23         16.11 MB          9.77 MB        INFO    Moodle enrolled users for VLE course cache hit
+2021-08-06 09:53:59     00:02:23         16.12 MB          9.79 MB        INFO    Calling Moodle service to add 5 users to group with Moodle Id 215072
+2021-08-06 09:54:01     00:02:25         16.12 MB          9.78 MB        INFO    Found 4 CMIS group members that need to be added to Moodle for group BDOId/vleId: 9697451E656F7098E0531F1E1C0AF001/24684
+2021-08-06 09:54:01     00:02:25         16.12 MB          9.78 MB        INFO    Moodle enrolled users for VLE course cache hit
+2021-08-06 09:54:01     00:02:25         16.13 MB          9.79 MB        INFO    Calling Moodle service to add 4 users to group with Moodle Id 215073
+2021-08-06 09:54:03     00:02:26         16.12 MB          9.79 MB        INFO    Found 4 CMIS group members that need to be added to Moodle for group BDOId/vleId: 9697451E78E17098E0531F1E1C0AF001/24684
+2021-08-06 09:54:03     00:02:26         16.12 MB          9.79 MB        INFO    Moodle enrolled users for VLE course cache hit
+2021-08-06 09:54:03     00:02:26         16.13 MB          9.80 MB        INFO    Calling Moodle service to add 4 users to group with Moodle Id 215074
+2021-08-06 09:54:04     00:02:28         16.12 MB          9.79 MB        INFO    Finished processing additions for course mapping (VLE ID) 24684 => (SITS MOD OCC) 97C6BAAC17DC7886E053211E1C0A1034. Time taken: 48.71
+2021-08-06 09:54:04     00:02:28         16.12 MB          9.79 MB        INFO    Started processing additions for course mapping (VLE ID) 24036 => (SITS MOD OCC) 97C6BAAC17DC7886E053211E1C0A1034
+2021-08-06 09:54:04     00:02:28         16.14 MB          9.80 MB        INFO    Syncing/Processing mapped course with VLE Id 24036
+2021-08-06 09:54:04     00:02:28         16.14 MB          9.80 MB        INFO    There are 6 CMIS groups flagged as 'ToAdd' for VLE course Id 24036
+2021-08-06 09:54:04     00:02:28         16.14 MB          9.81 MB        INFO    Found 4 CMIS group members that need to be added to Moodle for group BDOId/vleId: 9697451E625B7098E0531F1E1C0AF001/24036
+2021-08-06 09:54:46     00:03:10         20.65 MB         14.31 MB        INFO    Calling Moodle service to add 4 users to group with Moodle Id 192821
+2021-08-06 09:54:47     00:03:11         20.64 MB         14.31 MB        INFO    Found 9 CMIS group members that need to be added to Moodle for group BDOId/vleId: 9697451E65A97098E0531F1E1C0AF001/24036
+2021-08-06 09:54:47     00:03:11         20.64 MB         14.31 MB        INFO    Moodle enrolled users for VLE course cache hit
+2021-08-06 09:54:47     00:03:11         20.66 MB         14.32 MB        INFO    Calling Moodle service to add 9 users to group with Moodle Id 192823
+2021-08-06 09:54:50     00:03:14         20.65 MB         14.31 MB        INFO    Found 6 CMIS group members that need to be added to Moodle for group BDOId/vleId: 9697451E7C3A7098E0531F1E1C0AF001/24036
+2021-08-06 09:54:50     00:03:14         20.65 MB         14.31 MB        INFO    Moodle enrolled users for VLE course cache hit
+2021-08-06 09:54:50     00:03:14         20.66 MB         14.32 MB        WARNING Skipping request to add group membership for userid/studentcode/groupBdoId 752067/020084853/9697451E7C3A7098E0531F1E1C0AF001 because user is already in the group.
+2021-08-06 09:54:50     00:03:14         20.66 MB         14.32 MB        INFO    Calling Moodle service to add 5 users to group with Moodle Id 192825
+2021-08-06 09:54:52     00:03:15         20.65 MB         14.31 MB        INFO    Found 5 CMIS group members that need to be added to Moodle for group BDOId/vleId: 9697451E5F227098E0531F1E1C0AF001/24036
+2021-08-06 09:54:52     00:03:15         20.65 MB         14.31 MB        INFO    Moodle enrolled users for VLE course cache hit
+2021-08-06 09:54:52     00:03:15         20.66 MB         14.32 MB        INFO    Calling Moodle service to add 5 users to group with Moodle Id 192824
+2021-08-06 09:54:53     00:03:17         20.65 MB         14.32 MB        INFO    Found 4 CMIS group members that need to be added to Moodle for group BDOId/vleId: 9697451E656F7098E0531F1E1C0AF001/24036
+2021-08-06 09:54:53     00:03:17         20.65 MB         14.31 MB        INFO    Moodle enrolled users for VLE course cache hit
+2021-08-06 09:54:53     00:03:17         20.66 MB         14.33 MB        INFO    Calling Moodle service to add 4 users to group with Moodle Id 192826
+2021-08-06 09:54:55     00:03:19         20.66 MB         14.33 MB        INFO    There are 1 members in the Moodle group with Moodle Id 192826 who are not members of the  equivalent CMIS group. They will not be removed from Moodle because config is not set to do so
+2021-08-06 09:54:55     00:03:19         20.66 MB         14.32 MB        INFO    Found 4 CMIS group members that need to be added to Moodle for group BDOId/vleId: 9697451E78E17098E0531F1E1C0AF001/24036
+2021-08-06 09:54:55     00:03:19         20.66 MB         14.32 MB        INFO    Moodle enrolled users for VLE course cache hit
+2021-08-06 09:54:55     00:03:19         20.67 MB         14.33 MB        INFO    Calling Moodle service to add 4 users to group with Moodle Id 192822
+2021-08-06 09:54:56     00:03:20         20.66 MB         14.32 MB        INFO    Finished processing additions for course mapping (VLE ID) 24036 => (SITS MOD OCC) 97C6BAAC17DC7886E053211E1C0A1034. Time taken: 52.16
+2021-08-06 09:54:56     00:03:20         20.66 MB         14.32 MB        INFO    Started processing additions for course mapping (VLE ID) 24685 => (SITS MOD OCC) 97C6BAAC1BDC7886E053211E1C0A1034
+2021-08-06 09:54:56     00:03:20         20.66 MB         14.32 MB        INFO    Syncing/Processing mapped course with VLE Id 24685
+2021-08-06 09:54:56     00:03:20         20.66 MB         14.32 MB        INFO    There are 3 CMIS groups flagged as 'ToAdd' for VLE course Id 24685
+2021-08-06 09:54:57     00:03:20         20.67 MB         14.33 MB        INFO    Found 6 CMIS group members that need to be added to Moodle for group BDOId/vleId: AD593D4EB7020AC8E0531F1E1C0AB209/24685
+2021-08-06 09:55:42     00:04:06         22.70 MB         16.36 MB        INFO    Calling Moodle service to add 6 users to group with Moodle Id 215075
+2021-08-06 09:55:45     00:04:08         22.69 MB         16.35 MB        INFO    Found 4 CMIS group members that need to be added to Moodle for group BDOId/vleId: AD593D4EB7010AC8E0531F1E1C0AB209/24685
+2021-08-06 09:55:45     00:04:08         22.69 MB         16.35 MB        INFO    Moodle enrolled users for VLE course cache hit
+2021-08-06 09:55:45     00:04:08         22.70 MB         16.36 MB        INFO    Calling Moodle service to add 4 users to group with Moodle Id 215076
+2021-08-06 09:55:46     00:04:10         22.69 MB         16.36 MB        INFO    Found 4 CMIS group members that need to be added to Moodle for group BDOId/vleId: AD593D4EB7030AC8E0531F1E1C0AB209/24685
+2021-08-06 09:55:46     00:04:10         22.69 MB         16.36 MB        INFO    Moodle enrolled users for VLE course cache hit
+2021-08-06 09:55:46     00:04:10         22.70 MB         16.37 MB        INFO    Calling Moodle service to add 4 users to group with Moodle Id 215077
+2021-08-06 09:55:48     00:04:12         22.69 MB         16.36 MB        INFO    Finished processing additions for course mapping (VLE ID) 24685 => (SITS MOD OCC) 97C6BAAC1BDC7886E053211E1C0A1034. Time taken: 51.49
+2021-08-06 09:55:48     00:04:12         22.69 MB         16.36 MB        INFO    Started processing additions for course mapping (VLE ID) 12027 => (SITS MOD OCC) 97C6BAAC37537886E053211E1C0A1034
+2021-08-06 09:55:48     00:04:12         22.75 MB         16.42 MB        INFO    Syncing/Processing mapped course with VLE Id 12027
+2021-08-06 09:55:48     00:04:12         22.75 MB         16.42 MB        INFO    There are 4 CMIS groups flagged as 'ToAdd' for VLE course Id 12027
+2021-08-06 09:55:48     00:04:12         22.75 MB         16.42 MB        INFO    [Course: 12027] About to request creation of group CmisGrpTable BDOID: 9697451E81717098E0531F1E1C0AF001
+Module Occur. BDOID:
+CmisGrpTable Code: SEM1
+CmisGrpTable Name: Seminar 1
+CmisGrpTable ID: LITC0027-1
+
+2021-08-06 09:55:48     00:04:12         22.77 MB         16.43 MB        ERROR   Exception occurred during call to Moodle API function core_group_create_groups ########### GROUP WITH THE SAME NAME ALREADY EXISTS IN THE COURSE ########### Exception name: invalid_parameter_exception, Exception error code: invalidparameter, Exception message: Invalid parameter value detected (Group with the same name already exists in the course)
+2021-08-06 09:55:48     00:04:12         22.76 MB         16.43 MB        ERROR   Failed to sync group (9697451E81717098E0531F1E1C0AF001) to Moodle -
+Unable to create Moodle group from REST response:
+NULL
+2021-08-06 09:55:48     00:04:12         22.77 MB         16.43 MB        INFO    [Course: 12027] About to request creation of group CmisGrpTable BDOID: A4CE9F5614F14479E0531F1E1C0A85E7
+Module Occur. BDOID:
+CmisGrpTable Code: SEM4
+CmisGrpTable Name: Seminar 4
+CmisGrpTable ID: LITC0027-4
+
+2021-08-06 09:55:49     00:04:13         22.78 MB         16.44 MB        ERROR   Exception occurred during call to Moodle API function core_group_create_groups ########### GROUP WITH THE SAME NAME ALREADY EXISTS IN THE COURSE ########### Exception name: invalid_parameter_exception, Exception error code: invalidparameter, Exception message: Invalid parameter value detected (Group with the same name already exists in the course)
+2021-08-06 09:55:49     00:04:13         22.77 MB         16.43 MB        ERROR   Failed to sync group (A4CE9F5614F14479E0531F1E1C0A85E7) to Moodle -
+Unable to create Moodle group from REST response:
+NULL
+2021-08-06 09:55:49     00:04:13         22.77 MB         16.43 MB        INFO    [Course: 12027] About to request creation of group CmisGrpTable BDOID: 9697451E63F57098E0531F1E1C0AF001
+Module Occur. BDOID:
+CmisGrpTable Code: SEM2
+CmisGrpTable Name: Seminar 2
+CmisGrpTable ID: LITC0027-2
+
+2021-08-06 09:55:49     00:04:13         22.78 MB         16.44 MB        ERROR   Exception occurred during call to Moodle API function core_group_create_groups ########### GROUP WITH THE SAME NAME ALREADY EXISTS IN THE COURSE ########### Exception name: invalid_parameter_exception, Exception error code: invalidparameter, Exception message: Invalid parameter value detected (Group with the same name already exists in the course)
+2021-08-06 09:55:49     00:04:13         22.77 MB         16.43 MB        ERROR   Failed to sync group (9697451E63F57098E0531F1E1C0AF001) to Moodle -
+Unable to create Moodle group from REST response:
+NULL
+2021-08-06 09:55:49     00:04:13         22.77 MB         16.44 MB        INFO    [Course: 12027] About to request creation of group CmisGrpTable BDOID: 9697451E7A1C7098E0531F1E1C0AF001
+Module Occur. BDOID:
+CmisGrpTable Code: SEM3
+CmisGrpTable Name: Seminar 3
+CmisGrpTable ID: LITC0027-3
+
+2021-08-06 09:55:50     00:04:14         22.78 MB         16.45 MB        ERROR   Exception occurred during call to Moodle API function core_group_create_groups ########### GROUP WITH THE SAME NAME ALREADY EXISTS IN THE COURSE ########### Exception name: invalid_parameter_exception, Exception error code: invalidparameter, Exception message: Invalid parameter value detected (Group with the same name already exists in the course)
+2021-08-06 09:55:50     00:04:14         22.77 MB         16.44 MB        ERROR   Failed to sync group (9697451E7A1C7098E0531F1E1C0AF001) to Moodle -
+Unable to create Moodle group from REST response:
+NULL
+2021-08-06 09:55:50     00:04:14         22.77 MB         16.43 MB        INFO    Finished processing additions for course mapping (VLE ID) 12027 => (SITS MOD OCC) 97C6BAAC37537886E053211E1C0A1034. Time taken: 2.05
+2021-08-06 09:55:50     00:04:14         22.77 MB         16.43 MB        INFO    Started processing additions for course mapping (VLE ID) 12027 => (SITS MOD OCC) 97C6BAAC38127886E053211E1C0A1034
+2021-08-06 09:55:50     00:04:14         22.78 MB         16.44 MB        INFO    No groups to add for course mapping (VLE ID) 12027 => (SITS MOD OCC) 97C6BAAC38127886E053211E1C0A1034
+2021-08-06 09:55:50     00:04:14         22.78 MB         16.44 MB        INFO    Started processing additions for course mapping (VLE ID) 23907 => (SITS MOD OCC) 97C6BAAC1BDC7886E053211E1C0A1034
+2021-08-06 09:55:50     00:04:14         22.79 MB         16.45 MB        INFO    Syncing/Processing mapped course with VLE Id 23907
+2021-08-06 09:55:50     00:04:14         22.79 MB         16.45 MB        INFO    There are 3 CMIS groups flagged as 'ToAdd' for VLE course Id 23907
+2021-08-06 09:55:50     00:04:14         22.79 MB         16.45 MB        INFO    Found 6 CMIS group members that need to be added to Moodle for group BDOId/vleId: AD593D4EB7020AC8E0531F1E1C0AB209/23907
+2021-08-06 09:56:01     00:04:24         24.19 MB         17.85 MB        WARNING Skipping request to add group membership for userid/studentcode/groupBdoId 39405/018008816/AD593D4EB7020AC8E0531F1E1C0AB209 because user is already in the group.
+2021-08-06 09:56:01     00:04:24         24.19 MB         17.85 MB        INFO    Calling Moodle service to add 5 users to group with Moodle Id 215078
+2021-08-06 09:56:02     00:04:26         24.19 MB         17.85 MB        INFO    Found 4 CMIS group members that need to be added to Moodle for group BDOId/vleId: AD593D4EB7010AC8E0531F1E1C0AB209/23907
+2021-08-06 09:56:02     00:04:26         24.19 MB         17.85 MB        INFO    Moodle enrolled users for VLE course cache hit
+2021-08-06 09:56:02     00:04:26         24.19 MB         17.85 MB        INFO    Calling Moodle service to add 4 users to group with Moodle Id 215079
+2021-08-06 09:56:04     00:04:28         24.19 MB         17.85 MB        INFO    Found 4 CMIS group members that need to be added to Moodle for group BDOId/vleId: AD593D4EB7030AC8E0531F1E1C0AB209/23907
+2021-08-06 09:56:04     00:04:28         24.19 MB         17.85 MB        INFO    Moodle enrolled users for VLE course cache hit
+2021-08-06 09:56:04     00:04:28         24.19 MB         17.86 MB        INFO    Calling Moodle service to add 4 users to group with Moodle Id 215080
+2021-08-06 09:56:05     00:04:29         24.19 MB         17.85 MB        INFO    Finished processing additions for course mapping (VLE ID) 23907 => (SITS MOD OCC) 97C6BAAC1BDC7886E053211E1C0A1034. Time taken: 15.59
+2021-08-06 09:56:05     00:04:29         24.19 MB         17.85 MB        INFO    Finished processing courses to add to Moodle. Time taken: 202.23
+2021-08-06 09:56:05     00:04:29         24.10 MB         17.76 MB        INFO    Started processing courses to remove from Moodle
+2021-08-06 09:56:05     00:04:29         24.10 MB         17.76 MB        INFO    No mapped courses to remove found
+2021-08-06 09:56:05     00:04:29         24.10 MB         17.76 MB        INFO    Finished processing courses to remove from Moodle. Time taken: 0.02
+2021-08-06 09:56:05     00:04:29         24.10 MB         17.76 MB        INFO    Finished CMIS groups import processing

@@ -1,0 +1,54 @@
+Execute scheduled task: Sync Moodle courses to Microsoft Teams (local_o365\task\coursesync)
+... started 09:51:58. Current memory use 40MB.
+Start syncing courses.
+Tenant has education license: yes
+Restore groups that have been soft-deleted...
+Processing courses without groups...
+... All courses have groups created.
+Processing courses without teams...
+... Processing course #26164
+...... Adding 7 owners and 5 members to group with ID 065f9c75-8371-4184-8447-3e6489f3561a
+......... Error: Error in API call: Insufficient privileges to complete the operation.
+......... Retry #1
+......... Error: Error in API call: Insufficient privileges to complete the operation.
+......... Retry #2
+......... Error: Error in API call: Insufficient privileges to complete the operation.
+......... Retry #3
+......... Error: Error in API call: Insufficient privileges to complete the operation.
+......... Retry #4
+......... Error: Error in API call: Insufficient privileges to complete the operation.
+......... Retry #5
+......... Error: Error in API call: Insufficient privileges to complete the operation.
+......... Error: Error in API call: Insufficient privileges to complete the operation.
+......... Retry #1
+......... Error: Error in API call: Insufficient privileges to complete the operation.
+......... Retry #2
+......... Error: Error in API call: Insufficient privileges to complete the operation.
+......... Retry #3
+......... Error: Error in API call: Insufficient privileges to complete the operation.
+......... Retry #4
+......... Error: Error in API call: Insufficient privileges to complete the operation.
+......... Retry #5
+......... Error: Error in API call: Insufficient privileges to complete the operation.
+......... Finished adding owners and members to group.
+...... Creating class team from education group with ID 065f9c75-8371-4184-8447-3e6489f3561a for course #26164
+......... Could not create class team from education group. Reason: Error in API call: Missing role permissions on the request. API requires one of 'Team.Create, Teamwork.Migrate.All, Group.ReadWrite.All, Directory.ReadWrite.All'. Roles on the request 'Directory.Read.All, EduRoster.Read.All, Group.Read.All, EduRoster.ReadWrite.All, User.Read.All, Domain.Read.All, Member.Read.Hidden'.
+......... Retry #1
+......... Could not create class team from education group. Reason: Error in API call: Missing role permissions on the request. API requires one of 'Team.Create, Teamwork.Migrate.All, Group.ReadWrite.All, Directory.ReadWrite.All'. Roles on the request 'Directory.Read.All, EduRoster.Read.All, Group.Read.All, EduRoster.ReadWrite.All, User.Read.All, Domain.Read.All, Member.Read.Hidden'.
+......... Retry #2
+......... Could not create class team from education group. Reason: Error in API call: Missing role permissions on the request. API requires one of 'Team.Create, Teamwork.Migrate.All, Group.ReadWrite.All, Directory.ReadWrite.All'. Roles on the request 'Directory.Read.All, EduRoster.Read.All, Group.Read.All, EduRoster.ReadWrite.All, User.Read.All, Domain.Read.All, Member.Read.Hidden'.
+......... Retry #3
+......... Could not create class team from education group. Reason: Error in API call: Missing role permissions on the request. API requires one of 'Team.Create, Teamwork.Migrate.All, Group.ReadWrite.All, Directory.ReadWrite.All'. Roles on the request 'Directory.Read.All, EduRoster.Read.All, Group.Read.All, EduRoster.ReadWrite.All, User.Read.All, Domain.Read.All, Member.Read.Hidden'.
+......... Retry #4
+......... Could not create class team from education group. Reason: Error in API call: Missing role permissions on the request. API requires one of 'Team.Create, Teamwork.Migrate.All, Group.ReadWrite.All, Directory.ReadWrite.All'. Roles on the request 'Directory.Read.All, EduRoster.Read.All, Group.Read.All, EduRoster.ReadWrite.All, User.Read.All, Domain.Read.All, Member.Read.Hidden'.
+......... Retry #5
+......... Could not create class team from education group. Reason: Error in API call: Missing role permissions on the request. API requires one of 'Team.Create, Teamwork.Migrate.All, Group.ReadWrite.All, Directory.ReadWrite.All'. Roles on the request 'Directory.Read.All, EduRoster.Read.All, Group.Read.All, EduRoster.ReadWrite.All, User.Read.All, Domain.Read.All, Member.Read.Hidden'.
+......... Failed to create class team from education group with ID 065f9c75-8371-4184-8447-3e6489f3561a for course #26164
+... All courses have teams created.
+Updating teams cache...
+... Building existing teams cache records
+... Updating teams cache records
+... Deleting old teams cache records
+... used 85 dbqueries
+... used 166.5262670517 seconds
+Scheduled task complete: Sync Moodle courses to Microsoft Teams (local_o365\task\coursesync)

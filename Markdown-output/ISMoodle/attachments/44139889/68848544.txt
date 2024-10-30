@@ -1,0 +1,104 @@
+DATA IMPORT PROCESS [AS IS]
+
+
+IMPORT FROM SITS
+
+  Import all Faculties
+    - columns: name, code
+
+  Import all Departments
+    - columns: name, code, faculty code, (updated date)
+
+  Import all Programmes
+    - selects programmes from student view where the department is one retrieved above
+    - columns: name, code, dept code, (updated date)
+
+  Import all Routes
+    - selects routes from student view where the department is one retrieved above
+    - columns: name, programme code, dept code, (updated date)
+
+  Import all Modules
+    - selects modules from mod-reg view where
+      - department is one retrieved above
+      - academic year is the one set in system_settings
+      - student registration status is CON
+    - columns: code, name, availability, dept code, academic year code, academic year name, period slot, (updated date)
+
+  Import all Assignments  [Student-Route-Programme-Department-Faculty associations]
+    - for each department retrieved above, selects full info from student view
+    - columns: stu code, dept code, programme code, route code, ugpg, enrolment status, course join code, faculty code, (updated date)
+
+  Import all Memberships  [valid Student-Module associations]
+    - truncate Memberships table ["temporary fix"]
+    - for each department retrieved above, selects student module selections from mod-reg view
+    - filters where academic year is one set in system_settings
+    - columns: module code, student code, selection status, (updated date)
+
+  Import all Students
+    - for each department retrieved above, selects students from student view
+    - excludes students already in the Students table (i.e. previously imported students)
+    - stu code, username, first name, surname, full name, email, dept code, enrolment status, course join status, (updated date)
+
+
+CREATE IMS XML
+
+  Get the module mappings from moodle (stored in sits_management2)
+    - sits mod code, moodle 'id number', moodle id, 'status' ("mapped"/"unmapped"), moodle export ("exported"), updated date
+
+  Get the student-module associations from the Memberships table populated above
+    - only return rows where the module is in the module mapping table retrieved a second ago
+    - only return rows where selection status is CON
+
+  Get the students from that list of associations
+  For each student, get their details from the Students table populated above
+    - student code, username, firstname, surname, email
+    - add this to the XML under <person>
+      - sourcedid:
+        - source: sits_filter2
+        - id: student code
+      - userid: ucl userid
+      - name:
+        - fn: first name
+        - n:
+          - family: surname
+          - given: first name
+      - email: email
+      - extension
+        - webextension: (blank)
+
+
+  Get the details for all the moodle courses referenced in the module mapping table
+    - get the moodle course directly from moodle - mdl_course - based on the moodle_id in module mapping table
+    - join mdl_course to mdl_course_category (on mdl_course.category = mdl_course_category.id)
+    - add each moodle course to the XML under <group>
+      - sourcedid:
+        - source: sits_filter2
+        - id: moodle course idnumber
+      - description:
+        - short: shortname
+      - org:
+        - orgunit: categoryname
+
+  Go through each moodle course in the module mapping table
+  Get the students associated with each module mapped to the moodle course (from Memberships)
+  Get the student code and username for each associated student (from Students)
+    - add this to the XML under <membership>
+    - check if module mapping is "mapped" or "unmapped"
+      - sourcedid
+        - source: sits_filter2
+        - sourceid: moodle course idnumber
+      - member
+        [foreach student]
+          - sourcedid
+            - source: sits_filter2
+            - id: student code
+          - idtype [attr[idtype=1]]: (blank)
+          - role [attr[roletype=1]]
+            - userid: ucl userid
+            - status:
+              [if mapping.status = mapped] 1
+              [else if mapping.status unmapped] 0
+
+
+          
+    

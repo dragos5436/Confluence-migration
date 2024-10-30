@@ -1,0 +1,46 @@
+h1. Moodle
+
+
+h3. Autumn 2010
+
+
+h5. How many users/courses/survey/spaces do we currently have?
+
+
+h5. Average size of each course/survey/space?
+
+
+h5. Quota limit per user currently set (if appropriate)?
+
+
+h5. storage limits on existing local hardware
+
+
+h3. Future Predictions
+
+
+h4. Sept 2011 - Aug 2012
+
+h5. How many users/courses/survey/spaces do we expect?
+
+h5. Average size of each course/survey/space?
+
+h5. Future required quota limit per user (if appropriate)?
+
+h4. Sept 2012 - Aug 2013
+
+h5. How many users/courses/survey/spaces do we expect?
+
+h5. Average size of each course/survey/space?
+
+h5. Future required quota limit per user (if appropriate)?
+
+
+h4. Notes on reasons for expected increase in usage/storage needs
+
+
+h3. Types of local files held on the server
+
+h3. resilience level needed for service
+
+h3. priority for move from local servers to central filestore

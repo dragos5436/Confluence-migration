@@ -1,0 +1,77 @@
+Public subnets:
+eu-west-2a | 10.0.0.0/24
+subnet-0445fab9d68c62ad4 / moodle_ecs_app-public-subnet0
+eu-west-2b | 10.0.1.0/24
+subnet-0b282d65d20e83e0b / moodle_ecs_app-public-subnet1
+
+Public subnets route:
+rtb-03753f1bad1aa9d8e
+Destination: 10.0.0.0/16, 0.0.0.0/0: | Target: local, igw-0817f5c6da29dec41 / moodle_ecs_app-ig
+
+Public subnet connected resources:
+elb: mdl-fargate-app
+
+------------------------------------------
+
+Private subnets:
+eu-west-2a | 10.0.2.0/24
+subnet-0024dad68543a3120 / moodle_ecs_app-private-subnet0
+eu-west-2b | 10.0.3.0/24
+subnet-039d07914205b7eb9 / moodle_ecs_app-private-subnet1
+
+
+Private subnets route:
+rtb-04cd4d5019ec8b5fd / moodle_ecs_rt1
+Destination: 10.0.0.0/16, 0.0.0.0/0 | Targat: local, nat-0c275219d5a290b31 / moodle_ecs_app-NATGateway 
+				 subnet: moodle_ecs_app-public-subnet1
+				 public ip:	 3.11.191.37
+				 private ip: 10.0.1.156
+
+rtb-042401e31ef9238e1 / moodle_ecs_rt0
+Destination 0.0.0.0/0 | NG target: nat-04774bdbff82b461c / moodle_ecs_app-NATGateway
+				subnet: moodle_ecs_app-public-subnet0
+				public ip:	35.177.194.37
+				private ip:	10.0.0.229
+
+Private subnet connected resources:
+rds: moodle-rds-cluster-inst
+ecs: moodle_cluster - all containers
+
+-----------------------------------------
+
+Public and Private subnet Network ACL:
+acl-0994ab92b9e827740 / moodle_ecs_app-acl
+Inbound: 	100 	< 	All 	| All	 | Source 0.0.0.0/0   Allow
+		3360 	< 	TCP	| 3360 | Source 10.0.0.0/8  Allow
+		*	<	All	| All	 | Source 0.0.0.0/0   Deny		
+
+Outbound: 	100 	> 	All	| All  | Destination 0.0.0.0/0  Allow
+		*	>	All	| All	 | Destination 0.0.0.0/0  Deny	
+
+----------------------------------------
+
+Private security group:
+sg-0c8ba1d9835e68a45 / moodle_ecs_app-ECSSecurityGroup
+Inbound: 	HTTPS < 	TCP 	| 443  | Source sg-058052b40ed08bc59 / moodle_ecs_app-lb-security-group
+    		HTTP 	< 	TCP 	| 80	 | Source sg-058052b40ed08bc59 / moodle_ecs_app-lb-security-group
+		Mysql < 	TCP	| 3360 | Source sg-058052b40ed08bc59 / moodle_ecs_app-lb-security-group
+
+Outbound: 	All traffic | Destination 0.0.0.0/0
+
+Private security connected resources:
+rds: moodle-rds-cluster-inst
+ecs: moodle_cluster - all containers
+
+----------------------------------------
+
+Public security group:
+sg-058052b40ed08bc59 / moodle_ecs_app-lb-security-group
+Inbound: 	HTTPS < 	TCP 	| 443  | Source 0.0.0.0/0
+    		HTTP 	< 	TCP 	| 80	 | Source 0.0.0.0/0
+		SSH 	< 	TCP 	| 22	 | Source 0.0.0.0/0
+		Mysql < 	TCP	| 3360 | Source 0.0.0.0/0
+
+Outbound: 	All traffic | Destination 0.0.0.0/0
+
+Public security connected resources:
+elb: mdl-fargate-app

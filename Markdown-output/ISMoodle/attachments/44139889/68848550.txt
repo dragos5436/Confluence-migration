@@ -1,0 +1,84 @@
+// static lookup for tables
+table - registration_statuses.sql
+
+// user defined/configuration data
+table - enrolment_statuses.sql
+table - system_settings.sql
+
+// base reference data from sits
+// (files include *_import table create scripts)
+table - faculties.sql
+table - departments.sql
+table - programmes.sql
+table - routes.sql
+table - modules.sql
+
+// student information data
+// (files include *_import table create scripts)
+table - assignments.sql
+table - memberships.sql
+table - students.sql
+
+// moodle mapping data
+table - mapped_departments.sql
+table - mapped_faculties.sql
+table - mapped_modules.sql
+table - mapped_programme.sql
+table - mapped_routes.sql
+
+// run the one-off/module-import.php script at this point
+
+
+// moodle mapping reference data
+// includes insert of initial population from mapped_modules
+// but depends on one-off/module-import.php having been run
+table - mapping_statuses.sql
+
+
+// the views that show which data needs to be taken from _import to base table)
+view - sf2_v_facultymerge.sql
+view - sf2_v_departmentmerge.sql
+view - sf2_v_programmemerge.sql
+view - sf2_v_routemerge.sql
+view - sf2_v_modulemerge.sql
+view - sf2_v_assignmentmerge.sql
+view - sf2_v_membershipmerge.sql
+view - sf2_v_studentmerge.sql
+
+// the individual procedures for syncing from _import to base tables)
+procedure - sync_faculties.sql
+procedure - sync_programmes.sql
+procedure - sync_routes.sql
+procedure - sync_modules.sql
+procedure - sync_departments.sql
+procedure - sync_assignments.sql
+procedure - sync_memberships.sql
+procedure - sync_students.sql
+
+// the script that runs all the above scripts
+procedure - sync_imports.sql
+
+
+// the views which go together to say which students need to be added and removed from mappings 
+// each file contains a _full, _add and _rmv varient
+view - sf2_v_facultyenrolment.sql
+view - sf2_v_programmeenrolment.sql
+view - sf2_v_routeenrolment.sql
+view - sf2_v_moduleenrolment.sql
+view - sf2_v_departmentenrolment.sql
+
+
+// the final set of views which are used to populate <people>, <courses> and <memberships>
+// for the xml output
+view - sf2_v_enrolstudents.sql
+view - sf2_v_enrolcourses.sql
+view - sf2_v_enrolmemberships.sql
+
+
+// the full set of mappings, for each moodle course, used by the block
+view - sf2_v_mappings.sql
+
+
+// a lookup which gets potential mapping matches
+// used to search for new mappings in the block
+view - sf2_v_sitsdata.sql

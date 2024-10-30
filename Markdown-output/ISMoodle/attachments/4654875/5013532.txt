@@ -1,0 +1,82 @@
+What is the function of the organelle marked 1? (choose two answers)
+{
+~Action potential
+~Apoptosis
+~ATP biosynthesis
+~Cell-cell communication
+~Cell-cell contact(s)
+~Cell locomotion
+~Cell motility
+~Cell – substratum adhesion
+~Coated with clathrin
+~Collagen synthesis
+~Concentrations of divalent cations
+~Constituent of mitotic spindle
+~Continuous with endoplasmic reticulum
+~Contractions
+~Cytokinesis
+~Degradation of exogenous macromolecules.
+~Degradation of endogenous macromolecules Depolarization
+~Differentiation
+~Digestion of bacteria
+~Disulfide bonding
+=DNA synthesis
+~Electrical insulation
+~Electron transport chain
+~Endocytosis
+~Energy storage
+~Export of ribosomes
+~First stages of protein glycosylation
+~Glucose storage
+~Glycogen synthesis
+~Glycoprotein/peptidoglycan extracellular matrix
+~Glycolysis
+~Greater efficiency of absorption and secretion
+~Hydrogen peroxide degradation
+~Hydrogen peroxide generation
+~Increase surface area of plasma membrane
+~Import of transcription factors
+~Intercellular communication
+~Intermediary metabolism
+~Intermediate step in the uptake of extracellular materials for degradation in lysosomes
+~Internalisation of macromolecules
+~Intracellular calcium storage and release
+~Intracellular vesicular transport
+~Krebs Cycle
+~Later stages of protein glycosylation
+~Lipid-staining bodies of uncertain function
+~Lipid storage
+~Long-chain fatty acid oxidation
+~Organelle resulting from pinocytosis
+~Organelle resulting from phagocytosis
+~Oxidative phosphorylation
+~Malignant transformation
+~membrane potential
+~Methylation
+~Movement of organelles
+~Neurotransmission
+~Part of the cytoskeleton
+~Part of mitochondrial inner membrane
+~Part of the microtubule organizing centre
+~Permeability barrier between cell and environment
+~Photosynthesis
+~Post-translational import of secretory proteins
+~Protection of plasma membrane
+~Protein phosphorylation
+~Protein synthesis
+~Protein/vesicle transport centre of the cell
+~Proteolysis
+~Respiration
+~Segregation of genetic material  from cytoplasm
+~Segregation of hydrophobic molecules from hydrophilic ones
+~Separates apical and basolateral surfaces of cell
+~Spindle formation
+~Steroid synthesis
+~Structure across which extracellular signals are transduced to give intracellular effects
+~Translation
+=Transcription
+~Transepithelial permeability barrier
+~tRNA synthesis
+~Ubiquitination
+}
+

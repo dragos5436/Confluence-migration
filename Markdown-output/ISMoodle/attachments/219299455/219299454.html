@@ -1,0 +1,38 @@
+<HTML><HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8" />
+<META NAME="generator" CONTENT="Skype" />
+</HEAD><BODY>
+<style type='text/css' media='all'> html { margin: 0; padding: 0; } head { display: none; } body { margin: 10px 10px 30px; padding: 0; font: normal 75% Tahoma, Verdana, Helvetica, sans-serif; color: #000; } h1 { font-size: 1.2em; font-weight: 600; margin: 0; } h2 { font-size: 1.2em; font-weight: 600; margin: 0; } h3 { font-size: 1.1em; font-weight: 600; } dl, dt, dd { margin: 0; padding: 0; width: auto; display: block; } dt { height: 20px; line-height: 20px; font-weight: bold; position: relative; } dt span { position: absolute; right: 0; top: 0; font-size: 0.8em; font-weight: normal; padding-right: 10px; } dd { margin: 0.5ex 0 1ex 10px; position: relative; } dd span { position: absolute; right: 0; top: 0; font-size: 0.8em; font-weight: normal; padding-right: 10px; } dt.remote { padding-left: 10px; background: #D5E6FF url(http://goodies.skype.com/graphics/chathistory/blue_left.png) left center no-repeat; } dt.remote span { background: #D5E6FF url(http://goodies.skype.com/graphics/chathistory/blue_right.png) right center no-repeat; } dt.local { padding-left: 10px; background: #DDD url(http://goodies.skype.com/graphics/chathistory/grey_left.png) left center no-repeat; } dt.local span { background: #DDD url(http://goodies.skype.com/graphics/chathistory/grey_right.png) right center no-repeat; } dt.info { background: #F0EAAA url(http://goodies.skype.com/graphics/chathistory/info_left.png) left center no-repeat; margin: 1em 0; height: 25px; line-height: 25px; text-align: center; font-weight: normal; padding-left: 30px; } dt.info span { position: relative; height: 25px; display: block; float: none; font-size: inherit; background: transparent url(http://goodies.skype.com/graphics/chathistory/info_right.png) right center no-repeat; padding-right: 30px; } dd dl { padding: 1em 0 1em 1em; }</style><a href='http://www.skype.com/' title='Visit the Skype website.'><img src='http://www.skype.com/gfx/darkred/header/header_logo.gif' alt='Skype' border='0' height='50' /></a><br /><h1>Chat History with <a href='callto://#martin_langhoff/$rachel.griffith1;97e9c67aa9a3732d' title=#martin_langhoff/$rachel.griffith1;97e9c67aa9a3732d>Scaling Moodle @UCL (#martin_langhoff/$rachel.griffith1;97e9c67aa9a3732d)</a></h1><p>Created on 2009-03-31 11:15:41.</p><dl><dd></dd><h3>2009-03-31</h3><dt class="remote"><a href="callto://martin_langhoff" title="martin_langhoff">Martín Langhoff</a>: <span>09:42:47</span></dt><dd>conference chat here</dd><dt class="local">Rachel Griffith Cooper: <span>09:43:21</span></dt><dd>OS	 /data	 Memory	 Processor	<BR>
+Ubuntu 2.6.20-15	 121Gb	 4 Gb	 2 x Dual-core Xeon 2.33GHz</dd><dt class="remote"><a href="callto://martin_langhoff" title="martin_langhoff">Martín Langhoff</a>: <span>09:45:54</span></dt><dd>sysstat</dd><dt class="remote"><a href="callto://martin_langhoff" title="martin_langhoff">Martín Langhoff</a>: <span>09:46:03</span></dt><dd>sar</dd><dt class="remote"><a href="callto://martin_langhoff" title="martin_langhoff">Martín Langhoff</a>: <span>09:46:30</span></dt><dd>sar -A</dd><dt class="remote"><a href="callto://martin_langhoff" title="martin_langhoff">Martín Langhoff</a>: <span>09:47:15</span></dt><dd>zipfile withthe contents of /var/log/sysstat/</dd><dt class="remote"><a href="callto://martin_langhoff" title="martin_langhoff">Martín Langhoff</a>: <span>09:56:22</span></dt><dd>link speed auto-negotiation</dd><dt class="local">Rachel Griffith Cooper: <span>10:03:53</span></dt><dd>In lib/setup.php (around line 389) on moodle-a/b:<BR>
+<BR>
+if (!file_exists($CFG-&gt;dataroot .'/sessions')){<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;make_upload_directory('sessions');<BR>
+}<BR>
+ini_set('session.save_path', $CFG-&gt;dataroot .'/sessions');<BR>
+change to:<BR>
+<BR>
+if (!file_exists('/data/moodle-sessions')) {<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;make_upload_directory('/data/moodle-sessions');<BR>
+}<BR>
+ini_set('session.save_path', '/data/moodle-sessions');</dd><dt class="remote"><a href="callto://martin_langhoff" title="martin_langhoff">Martín Langhoff</a>: <span>10:07:56</span></dt><dd>- move the ini_set() instructions to config.php</dd><dt class="remote"><a href="callto://martin_langhoff" title="martin_langhoff">Martín Langhoff</a>: <span>10:08:12</span></dt><dd>- $CFG-&gt;respectsessionsettings=true;</dd><dt class="remote"><a href="callto://martin_langhoff" title="martin_langhoff">Martín Langhoff</a>: <span>10:09:19</span></dt><dd>set the session_save_path to use hashed directories</dd><dt class="remote"><a href="callto://martin_langhoff" title="martin_langhoff">Martín Langhoff</a>: <span>10:10:15</span></dt><dd>set_ini('session_save_path', '4;600;/path/on/nfs');</dd><dt class="remote"><a href="callto://martin_langhoff" title="martin_langhoff">Martín Langhoff</a>: <span>10:10:47</span></dt><dd>- and setup a cron entry to perform garbage collection</dd><dt class="remote"><a href="callto://martin_langhoff" title="martin_langhoff">Martín Langhoff</a>: <span>10:11:29</span></dt><dd>- move moodledata to the DB server</dd><dt class="remote"><a href="callto://martin_langhoff" title="martin_langhoff">Martín Langhoff</a>: <span>10:25:15</span></dt><dd>example settings in config-dist.php</dd><dt class="remote"><a href="callto://martin_langhoff" title="martin_langhoff">Martín Langhoff</a>: <span>10:25:26</span></dt><dd>use the values in &nbsp;config.php</dd><dt class="remote"><a href="callto://martin_langhoff" title="martin_langhoff">Martín Langhoff</a>: <span>10:25:55</span></dt><dd>// Performance profiling <BR>
+// <BR>
+// &nbsp;&nbsp;If you set Debug to "Yes" in the Configuration-&gt;Variables page some<BR>
+// &nbsp;&nbsp;performance profiling data will show up on your footer (in default theme).<BR>
+// &nbsp;&nbsp;With these settings you get more granular control over the capture<BR>
+// &nbsp;&nbsp;and printout of the data<BR>
+//<BR>
+// &nbsp;&nbsp;Capture performance profiling data<BR>
+// &nbsp;&nbsp;define('MDL_PERF' &nbsp;, true);<BR>
+//<BR>
+// &nbsp;&nbsp;Capture additional data from DB<BR>
+// &nbsp;&nbsp;define('MDL_PERFDB' &nbsp;, true);<BR>
+//<BR>
+// &nbsp;&nbsp;Print to log (for passive profiling of production servers)<BR>
+// &nbsp;&nbsp;define('MDL_PERFTOLOG' &nbsp;, true);<BR>
+//<BR>
+// &nbsp;&nbsp;Print to footer (works with the default theme)<BR>
+// &nbsp;&nbsp;define('MDL_PERFTOFOOT', true);<BR>
+//</dd><dt class="remote"><a href="callto://martin_langhoff" title="martin_langhoff">Martín Langhoff</a>: <span>10:28:59</span></dt><dd>&nbsp;you need to<BR>
+&nbsp;- grab "perf_parse.pl" from http://cvs.moodle.org/contrib/tools/devtools/<BR>
+&nbsp;- grab the apache error log from your webservers<BR>
+&nbsp;- feed the error log to perf_parse.pl</dd><dt class="remote"><a href="callto://martin_langhoff" title="martin_langhoff">Martín Langhoff</a>: <span>10:29:43</span></dt><dd>./perf_parse.pl &lt; /var/log/apache/error.log</dd><dt class="remote"><a href="callto://martin_langhoff" title="martin_langhoff">Martín Langhoff</a>: <span>11:04:31</span></dt><dd>Oracle FS and Red Hat's Global FS (GFS)</dd><dt class="remote"><a href="callto://martin_langhoff" title="martin_langhoff">Martín Langhoff</a>: <span>11:04:37</span></dt><dd>running on a SAN</dd></dl><A NAME="end_of_document"></A></BODY></HTML>

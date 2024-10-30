@@ -44,16 +44,8 @@ All services - Renew TLS certificates 
 | moodle-snapshot.ucl.ac.uk                                      | 8 June 2025      | F5                                                                                                                                                                       |
 | moodle-staging.ucl.ac.uk                                       | 11 June 2025     | Catalyst/AWS & Cloudflare [Renewing SSL Certificate for Moodle in Cloudflare](https://wiki.ucl.ac.uk/display/ISMoodle/Renewing+SSL+Certificate+for+Moodle+in+Cloudflare) |
 | \*.[preview-moodle.ucl.ac.uk](http://preview-moodle.ucl.ac.uk) | 29 June 2025     | AWS                                                                                                                                                                      |
-| wiki-test.ucl.ac.uk                                            | 26 October 2024  | <https://git.automation.ucl.ac.uk/wiki/wiki-cicd/-/tree/master/wiki-ansible/certs>                                                                                       |
-| wiki-pp.ucl.ac.uk    <br>                                         
-                                                                 
- myportfolio-pp.ucl.ac.uk   <br>                                     
-                                                                 
- ~~opinio-pp.ucl.ac.uk~~                                         | 26 October 2024  | F5                                                                                                                                                                       |
-| [myportfolio.ucl.ac.uk](http://myportfolio.ucl.ac.uk)   <br>       
-                                                                 
- ~~[opinio.ucl.ac.uk](http://opinio.ucl.ac.uk)~~   <br>              
-                                                                 
- [wiki.ucl.ac.uk](https://wiki.ucl.ac.uk/)                       | 14 November 2024 | F5                                                                                                                                                                       |
+| wiki-test.ucl.ac.uk                                            | 26 October 2024  | <https://git.automation.ucl.ac.uk/wiki/wiki-cicd/-/tree/master/wiki-ansible/certs>  |
+| wiki-pp.ucl.ac.uk    <br>     myportfolio-pp.ucl.ac.uk   <br> ~~opinio-pp.ucl.ac.uk~~    | 26 October 2024  | F5  |
+| [myportfolio.ucl.ac.uk](http://myportfolio.ucl.ac.uk)   <br>  ~~[opinio.ucl.ac.uk](http://opinio.ucl.ac.uk)~~   <br>   [wiki.ucl.ac.uk](https://wiki.ucl.ac.uk/)    | 14 November 2024 | F5  |
 
 

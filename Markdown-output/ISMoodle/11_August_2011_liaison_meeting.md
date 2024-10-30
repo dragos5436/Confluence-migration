@@ -2,12 +2,12 @@
 
 # Agenda
 
--   [Agenda](#id-11August2011liaisonmeeting-Agenda)
--   [Minutes](#id-11August2011liaisonmeeting-Minutes)
-    -   [Moodle](#id-11August2011liaisonmeeting-Moodle)
-        -   [Issues](#id-11August2011liaisonmeeting-Issues)
-        -   [Moodle-Archive](#id-11August2011liaisonmeeting-Moodle-Archive)
-        -   [Developments](#id-11August2011liaisonmeeting-Developments)
+-   [Agenda](#id-11August2011liaisonmeeting#Agenda)
+-   [Minutes](#id-11August2011liaisonmeeting#Minutes)
+    -   [Moodle](#id-11August2011liaisonmeeting#Moodle)
+        -   [Issues](#id-11August2011liaisonmeeting#Issues)
+        -   [Moodle-Archive](#id-11August2011liaisonmeeting#Moodle-Archive)
+        -   [Developments](#id-11August2011liaisonmeeting#Developments)
             -   [Turnitin](#id-11August2011liaisonmeeting-Turnitin)
                 -   [Testing](#id-11August2011liaisonmeeting-Testing)
                 -   [Hacks proposed](#id-11August2011liaisonmeeting-Hacksproposed)

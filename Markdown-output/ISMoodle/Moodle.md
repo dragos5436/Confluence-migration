@@ -2,21 +2,21 @@
 
 **SRE/Ops**
 
-## **[Moodle CI handling](Moodle_CI_handling)**
+## **[Moodle CI handling](Moodle_CI_handling.md)**
 
 Moodle run by Catalyst in ISD's AWS cloud
 
--   **[OPS Activities](OPS_Activities)**
--   [SRE Event Investigations](SRE_Event_Investigations)
--   [Root Cause Analysis](Root_Cause_Analysis)
--   [Moodle Testing Strategy](Moodle_Testing_Strategy)
+-   **[OPS Activities](OPS_Activities.md)**
+-   [SRE Event Investigations](SRE_Event_Investigations.md)
+-   [Root Cause Analysis](Root_Cause_Analysis.md)
+-   [Moodle Testing Strategy](Moodle_Testing_Strategy.md)
 -   [Shared System Documentation with Catalyst](https://git.catalyst-eu.net/ucl/moodle/-/wikis/home)
--   [AWS Site-to-Site VPN for Moodle](AWS_Site-to-Site_VPN_for_Moodle)
--   [Moodle Integration Manager (MIM) - SITS/CMIS integration](Moodle_Integration_Manager_MIM_-_SITS_CMIS_integration)
--   [AWS Accounts](AWS_Accounts)
--   [Tableau / ETL Access](Tableau_ETL_Access)
--   [Moodle Resilience](Moodle_Resilience)
--   [Cloud Moodle Preview - AWS ECS Documentation](Cloud_Moodle_Preview_-_AWS_ECS_Documentation)
+-   [AWS Site-to-Site VPN for Moodle](AWS_Site-to-Site_VPN_for_Moodle.md)
+-   [Moodle Integration Manager (MIM) - SITS/CMIS integration](Moodle_Integration_Manager_MIM_-_SITS_CMIS_integration.md)
+-   [AWS Accounts](AWS_Accounts.md)
+-   [Tableau / ETL Access](Tableau_ETL_Access.md)
+-   [Moodle Resilience](Moodle_Resilience.md)
+-   [Cloud Moodle Preview - AWS ECS Documentation](Cloud_Moodle_Preview_-_AWS_ECS_Documentation.md)
 
 ### [Upcoming Deployments](Deployments)
 

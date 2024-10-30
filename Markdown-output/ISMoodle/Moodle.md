@@ -6,7 +6,7 @@
 
 Moodle run by Catalyst in ISD's AWS cloud
 
--   **[OPS Activities](OPS Activities.md)**
+-   **[OPS Activities](OPS%20Activities.md)**
 -   [SRE Event Investigations](SRE_Event_Investigations.md)
 -   [Root Cause Analysis](Root_Cause_Analysis.md)
 -   [Moodle Testing Strategy](Moodle_Testing_Strategy.md)
